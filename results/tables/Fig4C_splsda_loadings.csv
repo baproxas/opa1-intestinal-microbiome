@@ -1,0 +1,590 @@
+taxon,loading_comp1,loading_comp2,abs_loading_comp1,abs_loading_comp2,selected_comp1,selected_comp2,in_heatmap
+Species|uncultured bacterium,0.7173575731170243,0,0.7173575731170243,0,TRUE,FALSE,TRUE
+Species|Ligilactobacillus faecis,0.4284845753833923,0,0.4284845753833923,0,TRUE,FALSE,TRUE
+Genus|Ligilactobacillus,0.32111180814982837,0,0.32111180814982837,0,TRUE,FALSE,TRUE
+Species|Ligilactobacillus murinus,0.3142047572207316,0,0.3142047572207316,0,TRUE,FALSE,TRUE
+Species|uncultured Blautia sp.,-0.20586553426526644,0,0.20586553426526644,0,TRUE,FALSE,TRUE
+Family|Lactobacillaceae,0.17726668090637596,0,0.17726668090637596,0,TRUE,FALSE,TRUE
+Species|Ligilactobacillus animalis,0.14221744116365123,0,0.14221744116365123,0,TRUE,FALSE,TRUE
+Species|Pediococcus damnosus,0.07186938699061565,0,0.07186938699061565,0,TRUE,FALSE,TRUE
+Species|Wujia chipingensis,-0.021092828373792758,0,0.021092828373792758,0,TRUE,FALSE,TRUE
+Species|Dysosmobacter sp. Marseille-Q4140,-0.017934520694454194,0,0.017934520694454194,0,TRUE,FALSE,TRUE
+Phylum|Bacteroidota,0,0,0,0,FALSE,FALSE,FALSE
+Class|Bacteroidia,0,0,0,0,FALSE,FALSE,FALSE
+Order|Bacteroidales,0,0,0,0,FALSE,FALSE,FALSE
+Family|Muribaculaceae,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Duncaniella,0,0,0,0,FALSE,FALSE,FALSE
+Species|Duncaniella dubosii,0,0,0,0,FALSE,FALSE,FALSE
+Species|Duncaniella sp. B8,0,0,0,0,FALSE,FALSE,FALSE
+Species|Duncaniella sp. C9,0,0,0,0,FALSE,FALSE,FALSE
+Species|Muribaculaceae bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Muribaculaceae bacterium MF13079,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Muribaculum,0,0,0,0,FALSE,FALSE,FALSE
+Species|Muribaculum intestinale,0,0,0,0,FALSE,FALSE,FALSE
+Species|Muribaculum gordoncarteri,0,0,0,0,FALSE,FALSE,FALSE
+Species|uncultured Muribaculum sp.,0,0,0,0,FALSE,FALSE,FALSE
+Species|Paramuribaculum intestinale,0,0,0,0,FALSE,FALSE,FALSE
+Species|uncultured Muribaculaceae bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Sodaliphilus pleomorphus,0,0,0,0,FALSE,FALSE,FALSE
+Family|Bacteroidaceae,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Bacteroides,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bacteroides caecimuris,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bacteroides uniformis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bacteroides faecium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bacteroides thetaiotaomicron,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bacteroides sp. CACC 737,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bacteroides sp. KG123,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bacteroides sp. A1C1,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bacteroides sp. KFT8,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bacteroides sp. M10,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bacteroides sp. DH3716P,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bacteroides sp. HF-162,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bacteroides sp. D2,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bacteroides xylanisolvens,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bacteroides ovatus,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bacteroides caccae,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bacteroides nordii,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bacteroides fragilis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bacteroides stercoris,0,0,0,0,FALSE,FALSE,FALSE
+Species|uncultured Bacteroides sp.,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bacteroides finegoldii,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bacteroides humanifaecis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bacteroides pyogenes,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bacteroides faecis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bacteroides salyersiae,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bacteroides cellulosilyticus,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bacteroides zoogleoformans,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bacteroides intestinalis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bacteroides zhangwenhongii,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bacteroides eggerthii,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bacteroides hominis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bacteroides luhongzhouii,0,0,0,0,FALSE,FALSE,FALSE
+Species|Prevotella heparinolytica,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bacteroides maternus,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bacteroides graminisolvens,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bacteroides difficilis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bacteroides acidifaciens,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Phocaeicola,0,0,0,0,FALSE,FALSE,FALSE
+Species|Phocaeicola vulgatus,0,0,0,0,FALSE,FALSE,FALSE
+Species|Phocaeicola coprophilus,0,0,0,0,FALSE,FALSE,FALSE
+Species|Phocaeicola dorei,0,0,0,0,FALSE,FALSE,FALSE
+Species|Phocaeicola massiliensis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Candidatus Gallibacteroides avistercoris,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bacteroidaceae bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Family|Rikenellaceae,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Alistipes,0,0,0,0,FALSE,FALSE,FALSE
+Species|uncultured Alistipes sp.,0,0,0,0,FALSE,FALSE,FALSE
+Species|Alistipes senegalensis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Alistipes finegoldii,0,0,0,0,FALSE,FALSE,FALSE
+Species|Alistipes onderdonkii,0,0,0,0,FALSE,FALSE,FALSE
+Species|Alistipes dispar,0,0,0,0,FALSE,FALSE,FALSE
+Species|Alistipes communis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Alistipes shahii,0,0,0,0,FALSE,FALSE,FALSE
+Species|Alistipes megaguti,0,0,0,0,FALSE,FALSE,FALSE
+Species|Alistipes sp. i18-0019-D1,0,0,0,0,FALSE,FALSE,FALSE
+Species|Alistipes sp. dk3624,0,0,0,0,FALSE,FALSE,FALSE
+Species|Alistipes putredinis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Alistipes indistinctus,0,0,0,0,FALSE,FALSE,FALSE
+Species|Candidatus Coprenecus stercorigallinarum,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Parabacteroides,0,0,0,0,FALSE,FALSE,FALSE
+Species|Parabacteroides distasonis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Parabacteroides merdae,0,0,0,0,FALSE,FALSE,FALSE
+Species|Parabacteroides sp. ASD2025,0,0,0,0,FALSE,FALSE,FALSE
+Species|Parabacteroides sp. An277,0,0,0,0,FALSE,FALSE,FALSE
+Species|Parabacteroides johnsonii,0,0,0,0,FALSE,FALSE,FALSE
+Species|Parabacteroides goldsteinii,0,0,0,0,FALSE,FALSE,FALSE
+Species|Parabacteroides faecis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Parabacteroides chongii,0,0,0,0,FALSE,FALSE,FALSE
+Species|Tannerella serpentiformis,0,0,0,0,FALSE,FALSE,FALSE
+Family|Prevotellaceae,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Prevotella,0,0,0,0,FALSE,FALSE,FALSE
+Species|Prevotella sp. CAG:1058,0,0,0,0,FALSE,FALSE,FALSE
+Species|Prevotella sp. CAG:755,0,0,0,0,FALSE,FALSE,FALSE
+Species|Prevotella sp. E13-17,0,0,0,0,FALSE,FALSE,FALSE
+Species|Prevotella sp. Rep29,0,0,0,0,FALSE,FALSE,FALSE
+Species|Prevotella sp. E9-3,0,0,0,0,FALSE,FALSE,FALSE
+Species|Prevotella sp. E15-22,0,0,0,0,FALSE,FALSE,FALSE
+Species|Prevotella sp. E2-28,0,0,0,0,FALSE,FALSE,FALSE
+Species|Prevotella sp. oral taxon 475,0,0,0,0,FALSE,FALSE,FALSE
+Species|Prevotella sp.,0,0,0,0,FALSE,FALSE,FALSE
+Species|uncultured Prevotella sp.,0,0,0,0,FALSE,FALSE,FALSE
+Species|Prevotella communis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Prevotella intermedia,0,0,0,0,FALSE,FALSE,FALSE
+Species|Prevotella denticola,0,0,0,0,FALSE,FALSE,FALSE
+Species|Prevotella corporis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Prevotella melaninogenica,0,0,0,0,FALSE,FALSE,FALSE
+Species|Prevotella nigrescens,0,0,0,0,FALSE,FALSE,FALSE
+Species|Prevotella multiformis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Prevotella jejuni,0,0,0,0,FALSE,FALSE,FALSE
+Species|Prevotella bivia,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Segatella,0,0,0,0,FALSE,FALSE,FALSE
+Species|Segatella copri,0,0,0,0,FALSE,FALSE,FALSE
+Species|Segatella hominis,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Paraprevotella,0,0,0,0,FALSE,FALSE,FALSE
+Species|Paraprevotella clara,0,0,0,0,FALSE,FALSE,FALSE
+Species|uncultured Prevotellamassilia sp.,0,0,0,0,FALSE,FALSE,FALSE
+Species|Hoylesella enoeca,0,0,0,0,FALSE,FALSE,FALSE
+Species|Hoylesella buccalis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Xylanibacter ruminicola,0,0,0,0,FALSE,FALSE,FALSE
+Species|Pseudoprevotella muciniphila,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bacteroidales bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bacteroidales bacterium SW299,0,0,0,0,FALSE,FALSE,FALSE
+Species|uncultured Porphyromonadaceae bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Porphyromonas sp. oral taxon 275,0,0,0,0,FALSE,FALSE,FALSE
+Species|Porphyromonas gingivalis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Porphyromonadaceae bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Macellibacteroides fermentans,0,0,0,0,FALSE,FALSE,FALSE
+Species|uncultured Macellibacteroides sp.,0,0,0,0,FALSE,FALSE,FALSE
+Species|Odoribacter splanchnicus,0,-0.20944890475676345,0,0.20944890475676345,FALSE,TRUE,TRUE
+Species|Butyricimonas faecihominis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Odoribacteraceae bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Barnesiella,0,0,0,0,FALSE,FALSE,FALSE
+Species|Barnesiella sp. An22,0,0,0,0,FALSE,FALSE,FALSE
+Species|Barnesiella intestinihominis,0,-0.0010624161145347875,0,0.0010624161145347875,FALSE,TRUE,TRUE
+Species|uncultured Bacteroidales bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Petrimonas mucosa,0,0,0,0,FALSE,FALSE,FALSE
+Species|Dysgonomonadaceae bacterium zrk40,0,0,0,0,FALSE,FALSE,FALSE
+Species|Prolixibacteraceae bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|uncultured Draconibacterium sp.,0,0,0,0,FALSE,FALSE,FALSE
+Species|uncultured Saccharicrinis sp.,0,0,0,0,FALSE,FALSE,FALSE
+Order|Flavobacteriales,0,0,0,0,FALSE,FALSE,FALSE
+Family|Flavobacteriaceae,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Flavobacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Flavobacteriaceae bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Chryseobacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Flavobacteriales bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Order|Cytophagales,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Hymenobacter,0,0,0,0,FALSE,FALSE,FALSE
+Species|Cyclobacteriaceae bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Sediminibacterium sp.,0,0,0,0,FALSE,FALSE,FALSE
+Species|Saprospiraceae bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|uncultured Bacteroidota bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Rhodothermales bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Ignavibacteriaceae bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Candidatus Latescibacterota bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|uncultured Latescibacterota bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Longimicrobiales bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Phylum|Pseudomonadota,0,0,0,0,FALSE,FALSE,FALSE
+Class|Gammaproteobacteria,0,0,0,0,FALSE,FALSE,FALSE
+Order|Enterobacterales,0,0,0,0,FALSE,FALSE,FALSE
+Family|Enterobacteriaceae,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Escherichia,0,0,0,0,FALSE,FALSE,FALSE
+Species|Escherichia coli,0,0,0,0,FALSE,FALSE,FALSE
+Species|Klebsiella pneumoniae,0,0,0,0,FALSE,FALSE,FALSE
+Family|Pseudomonadaceae,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Pseudomonas,0,0,0,0,FALSE,FALSE,FALSE
+Species|Pseudomonadales bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Candidatus Azotimanducaceae bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Acinetobacter,0,0,0,0,FALSE,FALSE,FALSE
+Species|Acinetobacter baumannii,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Vibrio,0,0,0,0,FALSE,FALSE,FALSE
+Species|Vibrio parahaemolyticus,0,0,0,0,FALSE,FALSE,FALSE
+Species|Vreelandella aquamarina,0,0,0,0,FALSE,FALSE,FALSE
+Family|Pasteurellaceae,0,0,0,0,FALSE,FALSE,FALSE
+Species|Haemophilus influenzae,0,0,0,0,FALSE,FALSE,FALSE
+Species|Rodentibacter caecimuris,0,0,0,0,FALSE,FALSE,FALSE
+Species|Rodentibacter pneumotropicus,0,0,0,0,FALSE,FALSE,FALSE
+Species|Rodentibacter abscessus,0,0,0,0,FALSE,FALSE,FALSE
+Species|Pasteurellaceae bacterium NI1060,0,0,0,0,FALSE,FALSE,FALSE
+Species|Pasteurella multocida,0,0,0,0,FALSE,FALSE,FALSE
+Species|Mannheimia granulomatis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Glaesserella parasuis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Glaesserella sp. 15-184,0,0,0,0,FALSE,FALSE,FALSE
+Species|Avibacterium paragallinarum,0,0,0,0,FALSE,FALSE,FALSE
+Species|Gammaproteobacteria bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Aeromonas,0,0,0,0,FALSE,FALSE,FALSE
+Species|Arenicellales bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|uncultured Gammaproteobacteria bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Class|Alphaproteobacteria,0,0,0,0,FALSE,FALSE,FALSE
+Order|Hyphomicrobiales,0,0,0,0,FALSE,FALSE,FALSE
+Species|Agrobacterium pusense,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Bradyrhizobium,0,0,0,0,FALSE,FALSE,FALSE
+Order|Rhodobacterales,0,0,0,0,FALSE,FALSE,FALSE
+Species|Paracoccaceae bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Rhodospirillales bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|uncultured Alphaproteobacteria bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Alphaproteobacteria bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Candidatus Enterousia intestinigallinarum,0,0,0,0,FALSE,FALSE,FALSE
+Class|Betaproteobacteria,0,0,0,0,FALSE,FALSE,FALSE
+Order|Burkholderiales,0,0,0,0,FALSE,FALSE,FALSE
+Family|Comamonadaceae,0,0,0,0,FALSE,FALSE,FALSE
+Species|Acidovorax sp. BLS4,0,0,0,0,FALSE,FALSE,FALSE
+Species|uncultured Parasutterella sp.,0,0,0,0,FALSE,FALSE,FALSE
+Class|Epsilonproteobacteria,0,0,0,0,FALSE,FALSE,FALSE
+Order|Campylobacterales,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Helicobacter,0,0,0,0,FALSE,FALSE,FALSE
+Species|Helicobacter apodemus,0,0,0,0,FALSE,FALSE,FALSE
+Species|Helicobacter hepaticus,0,0,0,0,FALSE,FALSE,FALSE
+Species|Helicobacter winghamensis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Helicobacter typhlonius,0,0,0,0,FALSE,FALSE,FALSE
+Species|Helicobacter pullorum,0,0,0,0,FALSE,FALSE,FALSE
+Species|Helicobacter canadensis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Helicobacter mastomyrinus,0,0,0,0,FALSE,FALSE,FALSE
+Species|Helicobacter pylori,0,0,0,0,FALSE,FALSE,FALSE
+Species|Helicobacter ganmani,0,0.030587082784011344,0,0.030587082784011344,FALSE,TRUE,TRUE
+Species|Helicobacter cinaedi,0,0,0,0,FALSE,FALSE,FALSE
+Species|Helicobacter himalayensis,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Campylobacter,0,0,0,0,FALSE,FALSE,FALSE
+Species|Campylobacter jejuni,0,0,0,0,FALSE,FALSE,FALSE
+Family|Arcobacteraceae,0,0.03251044871313514,0,0.03251044871313514,FALSE,TRUE,TRUE
+Species|Arcobacteraceae bacterium,0,0.3844665797812245,0,0.3844665797812245,FALSE,TRUE,TRUE
+Species|Mucispirillum schaedleri,0,0.5591333785886908,0,0.5591333785886908,FALSE,TRUE,TRUE
+Phylum|Thermodesulfobacteriota,0,0,0,0,FALSE,FALSE,FALSE
+Order|Desulfovibrionales,0,0,0,0,FALSE,FALSE,FALSE
+Family|Desulfovibrionaceae,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Desulfovibrio,0,0,0,0,FALSE,FALSE,FALSE
+Species|Desulfovibrio piger,0,0,0,0,FALSE,FALSE,FALSE
+Species|Taurinivorans muris,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bilophila wadsworthia,0,0,0,0,FALSE,FALSE,FALSE
+Species|Phycisphaerales bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Planctomycetota bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Akkermansia muciniphila,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bryobacterales bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Vicinamibacterales bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|uncultured Acidobacteriota bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Sphaerochaetaceae bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Spirochaetia bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Nitrospirales bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bdellovibrionales bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Phylum|Bacillota,0,0,0,0,FALSE,FALSE,FALSE
+Class|Clostridia,0,0,0,0,FALSE,FALSE,FALSE
+Order|Lachnospirales,0,0,0,0,FALSE,FALSE,FALSE
+Family|Lachnospiraceae,0,0,0,0,FALSE,FALSE,FALSE
+Species|Lachnospiraceae bacterium JLR.KK009,0,0,0,0,FALSE,FALSE,FALSE
+Species|Lachnospiraceae bacterium JLR.KK008,0,0,0,0,FALSE,FALSE,FALSE
+Species|Lachnospiraceae bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Lachnospiraceae bacterium GAM79,0,0,0,0,FALSE,FALSE,FALSE
+Species|Lachnospiraceae bacterium KGMB03038,0,0,0,0,FALSE,FALSE,FALSE
+Species|Lachnospiraceae bacterium oral taxon 500,0,0,0,0,FALSE,FALSE,FALSE
+Species|Lachnospiraceae bacterium Choco86,0,0,0,0,FALSE,FALSE,FALSE
+Species|Lachnospiraceae bacterium A4,0,0,0,0,FALSE,FALSE,FALSE
+Species|Lachnospiraceae bacterium C1.1,0,0,0,0,FALSE,FALSE,FALSE
+Species|Lachnospiraceae bacterium oral taxon 096,0,0,0,0,FALSE,FALSE,FALSE
+Species|Lachnospiraceae bacterium KM106-2,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Enterocloster,0,0,0,0,FALSE,FALSE,FALSE
+Species|Enterocloster clostridioformis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Enterocloster bolteae,0,0,0,0,FALSE,FALSE,FALSE
+Species|Enterocloster lavalensis,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Blautia,0,0,0,0,FALSE,FALSE,FALSE
+Species|Blautia producta,0,0,0,0,FALSE,FALSE,FALSE
+Species|Blautia pseudococcoides,0,0,0,0,FALSE,FALSE,FALSE
+Species|Blautia wexlerae,0,0,0,0,FALSE,FALSE,FALSE
+Species|Blautia massiliensis (ex Durand et al. 2017),0,0,0,0,FALSE,FALSE,FALSE
+Species|Blautia obeum,0,0,0,0,FALSE,FALSE,FALSE
+Species|Blautia hydrogenotrophica,0,0,0,0,FALSE,FALSE,FALSE
+Species|Blautia faecis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Blautia argi,0,0,0,0,FALSE,FALSE,FALSE
+Species|Blautia luti,0,0,0,0,FALSE,FALSE,FALSE
+Species|Blautia liquoris,0,0,0,0,FALSE,FALSE,FALSE
+Species|Blautia hansenii,0,0,0,0,FALSE,FALSE,FALSE
+Species|Blautia parvula,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Lachnoclostridium,0,0,0,0,FALSE,FALSE,FALSE
+Species|[Clostridium] scindens,0,0,0,0,FALSE,FALSE,FALSE
+Species|Lachnoclostridium phocaeense,0,0,0,0,FALSE,FALSE,FALSE
+Species|[Clostridium] hylemonae,0,0,0,0,FALSE,FALSE,FALSE
+Species|Lachnoclostridium sp. Q11,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Roseburia,0,0,0,0,FALSE,FALSE,FALSE
+Species|Roseburia intestinalis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Roseburia sp. 499,0,0,0,0,FALSE,FALSE,FALSE
+Species|Roseburia sp. 831b,0,0,0,0,FALSE,FALSE,FALSE
+Species|Roseburia faecis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Roseburia hominis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Roseburia rectibacter,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Mediterraneibacter,0,0,0,0,FALSE,FALSE,FALSE
+Species|Mediterraneibacter gnavus,0,0,0,0,FALSE,FALSE,FALSE
+Species|Mediterraneibacter flintii,0,0,0,0,FALSE,FALSE,FALSE
+Species|Mediterraneibacter glycyrrhizinilyticus,0,0,0,0,FALSE,FALSE,FALSE
+Species|[Ruminococcus] torques,0,0,0,0,FALSE,FALSE,FALSE
+Species|Mediterraneibacter faecis,0,0,0,0,FALSE,FALSE,FALSE
+Species|[Clostridium] symbiosum,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Sellimonas,0,0,0,0,FALSE,FALSE,FALSE
+Species|Sellimonas catena,0,0,0,0,FALSE,FALSE,FALSE
+Species|Sellimonas intestinalis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Sellimonas caecigallum,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Dorea,0,0,0,0,FALSE,FALSE,FALSE
+Species|Dorea formicigenerans,0,0,0,0,FALSE,FALSE,FALSE
+Species|Dorea longicatena,0,0,0,0,FALSE,FALSE,FALSE
+Species|Dorea amylophila,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Anaerostipes,0,0,0,0,FALSE,FALSE,FALSE
+Species|Anaerostipes sp. PC18,0,0,0,0,FALSE,FALSE,FALSE
+Species|Anaerostipes hadrus,0,0,0,0,FALSE,FALSE,FALSE
+Species|Anaerostipes caccae,0,0,0,0,FALSE,FALSE,FALSE
+Species|Anaerostipes rhamnosivorans,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Hungatella,0,0,0,0,FALSE,FALSE,FALSE
+Species|Hungatella hathewayi,0,0,0,0,FALSE,FALSE,FALSE
+Species|Hungatella sp. SB206,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Lacrimispora,0,0,0,0,FALSE,FALSE,FALSE
+Species|Lacrimispora xylanisolvens,0,0,0,0,FALSE,FALSE,FALSE
+Species|Lacrimispora xylanolytica,0,0,0,0,FALSE,FALSE,FALSE
+Species|Lacrimispora sinapis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Lacrimispora sp. HJ-01,0,0,0,0,FALSE,FALSE,FALSE
+Species|Lacrimispora sp. BS-2,0,0,0,0,FALSE,FALSE,FALSE
+Species|Lacrimispora saccharolytica,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Coprococcus,0,0,0,0,FALSE,FALSE,FALSE
+Species|Coprococcus phoceensis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Coprococcus comes,0,0,0,0,FALSE,FALSE,FALSE
+Species|Coprococcus catus,0,0,0,0,FALSE,FALSE,FALSE
+Species|Coprococcus eutactus,0,0,0,0,FALSE,FALSE,FALSE
+Species|Coprococcus sp. ART55/1,0,0,0,0,FALSE,FALSE,FALSE
+Species|Eisenbergiella porci,0,0,0,0,FALSE,FALSE,FALSE
+Species|Claveliimonas bilis,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Kineothrix,0,0,0,0,FALSE,FALSE,FALSE
+Species|Kineothrix sp. MB12-C1,0,0,0,0,FALSE,FALSE,FALSE
+Species|Kineothrix sedimenti,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Butyrivibrio,0,0,0,0,FALSE,FALSE,FALSE
+Species|Butyrivibrio fibrisolvens,0,0,0,0,FALSE,FALSE,FALSE
+Species|Butyrivibrio sp. JL13D10,0,0,0,0,FALSE,FALSE,FALSE
+Species|Butyrivibrio hungatei,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Anaerocolumna,0,0,0,0,FALSE,FALSE,FALSE
+Species|Anaerocolumna sp. AGMB13025,0,0,0,0,FALSE,FALSE,FALSE
+Species|Anaerocolumna sp. AGMB13020,0,0,0,0,FALSE,FALSE,FALSE
+Species|Anaerocolumna sp. MB42-C2,0,0,0,0,FALSE,FALSE,FALSE
+Species|Anaerocolumna chitinilytica,0,0,0,0,FALSE,FALSE,FALSE
+Species|Anaerocolumna cellulosilytica,0,0,0,0,FALSE,FALSE,FALSE
+Species|Anaerocolumna sedimenticola,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Anaerobutyricum,0,0,0,0,FALSE,FALSE,FALSE
+Species|Anaerobutyricum hallii,0,0,0,0,FALSE,FALSE,FALSE
+Species|Faecalicatena sp. Marseille-Q4148,0,0,0,0,FALSE,FALSE,FALSE
+Species|Qiania dongpingensis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Hominifimenecus sp. rT4P-3,0,0,0,0,FALSE,FALSE,FALSE
+Species|Waltera intestinalis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Simiaoa sunii,0,0,0,0,FALSE,FALSE,FALSE
+Species|Faecalimonas umbilicata,0,0,0,0,FALSE,FALSE,FALSE
+Species|Wansuia hejianensis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Candidatus Scatomonas sp.,0,0,0,0,FALSE,FALSE,FALSE
+Species|Lachnospira eligens,0,0,0,0,FALSE,FALSE,FALSE
+Species|Novisyntrophococcus fermenticellae,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Lachnoanaerobaculum,0,0,0,0,FALSE,FALSE,FALSE
+Species|Lachnoanaerobaculum gingivalis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Lachnoanaerobaculum umeaense,0,0,0,0,FALSE,FALSE,FALSE
+Species|Chordicoccus furentiruminis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Agathobacter rectalis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Eshraghiella crossota,0,0,0,0,FALSE,FALSE,FALSE
+Species|Anaeromicropila herbilytica,0,0,0,0,FALSE,FALSE,FALSE
+Species|Stomatobaculum sp. F0698,0,0,0,0,FALSE,FALSE,FALSE
+Species|Pseudobutyrivibrio xylanivorans,0,0,0,0,FALSE,FALSE,FALSE
+Species|Candidatus Lachnocurva vaginae,0,0,0,0,FALSE,FALSE,FALSE
+Species|Herbinix luporum,0,0,0,0,FALSE,FALSE,FALSE
+Species|Anaeropeptidivorans aminofermentans,0,0,0,0,FALSE,FALSE,FALSE
+Species|[Clostridium] colinum,0,0,0,0,FALSE,FALSE,FALSE
+Species|Vallitalea guaymasensis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Vallitaleaceae bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Anaerotignum sp. MB30-C6,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Cellulosilyticum,0,0.6658014255409851,0,0.6658014255409851,FALSE,TRUE,TRUE
+Order|Eubacteriales,0,0,0,0,FALSE,FALSE,FALSE
+Family|Oscillospiraceae,0,0,0,0,FALSE,FALSE,FALSE
+Species|Dysosmobacter welbionis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Oscillospiraceae bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Oscillospiraceae bacterium NTUH-002-81,0,0,0,0,FALSE,FALSE,FALSE
+Species|Oscillospiraceae bacterium D1,0,0,0,0,FALSE,FALSE,FALSE
+Species|Oscillospiraceae bacterium LBM23126,0,0,0,0,FALSE,FALSE,FALSE
+Species|Oscillospiraceae bacterium YB328,0,0,0,0,FALSE,FALSE,FALSE
+Species|Ruminococcaceae bacterium BL-6,0,0,0,0,FALSE,FALSE,FALSE
+Species|Flavonifractor plautii,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Oscillibacter,0,0,0,0,FALSE,FALSE,FALSE
+Species|Oscillibacter hominis,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Faecalibacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Faecalibacterium prausnitzii,0,0,0,0,FALSE,FALSE,FALSE
+Species|uncultured Faecalibacterium sp.,0,0,0,0,FALSE,FALSE,FALSE
+Species|Candidatus Faecalibacterium intestinigallinarum,0,0,0,0,FALSE,FALSE,FALSE
+Species|Pusillibacter faecalis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Lawsonibacter asaccharolyticus,0,0,0,0,FALSE,FALSE,FALSE
+Species|Vescimonas coprocola,0,0,0,0,FALSE,FALSE,FALSE
+Species|Vescimonas fastidiosa,0,0,0,0,FALSE,FALSE,FALSE
+Species|Ruminococcus gauvreauii,0,0,0,0,FALSE,FALSE,FALSE
+Species|Ruminococcus callidus,0,0,0,0,FALSE,FALSE,FALSE
+Species|Pseudoflavonifractor gallinarum,0,0,0,0,FALSE,FALSE,FALSE
+Species|Subdoligranulum variabile,0,0,0,0,FALSE,FALSE,FALSE
+Species|uncultured Subdoligranulum sp.,0,0,0,0,FALSE,FALSE,FALSE
+Species|Ruthenibacterium lactatiformans,0,0,0,0,FALSE,FALSE,FALSE
+Species|Anaerotruncus colihominis,0,0,0,0,FALSE,FALSE,FALSE
+Species|uncultured Oscillospiraceae bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Owariibacterium komagatae,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bengtsoniella intestinalis,0,0,0,0,FALSE,FALSE,FALSE
+Species|uncultured Sporobacter sp.,0,0,0,0,FALSE,FALSE,FALSE
+Species|Solibaculum mannosilyticum,0,0,0,0,FALSE,FALSE,FALSE
+Family|Clostridiaceae,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Clostridium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Clostridium sp. MD294,0,0,0,0,FALSE,FALSE,FALSE
+Species|Clostridium sp. 10cd*,0,0,0,0,FALSE,FALSE,FALSE
+Species|Clostridium sp.,0,0,0,0,FALSE,FALSE,FALSE
+Species|Clostridium sp. M62/1,0,0,0,0,FALSE,FALSE,FALSE
+Species|Clostridium sp. SY8519,0,0,0,0,FALSE,FALSE,FALSE
+Species|Clostridium sp. NkU-1,0,0,0,0,FALSE,FALSE,FALSE
+Species|[Clostridium] innocuum,0,0,0,0,FALSE,FALSE,FALSE
+Species|Clostridium perfringens,0,0,0,0,FALSE,FALSE,FALSE
+Species|Clostridium botulinum,0,0,0,0,FALSE,FALSE,FALSE
+Species|Clostridium beijerinckii,0,0,0,0,FALSE,FALSE,FALSE
+Species|Clostridium intestinale,0,0,0,0,FALSE,FALSE,FALSE
+Species|Clostridium estertheticum,0,0,0,0,FALSE,FALSE,FALSE
+Species|Clostridium butyricum,0,0,0,0,FALSE,FALSE,FALSE
+Species|Candidatus Arthromitus sp. SFB-mouse,0,0,0,0,FALSE,FALSE,FALSE
+Species|Candidatus Arthromitus sp. SFB-mouse-NL,0,0,0,0,FALSE,FALSE,FALSE
+Species|Pilosibacter sp. YYHA0881,0,0,0,0,FALSE,FALSE,FALSE
+Species|Clostridiaceae bacterium Marseille-Q4149,0,0,0,0,FALSE,FALSE,FALSE
+Species|Mordavella massiliensis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Lactonifactor longoviformis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Oceanirhabdus sp. W0125-5,0,0,0,0,FALSE,FALSE,FALSE
+Species|Flintibacter sp. KGMB00164,0,0,0,0,FALSE,FALSE,FALSE
+Species|Massilistercora timonensis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Intestinimonas butyriciproducens,0,0,0,0,FALSE,FALSE,FALSE
+Species|[Bacteroides] pectinophilus,0,0,0,0,FALSE,FALSE,FALSE
+Species|uncultured Fusibacter sp.,0,0,0,0,FALSE,FALSE,FALSE
+Species|Clostridiales bacterium CCNA10,0,0,0,0,FALSE,FALSE,FALSE
+Species|butyrate-producing bacterium SS3/4,0,0,0,0,FALSE,FALSE,FALSE
+Species|butyrate-producing bacterium SM4/1,0,0,0,0,FALSE,FALSE,FALSE
+Species|Clostridiales bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Eubacteriales bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Eubacterium ventriosum,0,0,0,0,FALSE,FALSE,FALSE
+Species|Eubacterium ramulus,0,0,0,0,FALSE,FALSE,FALSE
+Species|Eubacterium sp. MSJ-33,0,0,0,0,FALSE,FALSE,FALSE
+Species|Eubacterium limosum,0,0,0,0,FALSE,FALSE,FALSE
+Species|Eubacterium callanderi,0,0,0,0,FALSE,FALSE,FALSE
+Family|Butyricicoccaceae,0,0,0,0,FALSE,FALSE,FALSE
+Species|Agathobaculum sp. NTUH-O15-33,0,0,0,0,FALSE,FALSE,FALSE
+Species|Butyricicoccus porcorum,0,0,0,0,FALSE,FALSE,FALSE
+Species|Butyricicoccus sp.,0,0,0,0,FALSE,FALSE,FALSE
+Species|Intestinibacillus sp.,0,0,0,0,FALSE,FALSE,FALSE
+Species|uncultured Eubacteriales bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Caproiciproducens galactitolivorans,0,0,0,0,FALSE,FALSE,FALSE
+Species|Emergencia sp. JLR.KK010,0,0,0,0,FALSE,FALSE,FALSE
+Species|Emergencia timonensis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Ihubacter sp. rT4E-8,0,0,0,0,FALSE,FALSE,FALSE
+Species|Anaerovoracaceae bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Sinanaerobacter sp. ZZT-01,0,0,0,0,FALSE,FALSE,FALSE
+Species|Mogibacterium neglectum,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Clostridioides,0,0,0,0,FALSE,FALSE,FALSE
+Species|Clostridioides difficile,0,0,0,0,FALSE,FALSE,FALSE
+Species|Paraclostridium sordellii,0,0,0,0,FALSE,FALSE,FALSE
+Species|Christensenellaceae bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Thermoanaerobacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Aceticella autotrophica,0,0,0,0,FALSE,FALSE,FALSE
+Species|uncultured Clostridia bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Clostridia bacterium i40-0019-1A8,0,0,0,0,FALSE,FALSE,FALSE
+Class|Bacilli,0,0,0,0,FALSE,FALSE,FALSE
+Order|Lactobacillales,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Limosilactobacillus,0,0,0,0,FALSE,FALSE,FALSE
+Species|Limosilactobacillus reuteri,0,0,0,0,FALSE,FALSE,FALSE
+Species|Limosilactobacillus fermentum,0,0,0,0,FALSE,FALSE,FALSE
+Species|Limosilactobacillus portuensis,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Lactobacillus,0,0,0,0,FALSE,FALSE,FALSE
+Species|Lactobacillus taiwanensis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Lactobacillus johnsonii,0,0,0,0,FALSE,FALSE,FALSE
+Species|Lactobacillus intestinalis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Lactobacillus isalae,0,0,0,0,FALSE,FALSE,FALSE
+Species|Lactobacillus paragasseri,0,0,0,0,FALSE,FALSE,FALSE
+Species|Lactobacillus gasseri,0,0,0,0,FALSE,FALSE,FALSE
+Species|Lactobacillus crispatus,0,0,0,0,FALSE,FALSE,FALSE
+Species|Lactobacillus acidophilus,0,0,0,0,FALSE,FALSE,FALSE
+Species|Ligilactobacillus salivarius,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Streptococcus,0,0,0,0,FALSE,FALSE,FALSE
+Species|Streptococcus danieliae,0,0,0,0,FALSE,FALSE,FALSE
+Species|Streptococcus parasuis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Streptococcus respiraculi,0,0,0,0,FALSE,FALSE,FALSE
+Species|Streptococcus suis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Streptococcus sanguinis,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Enterococcus,0,0,0,0,FALSE,FALSE,FALSE
+Species|Enterococcus faecalis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Enterococcus faecium,0,0,0,0,FALSE,FALSE,FALSE
+Order|Bacillales,0,0,0,0,FALSE,FALSE,FALSE
+Family|Bacillaceae,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Bacillus,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bacillus mycoides,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Lysinibacillus,0,0,0,0,FALSE,FALSE,FALSE
+Species|Priestia megaterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Cytobacillus gottheilii,0,0,0,0,FALSE,FALSE,FALSE
+Species|Caldifermentibacillus hisashii,0,0,0,0,FALSE,FALSE,FALSE
+Family|Paenibacillaceae,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Paenibacillus,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Brevibacillus,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Staphylococcus,0,0,0,0,FALSE,FALSE,FALSE
+Species|Staphylococcus xylosus,0,0,0,0,FALSE,FALSE,FALSE
+Species|Staphylococcus shinii,0,0,0,0,FALSE,FALSE,FALSE
+Species|Staphylococcus aureus,0,0,0,0,FALSE,FALSE,FALSE
+Species|Listeria welshimeri,0,0,0,0,FALSE,FALSE,FALSE
+Species|Firmicutes bacterium ASF500,0,0,0,0,FALSE,FALSE,FALSE
+Order|Erysipelotrichales,0,0,0,0,FALSE,FALSE,FALSE
+Family|Erysipelotrichaceae,0,0.03744075711313842,0,0.03744075711313842,FALSE,TRUE,TRUE
+Species|Erysipelotrichaceae bacterium ASTB_g,0,0,0,0,FALSE,FALSE,FALSE
+Species|Faecalibaculum rodentium,0,0,0,0,FALSE,FALSE,FALSE
+Species|uncultured Faecalibaculum sp.,0,0,0,0,FALSE,FALSE,FALSE
+Species|Merdibacter sp. Marseille-QA0792,0,0,0,0,FALSE,FALSE,FALSE
+Species|Longicatena caecimuris,0,0,0,0,FALSE,FALSE,FALSE
+Species|Allocoprobacillus halotolerans,0,0,0,0,FALSE,FALSE,FALSE
+Family|Coprobacillaceae,0,0,0,0,FALSE,FALSE,FALSE
+Species|Thomasclavelia ramosa,0,0,0,0,FALSE,FALSE,FALSE
+Species|Sedimentibacter sp. zth1,0,0,0,0,FALSE,FALSE,FALSE
+Phylum|Actinomycetota,0,0,0,0,FALSE,FALSE,FALSE
+Class|Actinomycetes,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Bifidobacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bifidobacterium pseudolongum,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bifidobacterium animalis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bifidobacterium sp. ESL0825,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bifidobacterium choerinum,0,0,0,0,FALSE,FALSE,FALSE
+Family|Streptomycetaceae,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Streptomyces,0,0,0,0,FALSE,FALSE,FALSE
+Species|Streptomyces sp. enrichment culture,0,0,0,0,FALSE,FALSE,FALSE
+Order|Micrococcales,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Corynebacterium,0,0,0,0,FALSE,FALSE,FALSE
+Class|Coriobacteriia,0,0,0,0,FALSE,FALSE,FALSE
+Family|Eggerthellaceae,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Adlercreutzia,0,0,0,0,FALSE,FALSE,FALSE
+Species|Adlercreutzia equolifaciens,0,0,0,0,FALSE,FALSE,FALSE
+Species|Adlercreutzia hattorii,0,0,0,0,FALSE,FALSE,FALSE
+Species|Adlercreutzia sp. Marseille-QA1605,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Eggerthella,0,0,0,0,FALSE,FALSE,FALSE
+Species|Eggerthella lenta,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Gordonibacter,0,0,0,0,FALSE,FALSE,FALSE
+Species|Gordonibacter massiliensis (ex Traore et al. 2017),0,0,0,0,FALSE,FALSE,FALSE
+Species|Arabiibacter massiliensis,0,0,0,0,FALSE,FALSE,FALSE
+Order|Coriobacteriales,0,0,0,0,FALSE,FALSE,FALSE
+Species|Leptogranulimonas caecicola,0,0,0,0,FALSE,FALSE,FALSE
+Family|Atopobiaceae,0,0,0,0,FALSE,FALSE,FALSE
+Species|uncultured Atopobiaceae bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Family|Coriobacteriaceae,0,0,0,0,FALSE,FALSE,FALSE
+Species|uncultured Solirubrobacterales bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Acidimicrobiales bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|uncultured Actinomycetota bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Phylum|Candidatus Melainabacteria,0,0,0,0,FALSE,FALSE,FALSE
+Species|uncultured Candidatus Melainabacteria bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Candidatus Melainabacteria bacterium MEL.A1,0,0,0,0,FALSE,FALSE,FALSE
+Species|Candidatus Melainabacteria bacterium,0,0.036329909464819864,0,0.036329909464819864,FALSE,TRUE,TRUE
+Species|Candidatus Gastranaerophilales bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Dehalococcoidia bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Phototrophicaceae bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Chloroflexota bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Caldilineaceae bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|uncultured Chloroflexia bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Acholeplasmataceae bacterium,0,0.21835666184344946,0,0.21835666184344946,FALSE,TRUE,TRUE
+Species|uncultured bacterium BAC10G6,0,0,0,0,FALSE,FALSE,FALSE
+Species|uncultured murine large bowel bacterium BAC 31B,0,0,0,0,FALSE,FALSE,FALSE
+Species|uncultured bacterium BAC25G1,0,0,0,0,FALSE,FALSE,FALSE
+Species|uncultured murine large bowel bacterium BAC 54B,0,0,0,0,FALSE,FALSE,FALSE
+Phylum|Candidatus Saccharimonadota,0,0,0,0,FALSE,FALSE,FALSE
+Species|Candidatus Poribacteria bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|uncultured Candidatus Binatia bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Fusobacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|bacterium,0,0,0,0,FALSE,FALSE,FALSE
+Species|Nitrosopumilus sp.,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bacteriophage sp.,0,0,0,0,FALSE,FALSE,FALSE
+Species|uncultured phage,0,0,0,0,FALSE,FALSE,FALSE
+Species|Streptococcus acidominimus,0,0,0,0,FALSE,FALSE,FALSE
+Species|Staphylococcus equorum,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Parolsenella,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Actinobacillus,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Mannheimia,0,0,0,0,FALSE,FALSE,FALSE
+Species|Mannheimia varigena,0,0,0,0,FALSE,FALSE,FALSE
+Species|Mannheimia bovis,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Haemophilus,0,0,0,0,FALSE,FALSE,FALSE
+Species|uncultured Helicobacter sp.,0,0,0,0,FALSE,FALSE,FALSE
+Species|Streptococcus marmotae,0,0,0,0,FALSE,FALSE,FALSE
+Species|Staphylococcus pseudoxylosus,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Thomasclavelia,0,0,0,0,FALSE,FALSE,FALSE
+Species|[Pasteurella] aerogenes,0,0,0,0,FALSE,FALSE,FALSE
+Species|Vespertiliibacter pulmonis,0,0,0,0,FALSE,FALSE,FALSE
+Species|Bibersteinia trehalosi,0,0,0,0,FALSE,FALSE,FALSE
+Species|Streptococcus zhangguiae,0,0,0,0,FALSE,FALSE,FALSE
+Species|Pasteurellaceae bacterium Orientalotternb1,0,0,0,0,FALSE,FALSE,FALSE
+Species|Frederiksenia canicola,0,0,0,0,FALSE,FALSE,FALSE
+Genus|Rodentibacter,0,0,0,0,FALSE,FALSE,FALSE
+Species|Muribacter muris,0,0,0,0,FALSE,FALSE,FALSE

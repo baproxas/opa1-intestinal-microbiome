@@ -1,0 +1,590 @@
+taxon,rho,pval,padj,sig,dir,func_guild,in_ml_top_taxa,colour_cat,label_set
+Species|Enterocloster bolteae,-0.8988648090815273,3.990236717256869e-7,1.6314136711418912e-4,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),top5
+Class|Clostridia,-0.8885448916408669,8.394663545248568e-7,1.6314136711418912e-4,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),top5
+Genus|Mediterraneibacter,-0.8885448916408669,8.394663545248568e-7,1.6314136711418912e-4,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),top5
+Species|Pasteurellaceae bacterium Orientalotternb1,0.8844169246646028,1.107920999077685e-6,1.6314136711418912e-4,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),top5
+Species|Enterocloster clostridioformis,-0.8802889576883386,1.4473368008429252e-6,1.704962751392966e-4,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),top5
+Species|Vescimonas coprocola,-0.8740970072239421,2.1231300937836557e-6,1.9961945519961926e-4,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),top5
+Species|Prevotella nigrescens,0.869969040247678,2.7112999008437056e-6,1.9961945519961926e-4,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),top5
+Family|Lachnospiraceae,-0.869969040247678,2.711299900843725e-6,1.9961945519961926e-4,TRUE,Dysbiosis-protecting,Lachnospiraceae / Butyrate,FALSE,Lachnospiraceae / Butyrate,guild
+Genus|Blautia,-0.8679050567595459,3.054546058934943e-6,1.999030698569646e-4,TRUE,Dysbiosis-protecting,Lachnospiraceae / Butyrate,FALSE,Lachnospiraceae / Butyrate,guild
+Species|[Clostridium] symbiosum,-0.8658410732714138,3.4345106049678248e-6,2.0229267463260487e-4,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Oscillospiraceae bacterium,-0.8617131062951496,4.317684006760882e-6,2.3119235272565087e-4,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Lachnospiraceae bacterium JLR.KK008,-0.8596491228070176,4.827997425048467e-6,2.3697420694612892e-4,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Blautia producta,-0.8534571723426213,6.681541734969331e-6,3.027252370689951e-4,TRUE,Dysbiosis-protecting,Lachnospiraceae / Butyrate,FALSE,Lachnospiraceae / Butyrate,guild
+Order|Eubacteriales,-0.8513931888544892,7.42168762562192e-6,3.1224100082080793e-4,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Family|Oscillospiraceae,-0.845201238390093,1.0078952744608412e-5,3.9576687777162365e-4,TRUE,Dysbiosis-protecting,IBD-depleted,FALSE,IBD-depleted,guild
+Species|Pseudoflavonifractor gallinarum,-0.8369453044375644,1.4859874205555088e-5,5.470291191919966e-4,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Haemophilus influenzae,0.8348813209494323,1.63203675125438e-5,5.654527332287234e-4,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),top5
+Family|Pasteurellaceae,0.8245614035087719,2.560823159881076e-5,7.182499243666499e-4,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),top5
+Species|[Clostridium] scindens,-0.8245614035087719,2.5608231598810946e-5,7.182499243666499e-4,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|uncultured Faecalibacterium sp.,-0.8245614035087719,2.5608231598810946e-5,7.182499243666499e-4,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Ihubacter sp. rT4E-8,-0.8245614035087719,2.5608231598810946e-5,7.182499243666499e-4,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Firmicutes bacterium ASF500,-0.8224974200206399,2.7926170666106166e-5,7.465772628586443e-4,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Claveliimonas bilis,-0.8204334365325078,3.042080527777158e-5,7.465772628586443e-4,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Flavonifractor plautii,-0.8204334365325078,3.042080527777158e-5,7.465772628586443e-4,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Roseburia hominis,-0.8163054695562436,3.598441737777756e-5,8.15185455211961e-4,TRUE,Dysbiosis-protecting,Butyrate guild,FALSE,Butyrate guild,guild
+Species|Candidatus Faecalibacterium intestinigallinarum,-0.8163054695562436,3.598441737777756e-5,8.15185455211961e-4,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Flintibacter sp. KGMB00164,-0.8142414860681115,3.9076829456376884e-5,8.524537981409624e-4,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Owariibacterium komagatae,-0.8121775025799794,4.23928389345877e-5,8.917636475882913e-4,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Lachnoclostridium phocaeense,-0.8101135190918474,4.594554343625302e-5,9.020641694651009e-4,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Roseburia sp. 831b,-0.8101135190918474,4.594554343625302e-5,9.020641694651009e-4,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Lawsonibacter asaccharolyticus,-0.8080495356037152,4.974862279747091e-5,9.156855883659489e-4,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Streptococcus suis,0.8080495356037152,4.974862279747091e-5,9.156855883659489e-4,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),top5
+Species|Blautia hydrogenotrophica,-0.8018575851393188,6.280599966390895e-5,0.0011209919333952233,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Sellimonas intestinalis,-0.7977296181630547,7.304134709663055e-5,0.001265333924703394,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Waltera intestinalis,-0.7936016511867905,8.465997360412666e-5,0.0014247064129380173,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Pilosibacter sp. YYHA0881,-0.7915376676986584,9.103407554058733e-5,0.0014491640673893497,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Clostridiales bacterium CCNA10,-0.7915376676986584,9.103407554058733e-5,0.0014491640673893497,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Rodentibacter caecimuris,0.7894736842105263,9.781072774060474e-5,0.0015160662799793736,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Hungatella sp. SB206,-0.7874097007223942,1.0501039271078129e-4,0.0015859261873500045,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Kineothrix sedimenti,-0.7853457172342622,1.126543102925679e-4,0.001618375335666402,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Genus|Ligilactobacillus,0.7853457172342622,1.126543102925679e-4,0.001618375335666402,TRUE,Dysbiosis-promoting,ML top taxa,TRUE,ML top taxa,ML top taxa
+Species|Streptococcus acidominimus,0.781217750257998,1.2936386013196713e-4,0.0018141741337554438,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Roseburia sp. 499,-0.7791537667698659,1.384760252264599e-4,0.001896799508334532,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Blautia massiliensis (ex Durand et al. 2017),-0.7770897832817338,1.4812554588688426e-4,0.0019387988117194406,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Oscillospiraceae bacterium LBM23126,-0.7770897832817338,1.4812554588688426e-4,0.0019387988117194406,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Pediococcus damnosus,0.7750257997936018,1.5833782693194334e-4,0.0020274126100633615,TRUE,Dysbiosis-promoting,ML top taxa,TRUE,ML top taxa,ML top taxa
+Species|Lachnospiraceae bacterium JLR.KK009,-0.7729618163054696,1.6913916228326046e-4,0.002119637586911498,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Oscillospiraceae bacterium NTUH-002-81,-0.7647058823529411,2.1879309769392725e-4,0.002684773636285899,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Sellimonas caecigallum,-0.7564499484004128,2.8021938721360353e-4,0.003368351409567602,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Ligilactobacillus faecis,0.7523219814241486,3.160085731232901e-4,0.003722580991392357,TRUE,Dysbiosis-promoting,ML top taxa,TRUE,ML top taxa,ML top taxa
+Genus|Roseburia,-0.7481940144478845,3.5556828754260074e-4,0.004027494641588305,TRUE,Dysbiosis-protecting,Butyrate guild,FALSE,Butyrate guild,guild
+Species|Bibersteinia trehalosi,0.7481940144478845,3.5556828754260074e-4,0.004027494641588305,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Phylum|Bacillota,-0.7461300309597524,3.768588845993755e-4,0.004110553389426522,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Blautia wexlerae,-0.7461300309597524,3.768588845993755e-4,0.004110553389426522,TRUE,Dysbiosis-protecting,Acetate guild,FALSE,Acetate guild,guild
+Species|Lacrimispora xylanisolvens,-0.7440660474716203,3.992105441266659e-4,0.004149162892502504,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Lactonifactor longoviformis,-0.7440660474716203,3.992105441266659e-4,0.004149162892502504,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Mediterraneibacter gnavus,-0.7420020639834882,4.2266515033981364e-4,0.004149162892502504,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Mediterraneibacter flintii,-0.7420020639834882,4.2266515033981364e-4,0.004149162892502504,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Eisenbergiella porci,-0.7420020639834882,4.2266515033981364e-4,0.004149162892502504,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|uncultured Eubacteriales bacterium,-0.7420020639834882,4.2266515033981364e-4,0.004149162892502504,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Rodentibacter pneumotropicus,0.7399380804953561,4.472657750928329e-4,0.0042490248633819125,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Clostridium sp. 10cd*,-0.7399380804953561,4.472657750928329e-4,0.0042490248633819125,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Mediterraneibacter glycyrrhizinilyticus,-0.737874097007224,4.7305669590900476e-4,0.004331604864307691,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Faecalimonas umbilicata,-0.737874097007224,4.7305669590900476e-4,0.004331604864307691,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Genus|Enterocloster,-0.7358101135190918,5.000834138759303e-4,0.004331604864307691,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Anaerostipes hadrus,-0.7358101135190918,5.000834138759303e-4,0.004331604864307691,TRUE,Dysbiosis-protecting,Butyrate guild,FALSE,Butyrate guild,guild
+Species|Kineothrix sp. MB12-C1,-0.7358101135190918,5.000834138759303e-4,0.004331604864307691,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Butyricicoccus porcorum,-0.7358101135190918,5.000834138759303e-4,0.004331604864307691,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Genus|Haemophilus,0.7337461300309597,5.283926713947288e-4,0.00451048236886225,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Lachnospiraceae bacterium GAM79,-0.7316821465428276,5.580324697729897e-4,0.004629311615440717,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Streptococcus danieliae,0.7316821465428276,5.580324697729897e-4,0.004629311615440717,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Coprococcus comes,-0.7296181630546955,5.890520866511493e-4,0.004818773319965652,TRUE,Dysbiosis-protecting,Butyrate guild,FALSE,Butyrate guild,guild
+Species|Pasteurellaceae bacterium NI1060,0.7275541795665634,6.215020932519374e-4,0.004880863105671882,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Genus|Lacrimispora,-0.7275541795665634,6.215020932519374e-4,0.004880863105671882,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Faecalicatena sp. Marseille-Q4148,-0.7275541795665634,6.215020932519374e-4,0.004880863105671882,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Bacteroides fragilis,0.7234262125902993,6.909021305997825e-4,0.0052849526613411935,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|uncultured Blautia sp.,-0.7234262125902993,6.909021305997825e-4,0.0052849526613411935,TRUE,Dysbiosis-protecting,ML top taxa,TRUE,ML top taxa,ML top taxa
+Species|Simiaoa sunii,-0.7213622291021672,7.279599242661499e-4,0.005427448042946358,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Vespertiliibacter pulmonis,0.7213622291021672,7.279599242661499e-4,0.005427448042946358,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Staphylococcus xylosus,0.717234262125903,8.07070648534505e-4,0.005942057649835293,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Family|Bacteroidaceae,0.7131062951496389,8.932304748108555e-4,0.00641600914223895,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Genus|Lachnoclostridium,-0.7131062951496389,8.932304748108555e-4,0.00641600914223895,TRUE,Dysbiosis-protecting,Lachnospiraceae / Butyrate,FALSE,Lachnospiraceae / Butyrate,guild
+Species|Hungatella hathewayi,-0.7110423116615068,9.391049276515922e-4,0.006584914314128426,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Subdoligranulum variabile,-0.7110423116615068,9.391049276515922e-4,0.006584914314128426,TRUE,Dysbiosis-protecting,Butyrate guild,FALSE,Butyrate guild,guild
+Species|Clostridium sp. SY8519,-0.7089783281733747,9.869258677951207e-4,0.006838815719192072,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Dysosmobacter sp. Marseille-Q4140,-0.7027863777089783,0.0011427190651563898,0.007736339418127742,TRUE,Dysbiosis-protecting,ML top taxa,TRUE,ML top taxa,ML top taxa
+Species|Mannheimia varigena,0.7027863777089783,0.0011427190651563878,0.007736339418127742,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Ruthenibacterium lactatiformans,-0.7007223942208461,0.0011989848082819988,0.008025023319069288,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Ligilactobacillus murinus,0.696594427244582,0.0013184382796678923,0.008658120366679496,TRUE,Dysbiosis-promoting,ML top taxa,TRUE,ML top taxa,ML top taxa
+Species|Bacteroides zhangwenhongii,0.6945304437564499,0.0013817713318639603,0.008658120366679496,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Phocaeicola dorei,0.6945304437564499,0.0013817713318639603,0.008658120366679496,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Prolixibacteraceae bacterium,0.6945304437564499,0.0013817713318639603,0.008658120366679496,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Dysosmobacter welbionis,-0.6945304437564499,0.0013817713318639603,0.008658120366679496,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Anaerotruncus colihominis,-0.6945304437564499,0.0013817713318639603,0.008658120366679496,TRUE,Dysbiosis-protecting,IBD-depleted,FALSE,IBD-depleted,guild
+Species|Bacteroides ovatus,0.6883384932920537,0.0015871002439845348,0.009737521288613448,TRUE,Dysbiosis-promoting,Propionate guild,FALSE,Propionate guild,guild
+Order|Lachnospirales,-0.6883384932920537,0.001587100243984532,0.009737521288613448,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Pasteurella multocida,0.6862745098039216,0.0016609135348996636,0.009881596687433353,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Genus|Butyrivibrio,-0.6862745098039216,0.0016609135348996636,0.009881596687433353,TRUE,Dysbiosis-protecting,Butyrate guild,FALSE,Butyrate guild,guild
+Species|Faecalibacterium prausnitzii,-0.6862745098039216,0.0016609135348996636,0.009881596687433353,TRUE,Dysbiosis-protecting,Butyrate guild,FALSE,Butyrate guild,guild
+Species|Roseburia rectibacter,-0.6842105263157895,0.0017375461568507446,0.009936064916360083,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Sellimonas catena,-0.6842105263157895,0.0017375461568507446,0.009936064916360083,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Anaerocolumna chitinilytica,-0.6842105263157895,0.0017375461568507446,0.009936064916360083,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Genus|Mannheimia,0.6842105263157895,0.001737546156850741,0.009936064916360083,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Coprococcus sp. ART55/1,-0.6821465428276574,0.0018170810177521742,0.010192959232914576,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|butyrate-producing bacterium SS3/4,-0.6821465428276574,0.0018170810177521742,0.010192959232914576,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Lachnospiraceae bacterium oral taxon 096,-0.6780185758513932,0.0019851971899574475,0.010727349953072814,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Roseburia faecis,-0.6780185758513932,0.0019851971899574475,0.010727349953072814,TRUE,Dysbiosis-protecting,IBD-depleted,FALSE,IBD-depleted,guild
+Genus|Anaerobutyricum,-0.6780185758513932,0.0019851971899574475,0.010727349953072814,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Genus|Rodentibacter,0.6780185758513932,0.0019851971899574475,0.010727349953072814,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Blautia faecis,-0.671826625386997,0.0022613045197174986,0.011892038947442984,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Anaeromicropila herbilytica,-0.671826625386997,0.0022613045197174986,0.011892038947442984,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Genus|Thomasclavelia,0.671826625386997,0.0022613045197175117,0.011892038947442984,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Candidatus Scatomonas sp.,-0.6697626418988648,0.002360085188175536,0.012193773472240295,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Genus|Actinobacillus,0.6697626418988648,0.0023600851881755407,0.012193773472240295,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Alistipes dispar,-0.6676986584107327,0.002462394297708642,0.012291103740257544,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Lachnospiraceae bacterium KGMB03038,-0.6676986584107327,0.002462394297708642,0.012291103740257544,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Order|Bacillales,-0.6676986584107327,0.002462394297708642,0.012291103740257544,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|[Pasteurella] aerogenes,0.6676986584107327,0.002462394297708642,0.012291103740257544,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Blautia obeum,-0.6656346749226005,0.0025683279602937118,0.01239955056240161,TRUE,Dysbiosis-protecting,Acetate guild,FALSE,Acetate guild,guild
+Species|Butyrivibrio sp. JL13D10,-0.6656346749226005,0.0025683279602937118,0.01239955056240161,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Ruminococcaceae bacterium BL-6,-0.6656346749226005,0.0025683279602937118,0.01239955056240161,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Mordavella massiliensis,-0.6656346749226005,0.0025683279602937118,0.01239955056240161,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Bacteroides difficilis,0.6635706914344685,0.0026779839744573825,0.012823841958986979,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Chordicoccus furentiruminis,-0.6573787409700722,0.0030302895427941697,0.014393875328272306,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Agathobaculum sp. NTUH-O15-33,-0.6491228070175439,0.003558373943300945,0.01676705802083405,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Qiania dongpingensis,-0.6449948400412797,0.0038493730388244143,0.01785260409344551,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Clostridium sp. M62/1,-0.6449948400412797,0.0038493730388244143,0.01785260409344551,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Acinetobacter baumannii,0.6388028895768835,0.004322124802950016,0.019734352782461755,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Stomatobaculum sp. F0698,-0.6388028895768835,0.004322124802950028,0.019734352782461755,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Glaesserella sp. 15-184,0.6367389060887514,0.004489848099432214,0.020342465619735184,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Anaerostipes rhamnosivorans,-0.6346749226006192,0.00466284274887114,0.020806169538523496,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Muribacter muris,0.6346749226006192,0.00466284274887114,0.020806169538523496,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Bacteroides pyogenes,0.6326109391124871,0.004841232347066894,0.020966807738400005,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|uncultured Sporobacter sp.,-0.6326109391124871,0.004841232347066894,0.020966807738400005,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Ligilactobacillus animalis,0.6326109391124871,0.004841232347066894,0.020966807738400005,TRUE,Dysbiosis-promoting,ML top taxa,TRUE,ML top taxa,ML top taxa
+Species|Frederiksenia canicola,0.6326109391124871,0.004841232347066894,0.020966807738400005,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Blautia pseudococcoides,-0.6264189886480908,0.005410032721793989,0.02325919177472014,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Bacteriophage sp.,0.6243550051599587,0.005611272629892077,0.023949562166713286,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Dorea formicigenerans,-0.6222910216718266,0.005818551360831028,0.02430586348602465,TRUE,Dysbiosis-protecting,Lachnospiraceae / Butyrate,FALSE,Lachnospiraceae / Butyrate,guild
+Species|Wansuia hejianensis,-0.6222910216718266,0.005818551360831028,0.02430586348602465,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Allocoprobacillus halotolerans,0.6222910216718266,0.005818551360831028,0.02430586348602465,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Glaesserella parasuis,0.6181630546955624,0.00625176273093408,0.02593160738394488,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|uncultured Bacteroides sp.,0.6160990712074303,0.006477968358240649,0.02668198155946673,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Genus|Faecalibacterium,-0.6119711042311662,0.006950274712161301,0.028232495210089695,TRUE,Dysbiosis-protecting,Butyrate guild,FALSE,Butyrate guild,guild
+Species|Eubacterium ramulus,-0.6119711042311662,0.006950274712161301,0.028232495210089695,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Coprococcus catus,-0.6099071207430341,0.007196658594982024,0.029033095290715148,TRUE,Dysbiosis-protecting,Butyrate guild,FALSE,Butyrate guild,guild
+Species|uncultured Draconibacterium sp.,0.607843137254902,0.007450054518883079,0.02964920345690631,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Family|Lactobacillaceae,0.607843137254902,0.007450054518883079,0.02964920345690631,TRUE,Dysbiosis-promoting,ML top taxa,TRUE,ML top taxa,ML top taxa
+Species|Bacteroides acidifaciens,0.6037151702786379,0.007978467211182628,0.031539041526084353,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Lacrimispora sinapis,-0.6016511867905057,0.008253780479294327,0.03219520994903549,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Bifidobacterium sp. ESL0825,0.6016511867905057,0.008253780479294327,0.03219520994903549,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Bacteroides caccae,0.5995872033023736,0.008536698768223001,0.032863500486819325,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Family|Clostridiaceae,-0.5995872033023736,0.008536698768223017,0.032863500486819325,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Genus|Dorea,-0.5975232198142415,0.008827374421547761,0.033761841131763844,TRUE,Dysbiosis-protecting,Lachnospiraceae / Butyrate,FALSE,Lachnospiraceae / Butyrate,guild
+Species|Bacteroides salyersiae,0.5954592363261093,0.00912596140049312,0.034020197879053464,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Blautia argi,-0.5954592363261093,0.00912596140049312,0.034020197879053464,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Anaerobutyricum hallii,-0.5954592363261093,0.00912596140049312,0.034020197879053464,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Pusillibacter faecalis,-0.5954592363261093,0.00912596140049312,0.034020197879053464,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Genus|Sellimonas,-0.5933952528379772,0.00943261527195847,0.03450813910051888,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Oscillibacter hominis,-0.5933952528379772,0.00943261527195847,0.03450813910051888,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Massilistercora timonensis,-0.5933952528379772,0.00943261527195847,0.03450813910051888,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Phocaeicola vulgatus,0.5913312693498451,0.009747493195938673,0.03479559692368411,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Prevotella melaninogenica,0.5913312693498451,0.009747493195938673,0.03479559692368411,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Novisyntrophococcus fermenticellae,-0.5913312693498451,0.009747493195938673,0.03479559692368411,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Genus|Corynebacterium,0.5913312693498451,0.009747493195938673,0.03479559692368411,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Genus|Phocaeicola,0.5892672858617131,0.010070753912334262,0.03551900631356216,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Rodentibacter abscessus,0.5892672858617131,0.010070753912334262,0.03551900631356216,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Roseburia intestinalis,-0.5851393188854489,0.010743066498094572,0.03722156569045708,TRUE,Dysbiosis-protecting,Butyrate guild,FALSE,Butyrate guild,guild
+Genus|Kineothrix,-0.5851393188854489,0.010743066498094572,0.03722156569045708,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Agathobacter rectalis,-0.5851393188854489,0.010743066498094572,0.03722156569045708,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Coprococcus phoceensis,-0.5810113519091847,0.011450854006919317,0.039212517500438825,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Streptococcus zhangguiae,0.5810113519091847,0.011450854006919317,0.039212517500438825,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Genus|Staphylococcus,0.5789473684210527,0.011818464080461773,0.04023742973058951,TRUE,Dysbiosis-promoting,ROS tolerant,FALSE,ROS tolerant,guild
+Species|Lachnospiraceae bacterium oral taxon 500,-0.5768833849329206,0.0121954417483645,0.040813154487424376,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Lachnoanaerobaculum gingivalis,-0.5768833849329206,0.0121954417483645,0.040813154487424376,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|butyrate-producing bacterium SM4/1,-0.5768833849329206,0.0121954417483645,0.040813154487424376,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Family|Paenibacillaceae,-0.5748194014447885,0.012581956389329619,0.041868770131723985,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Anaerostipes caccae,-0.5706914344685243,0.013384281348823338,0.04404101516456394,TRUE,Dysbiosis-protecting,Butyrate guild,FALSE,Butyrate guild,guild
+Species|Staphylococcus shinii,0.5706914344685243,0.013384281348823338,0.04404101516456394,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Butyrivibrio fibrisolvens,-0.5686274509803922,0.013800437611725452,0.04515809862947939,TRUE,Dysbiosis-protecting,Butyrate guild,FALSE,Butyrate guild,guild
+Species|Helicobacter apodemus,0.56656346749226,0.014226822697300056,0.04604175037752601,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Thomasclavelia ramosa,0.56656346749226,0.014226822697300056,0.04604175037752601,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Wujia chipingensis,-0.564499484004128,0.014663613053810899,0.04719600048467005,TRUE,Dysbiosis-protecting,ML top taxa,TRUE,ML top taxa,ML top taxa
+Species|Bacteroides graminisolvens,0.5624355005159959,0.0151109864826331,0.04811011372038322,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|uncultured Saccharicrinis sp.,0.5624355005159959,0.0151109864826331,0.04811011372038322,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Bacteroidales bacterium SW299,0.5603715170278638,0.015569122116593606,0.04930222003587975,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Bacteroidaceae bacterium,0.5583075335397317,0.01603820039772077,0.04998148166273839,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Lachnospiraceae bacterium Choco86,-0.5583075335397317,0.01603820039772081,0.04998148166273839,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Anaerocolumna sp. AGMB13020,-0.5583075335397317,0.01603820039772081,0.04998148166273839,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Alphaproteobacteria bacterium,0.5562435500515996,0.016518403054404864,0.050938949733217095,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Lachnospira eligens,-0.5562435500515996,0.016518403054404864,0.050938949733217095,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Bacteroides sp. DH3716P,0.5541795665634676,0.017009913077973195,0.0519110818804467,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Lacrimispora xylanolytica,-0.5541795665634676,0.017009913077973195,0.0519110818804467,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Bacteroides hominis,0.5521155830753354,0.017512914698683414,0.05209649877537642,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Genus|Escherichia,0.5521155830753354,0.017512914698683414,0.05209649877537642,TRUE,Dysbiosis-promoting,IBD-enriched,FALSE,IBD-enriched,NA
+Species|Lachnospiraceae bacterium C1.1,-0.5521155830753354,0.017512914698683362,0.05209649877537642,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Eubacterium sp. MSJ-33,-0.5521155830753354,0.017512914698683362,0.05209649877537642,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Streptococcus respiraculi,0.5521155830753354,0.017512914698683414,0.05209649877537642,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Genus|Anaerostipes,-0.5500515995872033,0.018027593361137465,0.05335805271211038,TRUE,Dysbiosis-protecting,Butyrate guild,FALSE,Butyrate guild,NA
+Genus|Hungatella,-0.5479876160990712,0.018554135699121673,0.05464192963391332,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Phocaeicola massiliensis,0.543859649122807,0.01964356372779158,0.05756248276452359,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Order|Lactobacillales,0.541795665634675,0.02020682839755896,0.058919910525555584,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Bacteroides faecis,0.5397316821465429,0.020782714646741165,0.05971228744844169,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Bryobacterales bacterium,0.5397316821465429,0.020782714646741165,0.05971228744844169,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Genus|Lysinibacillus,0.5397316821465429,0.020782714646741165,0.05971228744844169,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Bacteroides sp. M10,0.5376676986584108,0.0213714146578065,0.06022853221745468,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Parabacteroides chongii,0.5376676986584108,0.0213714146578065,0.06022853221745468,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Class|Gammaproteobacteria,0.5376676986584108,0.0213714146578065,0.06022853221745468,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Staphylococcus equorum,0.5376676986584108,0.0213714146578065,0.06022853221745468,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Genus|Anaerocolumna,-0.5356037151702787,0.021973121639608087,0.061337292159853854,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Genus|Oscillibacter,-0.5356037151702787,0.021973121639608087,0.061337292159853854,TRUE,Dysbiosis-protecting,ROS sensitive,FALSE,ROS sensitive,NA
+Species|Dorea amylophila,-0.5335397316821465,0.02258802979832131,0.06275636580760025,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Bacteroides thetaiotaomicron,0.5314757481940144,0.023216334307843835,0.06330750420055564,TRUE,Dysbiosis-promoting,Propionate guild,FALSE,Propionate guild,NA
+Species|Enterocloster lavalensis,-0.5314757481940144,0.023216334307843835,0.06330750420055564,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Blautia parvula,-0.5314757481940144,0.023216334307843835,0.06330750420055564,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Hominifimenecus sp. rT4P-3,-0.5314757481940144,0.023216334307843835,0.06330750420055564,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Order|Enterobacterales,0.5294117647058824,0.02385823127966279,0.06446100102624498,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Eshraghiella crossota,-0.5294117647058824,0.023858231279662828,0.06446100102624498,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Agrobacterium pusense,0.5252837977296182,0.025183591559613465,0.06773121200279603,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Campylobacter jejuni,0.5232198142414861,0.02586745150014195,0.06925422242538003,TRUE,Dysbiosis-promoting,ROS tolerant,FALSE,ROS tolerant,NA
+Species|Cyclobacteriaceae bacterium,0.521155830753354,0.02656569710386475,0.07016679638644109,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Vescimonas fastidiosa,-0.521155830753354,0.026565697103864794,0.07016679638644109,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Clostridiaceae bacterium Marseille-Q4149,-0.521155830753354,0.026565697103864794,0.07016679638644109,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Mucispirillum schaedleri,-0.5149638802889577,0.02874875488263025,0.07492485232685517,TRUE,Dysbiosis-protecting,ML top taxa,TRUE,ML top taxa,NA
+Species|Dorea longicatena,-0.5149638802889577,0.02874875488263025,0.07492485232685517,TRUE,Dysbiosis-protecting,Lachnospiraceae / Butyrate,FALSE,Lachnospiraceae / Butyrate,NA
+Species|uncultured Chloroflexia bacterium,0.5149638802889577,0.028748754882630335,0.07492485232685517,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Porphyromonadaceae bacterium,0.5128998968008256,0.029506553722099396,0.07622526378209012,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Mannheimia bovis,0.5128998968008256,0.029506553722099396,0.07622526378209012,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|[Clostridium] innocuum,-0.5108359133126935,0.030279746991203078,0.07788109597300705,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Solibaculum mannosilyticum,-0.5087719298245614,0.031068538407296193,0.07956247444303242,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Genus|Bacteroides,0.5067079463364293,0.03187313226051146,0.08057199528515564,TRUE,Dysbiosis-promoting,Propionate guild,FALSE,Propionate guild,NA
+Species|Gammaproteobacteria bacterium,0.5067079463364293,0.03187313226051146,0.08057199528515564,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Lachnospiraceae bacterium,-0.5067079463364293,0.031873132260511486,0.08057199528515564,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Family|Enterobacteriaceae,0.5046439628482973,0.03269373337773915,0.08194301684888664,TRUE,Dysbiosis-promoting,IBD-enriched,FALSE,IBD-enriched,NA
+Species|Lacrimispora saccharolytica,-0.5046439628482973,0.03269373337773915,0.08194301684888664,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Lachnoclostridium sp. Q11,-0.5025799793601652,0.03353054708616263,0.08368428912605844,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Phycisphaerales bacterium,0.5005159958720331,0.034383779176359076,0.08545167061128901,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Bacteroides maternus,0.4984520123839009,0.03525363586497097,0.0872453425397811,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|uncultured bacterium BAC25G1,-0.49432404540763675,0.037044049807446154,0.0912926583120744,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Anaerovoracaceae bacterium,-0.49226006191950467,0.037965021283152614,0.0931724897324037,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Alistipes onderdonkii,-0.48813209494324045,0.039859530900999814,0.09741603195306595,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Saprospiraceae bacterium,0.48606811145510836,0.040833484782080216,0.09938397742415392,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|uncultured phage,0.4840041279669763,0.04182551548646381,0.10137954165237524,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Blautia hansenii,-0.48194014447884415,0.04283583124699912,0.10340288772328887,TRUE,Dysbiosis-protecting,Lachnospiraceae / Butyrate,FALSE,Lachnospiraceae / Butyrate,NA
+Genus|Coprococcus,-0.47781217750258,0.04491215118822413,0.10797247775454698,TRUE,Dysbiosis-protecting,Butyrate guild,FALSE,Butyrate guild,NA
+Species|Dysgonomonadaceae bacterium zrk40,0.4757481940144479,0.04597857203121229,0.10964121022827547,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Intestinimonas butyriciproducens,-0.4757481940144479,0.04597857203121229,0.10964121022827547,TRUE,Dysbiosis-protecting,ROS sensitive,FALSE,ROS sensitive,NA
+Genus|Vibrio,0.47368421052631576,0.04706411117172422,0.11088304592058225,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|uncultured Gammaproteobacteria bacterium,0.47368421052631576,0.04706411117172422,0.11088304592058225,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Enterococcus faecalis,-0.47368421052631576,0.04706411117172422,0.11088304592058225,TRUE,Dysbiosis-protecting,ROS tolerant,FALSE,ROS tolerant,NA
+Species|Anaerostipes sp. PC18,-0.4695562435500516,0.0492933769279683,0.11567250601822043,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Genus|Alistipes,-0.4674922600619195,0.050437519451044334,0.11695944471127996,TRUE,Dysbiosis-protecting,Propionate guild,FALSE,Propionate guild,NA
+Genus|Desulfovibrio,-0.4674922600619195,0.050437519451044334,0.11695944471127996,TRUE,Dysbiosis-protecting,IBD-enriched,FALSE,IBD-enriched,NA
+Family|Bacillaceae,-0.4674922600619195,0.050437519451044334,0.11695944471127996,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Family|Coprobacillaceae,0.46542827657378744,0.05160161200071702,0.11918960575851892,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Bacteroides sp. KFT8,0.4613003095975232,0.05399047637734738,0.1237369283511969,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Blautia luti,-0.4613003095975232,0.05399047637734738,0.1237369283511969,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Bacteroides sp. D2,0.45923632610939114,0.0552156619872672,0.12508471119423223,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Prevotella heparinolytica,0.45923632610939114,0.0552156619872672,0.12508471119423223,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Macellibacteroides fermentans,0.45923632610939114,0.0552156619872672,0.12508471119423223,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Ruminococcus gauvreauii,-0.45717234262125905,0.05646162510203338,0.12741723059424392,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Butyricimonas faecihominis,0.4551083591331269,0.05772857159967161,0.12977911706949077,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|uncultured Alistipes sp.,-0.45098039215686275,0.060326235785684724,0.13459148817336497,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Family|Comamonadaceae,0.45098039215686275,0.06032623578568481,0.13459148817336497,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Rhodothermales bacterium,0.44891640866873067,0.0616573626261407,0.13652701724359728,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Avibacterium paragallinarum,0.44891640866873067,0.0616573626261407,0.13652701724359728,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Order|Micrococcales,-0.44685242518059853,0.06301029106386723,0.13900023009969212,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Bacteroides luhongzhouii,0.44478844169246645,0.06438522410365057,0.14045517406314884,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Eubacteriales bacterium,0.44478844169246645,0.06438522410365057,0.14045517406314884,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Faecalibaculum rodentium,0.44478844169246645,0.06438522410365057,0.14045517406314884,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Genus|Chryseobacterium,0.44272445820433437,0.06578236404039449,0.14297347756380943,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Clostridia bacterium i40-0019-1A8,-0.4406604747162023,0.06720191241367018,0.14498874143462173,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Limosilactobacillus fermentum,0.4406604747162023,0.06720191241367013,0.14498874143462173,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|[Clostridium] hylemonae,-0.4324045407636739,0.0731081920707255,0.1571559311301362,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|uncultured Oscillospiraceae bacterium,-0.4303405572755418,0.07464277608599107,0.15987125496235904,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Order|Erysipelotrichales,0.4282765737874097,0.07620095935240208,0.16203019876738203,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Streptococcus marmotae,0.4282765737874097,0.07620095935240208,0.16203019876738203,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Paramuribaculum intestinale,-0.4262125902992776,0.07778293683965694,0.16420842221705353,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Genus|Clostridium,-0.4262125902992776,0.07778293683965694,0.16420842221705353,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|uncultured Faecalibaculum sp.,0.4220846233230134,0.08101904869498942,0.16982284584109883,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Chloroflexota bacterium,0.4220846233230134,0.08101904869498942,0.16982284584109883,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Caproiciproducens galactitolivorans,0.4179566563467492,0.08435264811978466,0.1761833678813942,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Alistipes communis,-0.40970072239422084,0.09131835313137272,0.190058339202751,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Adlercreutzia sp. Marseille-QA1605,0.40763673890608876,0.09312305169960113,0.1931319628558629,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Alistipes senegalensis,-0.4055727554179567,0.09495342479222942,0.19623707790394082,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Class|Betaproteobacteria,0.40350877192982454,0.09680965248246648,0.1993737248677369,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Family|Butyricicoccaceae,-0.3993808049535604,0.10060038374584036,0.20645862726933786,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Lachnoanaerobaculum umeaense,-0.3973168214654283,0.10253523912493735,0.20897320361449168,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Staphylococcus pseudoxylosus,0.3973168214654283,0.10253523912493735,0.20897320361449168,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Family|Pseudomonadaceae,0.3952528379772962,0.10449665262201602,0.21150697042737948,FALSE,Dysbiosis-promoting,DysbiosisBloom,FALSE,DysbiosisBloom,NA
+Species|Limosilactobacillus portuensis,0.3952528379772962,0.10449665262201602,0.21150697042737948,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Genus|Paenibacillus,-0.391124871001032,0.10849983794275474,0.2188575498228854,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Alistipes finegoldii,-0.3890608875128999,0.11054194705770348,0.22145988713261006,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Anaerocolumna sp. MB42-C2,-0.3890608875128999,0.11054194705770348,0.22145988713261006,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Bacteroides finegoldii,0.3869969040247678,0.11261128878276397,0.22332676462305717,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Genus|Lachnoanaerobaculum,-0.3869969040247678,0.11261128878276397,0.22332676462305717,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Caldilineaceae bacterium,0.3869969040247678,0.11261128878276397,0.22332676462305717,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Escherichia coli,0.3828689370485036,0.1168323230127675,0.23014795402849517,FALSE,Dysbiosis-promoting,IBD-enriched,FALSE,IBD-enriched,NA
+Species|uncultured Fusibacter sp.,0.3828689370485036,0.1168323230127675,0.23014795402849517,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Bacteroides faecium,0.37874097007223945,0.12116422586370847,0.23788576344574763,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Bacteroides xylanisolvens,0.3766769865841073,0.12337214538125069,0.24141592567959022,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Genus|Pseudomonas,0.37254901960784315,0.12787268607330357,0.2485709970203822,FALSE,Dysbiosis-promoting,DysbiosisBloom,FALSE,DysbiosisBloom,NA
+Species|Emergencia sp. JLR.KK010,-0.37254901960784315,0.12787268607330357,0.2485709970203822,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Alistipes shahii,-0.370485036119711,0.13016560662863358,0.25054752387014767,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Butyrivibrio hungatei,-0.370485036119711,0.13016560662863358,0.25054752387014767,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|bacterium,0.370485036119711,0.13016560662863333,0.25054752387014767,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Anaerocolumna sedimenticola,-0.3684210526315789,0.13248715636055633,0.2525402430303161,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Candidatus Arthromitus sp. SFB-mouse-NL,0.3684210526315789,0.13248715636055633,0.2525402430303161,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Eubacterium callanderi,-0.3684210526315789,0.13248715636055633,0.2525402430303161,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Parabacteroides sp. An277,0.36635706914344685,0.13483747906980886,0.2561912102326368,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Bacteroides cellulosilyticus,0.36429308565531476,0.13721671612433206,0.2590405314013833,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Erysipelotrichaceae bacterium ASTB_g,0.36429308565531476,0.13721671612433206,0.2590405314013833,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Order|Bacteroidales,0.3622291021671827,0.1396250064170029,0.26274482038215563,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Bacteroides caecimuris,0.3601651186790506,0.14206248632367455,0.26563429982426767,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|uncultured Parasutterella sp.,0.3601651186790506,0.14206248632367455,0.26563429982426767,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Lachnospiraceae bacterium A4,-0.35810113519091846,0.1445292896615503,0.2693916190210542,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Arabiibacter massiliensis,0.3560371517027864,0.14702554764788858,0.2731799607716289,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Mannheimia granulomatis,0.3539731682146543,0.14955138885906255,0.275268025118712,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Sphaerochaetaceae bacterium,0.3539731682146543,0.14955138885906255,0.275268025118712,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Clostridioides difficile,0.3539731682146543,0.14955138885906255,0.275268025118712,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Muribaculaceae bacterium MF13079,-0.35190918472652216,0.15210693918997742,0.27823287944998976,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Odoribacteraceae bacterium,0.35190918472652216,0.152106939189977,0.27823287944998976,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Clostridium sp. NkU-1,-0.3498452012383901,0.15469232181385809,0.2820859986017412,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Bengtsoniella intestinalis,-0.347781217750258,0.1573076571424259,0.28596978412620017,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Family|Erysipelotrichaceae,0.3457172342621259,0.15995306278645877,0.28988416609607454,FALSE,Dysbiosis-promoting,ML top taxa,TRUE,ML top taxa,NA
+Species|Eggerthella lenta,0.34365325077399383,0.1626286535167655,0.2938290703109659,FALSE,Dysbiosis-promoting,SecBileAcid,FALSE,SecBileAcid,NA
+Species|Alistipes megaguti,-0.3395252837977296,0.16807083488832167,0.30089277127422936,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Phylum|Pseudomonadota,0.3395252837977296,0.16807083488832167,0.30089277127422936,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Arcobacteraceae bacterium,0.3395252837977296,0.16807083488832167,0.30089277127422936,FALSE,Dysbiosis-promoting,ML top taxa,TRUE,ML top taxa,NA
+Species|Pseudomonadales bacterium,0.3353973168214654,0.17363506116754215,0.3080453344207299,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Acidovorax sp. BLS4,-0.3353973168214654,0.17363506116754215,0.3080453344207299,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Genus|Bacillus,0.3353973168214654,0.17363506116754215,0.3080453344207299,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Mogibacterium neglectum,-0.33126934984520123,0.179322144399268,0.3171794085620686,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Cytobacillus gottheilii,-0.32920536635706915,0.18221199775917427,0.3213259481441726,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Genus|Enterococcus,0.32714138286893707,0.18513284759128767,0.32453347390258463,FALSE,Dysbiosis-promoting,ROS tolerant,FALSE,ROS tolerant,NA
+Species|Caldifermentibacillus hisashii,-0.32714138286893707,0.18513284759128767,0.32453347390258463,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Genus|Bradyrhizobium,0.32094943240454077,0.19408223512614617,0.33820839198017777,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Helicobacter pylori,0.32094943240454077,0.19408223512614617,0.33820839198017777,FALSE,Dysbiosis-promoting,ROS tolerant,FALSE,ROS tolerant,NA
+Order|Rhodobacterales,-0.31888544891640863,0.19712791388889928,0.3414951214134167,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Oceanirhabdus sp. W0125-5,0.31888544891640863,0.19712791388889883,0.3414951214134167,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Family|Flavobacteriaceae,0.31682146542827655,0.20020499436454783,0.34580862662967354,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Staphylococcus aureus,0.3126934984520124,0.20645364174383657,0.3545224343647807,FALSE,Dysbiosis-promoting,ROS tolerant,FALSE,ROS tolerant,NA
+Class|Actinomycetes,-0.3126934984520124,0.20645364174383662,0.3545224343647807,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Eubacterium ventriosum,-0.3106295149638803,0.20962534083657888,0.3589224585835609,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Genus|Streptomyces,-0.3085655314757482,0.2128287059586833,0.3633510371294622,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Phylum|Thermodesulfobacteriota,-0.3065015479876161,0.21606379461125777,0.36674805483006,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Aceticella autotrophica,-0.3065015479876161,0.21606379461125777,0.36674805483006,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Eubacterium limosum,-0.304437564499484,0.21933066080450428,0.371223446016819,FALSE,Dysbiosis-protecting,ROS sensitive,FALSE,ROS sensitive,NA
+Species|Longimicrobiales bacterium,-0.2982456140350877,0.22932241176613288,0.3848173804280692,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Sinanaerobacter sp. ZZT-01,-0.2982456140350877,0.22932241176613288,0.3848173804280692,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Acidimicrobiales bacterium,0.2982456140350877,0.22932241176613288,0.3848173804280692,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Helicobacter mastomyrinus,0.2961816305469556,0.23271685741068474,0.38940405970140146,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Family|Rikenellaceae,-0.29411764705882354,0.23614329729664096,0.39401813628249727,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Genus|Streptococcus,0.29205366357069146,0.23960176390544208,0.39865943203476095,FALSE,Dysbiosis-promoting,ROS tolerant,FALSE,ROS tolerant,NA
+Species|Helicobacter hepaticus,0.2899896800825594,0.24309228603904479,0.4033277647239363,FALSE,Dysbiosis-promoting,ROS tolerant,FALSE,ROS tolerant,NA
+Species|Christensenellaceae bacterium,-0.283797729618163,0.2537564179087558,0.418662549434894,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Lactobacillus crispatus,0.283797729618163,0.2537564179087558,0.418662549434894,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Bacteroides sp. KG123,0.27966976264189886,0.2610264770684414,0.429454175958972,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Order|Burkholderiales,0.2776057791537668,0.2647097281537839,0.4318948196193316,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Akkermansia muciniphila,-0.2776057791537668,0.2647097281537839,0.4318948196193316,FALSE,Dysbiosis-protecting,Propionate guild,FALSE,Propionate guild,NA
+Species|Merdibacter sp. Marseille-QA0792,0.2776057791537668,0.2647097281537839,0.4318948196193316,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Arenicellales bacterium,0.27554179566563464,0.26842513138906204,0.43315726681686995,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Spirochaetia bacterium,0.27554179566563464,0.26842513138906204,0.43315726681686995,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|uncultured Clostridia bacterium,-0.27554179566563464,0.26842513138906204,0.43315726681686995,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Lactobacillus taiwanensis,-0.27554179566563464,0.26842513138906204,0.43315726681686995,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Helicobacter typhlonius,0.27347781217750256,0.27217268531948696,0.4356242164488528,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Butyricicoccus sp.,0.27347781217750256,0.27217268531948696,0.4356242164488528,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Genus|Clostridioides,0.27347781217750256,0.27217268531948696,0.4356242164488528,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Parabacteroides goldsteinii,0.2714138286893705,0.27595238461589006,0.43928636361826934,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Genus|Thermoanaerobacterium,-0.2714138286893705,0.2759523846158908,0.43928636361826934,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Genus|Adlercreutzia,-0.2693498452012384,0.2797642200565715,0.44415397739439516,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Anaerocolumna sp. AGMB13025,-0.26728586171310625,0.28360817850986786,0.4478424052072712,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Phototrophicaceae bacterium,0.26728586171310625,0.28360817850986725,0.4478424052072712,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Rhodospirillales bacterium,0.2652218782249742,0.2874842429174512,0.45274924887267054,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Porphyromonas gingivalis,0.2631578947368421,0.29139239227836833,0.4552523051776101,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Mediterraneibacter faecis,-0.2631578947368421,0.29139239227836844,0.4552523051776101,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Anaerocolumna cellulosilytica,-0.2631578947368421,0.29139239227836844,0.4552523051776101,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Sediminibacterium sp.,-0.26109391124871,0.29533260163380953,0.45897335715650084,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Taurinivorans muris,-0.26109391124871,0.29533260163380953,0.45897335715650084,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|uncultured Subdoligranulum sp.,-0.2590299277605779,0.2993048420526306,0.4639225051815774,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Genus|Prevotella,-0.2549019607843137,0.30734528041254594,0.4738910213690826,FALSE,Dysbiosis-protecting,Propionate guild,FALSE,Propionate guild,NA
+Species|Segatella hominis,0.2549019607843137,0.30734528041254594,0.4738910213690826,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Family|Prevotellaceae,-0.25077399380804954,0.31551339595948563,0.4814440161143447,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|[Ruminococcus] torques,-0.25077399380804954,0.31551339595948563,0.4814440161143447,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Clostridiales bacterium,-0.25077399380804954,0.31551339595948563,0.4814440161143447,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Class|Bacilli,0.25077399380804954,0.31551339595948563,0.4814440161143447,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Bacteroides uniformis,-0.24871001031991744,0.31964521777772953,0.4827462391566223,FALSE,Dysbiosis-protecting,Propionate guild,FALSE,Propionate guild,NA
+Species|Lacrimispora sp. HJ-01,-0.24871001031991744,0.31964521777772953,0.4827462391566223,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Lactobacillus johnsonii,0.24871001031991744,0.3196452177777289,0.4827462391566223,FALSE,Dysbiosis-promoting,Acetate guild,FALSE,Acetate guild,NA
+Phylum|Actinomycetota,-0.24871001031991744,0.31964521777772953,0.4827462391566223,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Bacteroides zoogleoformans,0.24664602683178535,0.32380881293776353,0.4865392622967927,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Family|Eggerthellaceae,-0.24664602683178535,0.32380881293776353,0.4865392622967927,FALSE,Dysbiosis-protecting,SecBileAcid,FALSE,SecBileAcid,NA
+Species|Bacteroides eggerthii,0.24458204334365324,0.3280041243603068,0.49034119098533174,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Blautia liquoris,-0.24458204334365324,0.3280041243603068,0.49034119098533174,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|uncultured Alphaproteobacteria bacterium,0.23839009287925697,0.340779724454077,0.5020207078429227,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Parabacteroides faecis,0.23632610939112486,0.34510124880977866,0.5020207078429227,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Prevotella sp. oral taxon 475,0.23632610939112486,0.34510124880977866,0.5020207078429227,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Genus|Hymenobacter,-0.23632610939112486,0.34510124880977866,0.5020207078429227,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Gordonibacter massiliensis (ex Traore et al. 2017),0.23632610939112486,0.34510124880977866,0.5020207078429227,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|uncultured bacterium BAC10G6,-0.23632610939112486,0.34510124880977866,0.5020207078429227,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Duncaniella sp. C9,-0.23426212590299278,0.34945414298064237,0.5020207078429227,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Bacteroides sp. A1C1,-0.23426212590299278,0.34945414298064237,0.5020207078429227,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Alistipes putredinis,-0.23426212590299278,0.34945414298064237,0.5020207078429227,FALSE,Dysbiosis-protecting,Propionate guild,FALSE,Propionate guild,NA
+Species|Parabacteroides johnsonii,-0.23426212590299278,0.34945414298064237,0.5020207078429227,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Tannerella serpentiformis,-0.23426212590299278,0.34945414298064237,0.5020207078429227,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Prevotella bivia,0.23426212590299278,0.3494541429806418,0.5020207078429227,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Family|Desulfovibrionaceae,-0.23426212590299278,0.34945414298064237,0.5020207078429227,FALSE,Dysbiosis-protecting,H2S_producers,FALSE,H2S_producers,NA
+Species|Bdellovibrionales bacterium,0.23426212590299278,0.3494541429806418,0.5020207078429227,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Coprococcus eutactus,-0.23426212590299278,0.34945414298064237,0.5020207078429227,FALSE,Dysbiosis-protecting,Butyrate guild,FALSE,Butyrate guild,NA
+Phylum|Candidatus Melainabacteria,0.23426212590299278,0.3494541429806418,0.5020207078429227,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Clostridium perfringens,0.23219814241486067,0.3538383254251315,0.5070821743927066,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|uncultured Bacteroidota bacterium,0.22807017543859648,0.3627002084947104,0.518520443697535,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Order|Campylobacterales,-0.2260061919504644,0.3671777255550174,0.5236505577527972,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Order|Flavobacteriales,-0.22394220846233232,0.3716861637562173,0.5262575732029134,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Intestinibacillus sp.,-0.22394220846233232,0.3716861637562173,0.5262575732029134,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|uncultured murine large bowel bacterium BAC 31B,-0.22394220846233232,0.3716861637562173,0.5262575732029134,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Prevotella corporis,0.2218782249742002,0.3762254210655622,0.5288705799704443,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Family|Arcobacteraceae,0.2218782249742002,0.3762254210655622,0.5288705799704443,FALSE,Dysbiosis-promoting,ML top taxa,TRUE,ML top taxa,NA
+Species|Ligilactobacillus salivarius,0.2218782249742002,0.3762254210655622,0.5288705799704443,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Odoribacter splanchnicus,0.2198142414860681,0.3807953913501376,0.5327517470433045,FALSE,Dysbiosis-promoting,ML top taxa,TRUE,ML top taxa,NA
+Species|Herbinix luporum,-0.2198142414860681,0.38079539135013785,0.5327517470433045,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Genus|Acinetobacter,0.21775025799793601,0.3853959643781135,0.5366388251033306,FALSE,Dysbiosis-promoting,DysbiosisBloom,FALSE,DysbiosisBloom,NA
+Genus|Fusobacterium,-0.21775025799793601,0.3853959643781135,0.5366388251033306,FALSE,Dysbiosis-protecting,IBD-enriched,FALSE,IBD-enriched,NA
+Species|uncultured Macellibacteroides sp.,0.21362229102167182,0.3946884572555506,0.5482818427441493,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Lacrimispora sp. BS-2,-0.21155830753353974,0.3993801361693995,0.5534938828324149,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Enterococcus faecium,-0.20330237358101136,0.41844673347196293,0.5772017002692884,FALSE,Dysbiosis-protecting,ROS tolerant,FALSE,ROS tolerant,NA
+Species|Candidatus Poribacteria bacterium,0.20330237358101136,0.41844673347196293,0.5772017002692884,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Prevotella denticola,-0.20123839009287925,0.423287669288157,0.581157196295395,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Helicobacter ganmani,-0.20123839009287925,0.423287669288157,0.581157196295395,FALSE,Dysbiosis-protecting,ML top taxa,TRUE,ML top taxa,NA
+Species|Parabacteroides merdae,-0.19917440660474717,0.428158031919205,0.5864769320939808,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Candidatus Enterousia intestinigallinarum,-0.19711042311661506,0.4330576703920288,0.5904420552335763,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Candidatus Melainabacteria bacterium MEL.A1,0.19711042311661506,0.433057670392028,0.5904420552335763,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Genus|Parolsenella,0.19504643962848298,0.43798642970216684,0.5957829263154186,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|uncultured Prevotella sp.,-0.19298245614035087,0.4429441508248103,0.598256610108825,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|uncultured bacterium,0.19298245614035087,0.4429441508248101,0.598256610108825,FALSE,Dysbiosis-promoting,ML top taxa,TRUE,ML top taxa,NA
+Species|Duncaniella dubosii,-0.19091847265221878,0.4479306707266414,0.598256610108825,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Prevotella jejuni,0.19091847265221878,0.4479306707266415,0.598256610108825,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|uncultured Acidobacteriota bacterium,-0.19091847265221878,0.4479306707266414,0.598256610108825,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Oscillospiraceae bacterium YB328,-0.19091847265221878,0.4479306707266414,0.598256610108825,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Genus|Brevibacillus,0.19091847265221878,0.4479306707266415,0.598256610108825,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Listeria welshimeri,-0.19091847265221878,0.4479306707266414,0.598256610108825,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Clostridium intestinale,0.1888544891640867,0.452945822378496,0.6035861750699867,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Order|Desulfovibrionales,-0.18472652218782248,0.46306133291799123,0.6156729685975098,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Duncaniella sp. B8,-0.1826625386996904,0.4681613378933158,0.6196562427396922,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Bacteroides nordii,0.1826625386996904,0.46816133789331515,0.6196562427396922,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Class|Alphaproteobacteria,-0.18059855521155832,0.4732892668249995,0.62364066702444,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Candidatus Arthromitus sp. SFB-mouse,0.18059855521155832,0.4732892668249995,0.62364066702444,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Prevotella sp. E2-28,0.1785345717234262,0.47844493292280266,0.6276259810501799,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|uncultured Candidatus Melainabacteria bacterium,0.1785345717234262,0.47844493292280266,0.6276259810501799,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Bacteroides intestinalis,0.1764705882352941,0.48362814549353283,0.6316119239372302,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Desulfovibrio piger,0.1764705882352941,0.48362814549353283,0.6316119239372302,FALSE,Dysbiosis-promoting,H2S_producers,FALSE,H2S_producers,NA
+Species|Muribaculum intestinale,-0.17440660474716202,0.4888387099593372,0.6328043959693398,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Bilophila wadsworthia,0.17440660474716202,0.48883870995933687,0.6328043959693398,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|[Bacteroides] pectinophilus,-0.17440660474716202,0.4888387099593372,0.6328043959693398,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Streptomyces sp. enrichment culture,0.17440660474716202,0.48883870995933687,0.6328043959693398,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Pseudobutyrivibrio xylanivorans,-0.17234262125902994,0.49407642787678374,0.6367855930403187,FALSE,Dysbiosis-protecting,ROS sensitive,FALSE,ROS sensitive,NA
+Family|Atopobiaceae,-0.17234262125902994,0.49407642787678374,0.6367855930403187,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Bacteroides sp. HF-162,0.17027863777089783,0.49934109695673967,0.6407666799728098,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Lactobacillus isalae,-0.17027863777089783,0.49934109695673967,0.6407666799728098,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Prevotella sp.,0.16821465428276572,0.5046325110850313,0.6447473948570139,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Dehalococcoidia bacterium,0.16821465428276572,0.5046325110850313,0.6447473948570139,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Order|Coriobacteriales,-0.16615067079463364,0.509950460343896,0.6501316474947073,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Muribaculaceae bacterium,-0.16408668730650156,0.5152947310342105,0.6555261265208424,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Prevotella sp. E15-22,-0.16202270381836945,0.5206651056985048,0.6595091338847727,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Adlercreutzia equolifaciens,-0.16202270381836945,0.5206651056985048,0.6595091338847727,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Parabacteroides sp. ASD2025,-0.15995872033023736,0.5260613631447351,0.6620729548979678,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Helicobacter winghamensis,-0.15995872033023736,0.5260613631447351,0.6620729548979678,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Paraclostridium sordellii,0.15995872033023736,0.5260613631447347,0.6620729548979678,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Bacteroides sp. CACC 737,0.15789473684210525,0.5314832784708438,0.6674704712565607,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Candidatus Coprenecus stercorigallinarum,0.15583075335397317,0.5369306230900768,0.6714482738854676,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Anaeropeptidivorans aminofermentans,-0.15583075335397317,0.5369306230900768,0.6714482738854676,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Candidatus Latescibacterota bacterium,0.1537667698658411,0.5424031647570589,0.6754238140420881,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Vallitalea guaymasensis,-0.1537667698658411,0.5424031647570585,0.6754238140420881,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Prevotella sp. E9-3,0.15170278637770898,0.5479006675946312,0.6793968278173427,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Genus|Aeromonas,0.15170278637770898,0.5479006675946312,0.6793968278173427,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Lactobacillus gasseri,0.14963880288957687,0.5534228921214379,0.6819374130952446,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|uncultured Solirubrobacterales bacterium,0.14963880288957687,0.5534228921214379,0.6819374130952446,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|uncultured Actinomycetota bacterium,0.14963880288957687,0.5534228921214379,0.6819374130952446,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Streptococcus parasuis,0.1475748194014448,0.5589695952802587,0.6873342205011949,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Oscillospiraceae bacterium D1,-0.1455108359133127,0.5645405304670845,0.6912980716114611,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|uncultured murine large bowel bacterium BAC 54B,-0.1455108359133127,0.5645405304670845,0.6912980716114611,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Bacteroides stercoris,0.1434468524251806,0.5701354475609232,0.6967007855049456,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Family|Muribaculaceae,-0.1413828689370485,0.575754092954349,0.7021100636648272,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Genus|Flavobacterium,0.1372549019607843,0.5870615369663569,0.7129468974704828,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Genus|Cellulosilyticum,0.1372549019607843,0.5870615369663569,0.7129468974704828,FALSE,Dysbiosis-promoting,ML top taxa,TRUE,ML top taxa,NA
+Order|Cytophagales,-0.13519091847265222,0.5927498112228577,0.7183737424079489,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Candidatus Gallibacteroides avistercoris,0.1331269349845201,0.5984607651208831,0.7208453796650309,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Klebsiella pneumoniae,0.1331269349845201,0.5984607651208831,0.7208453796650309,FALSE,Dysbiosis-promoting,IBD-enriched,FALSE,IBD-enriched,NA
+Genus|Limosilactobacillus,0.1331269349845201,0.5984607651208831,0.7208453796650309,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Flavobacteriaceae bacterium,0.13106295149638802,0.6041941281040614,0.7247868461370521,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Longicatena caecimuris,-0.13106295149638802,0.6041941281040621,0.7247868461370521,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Clostridium botulinum,0.12899896800825592,0.6099496263278285,0.7302039225753882,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Genus|Campylobacter,0.12693498452012383,0.6157269826949077,0.7356251375401636,FALSE,Dysbiosis-promoting,ROS tolerant,FALSE,ROS tolerant,NA
+Species|Planctomycetota bacterium,0.12487100103199174,0.62152591689147,0.7395530607052035,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Lactobacillus paragasseri,-0.12487100103199174,0.62152591689147,0.7395530607052035,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Hoylesella buccalis,0.12280701754385964,0.6273461454239679,0.7449735476909619,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|uncultured Muribaculaceae bacterium,-0.12074303405572756,0.6331873816566358,0.7488902967786315,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Alistipes sp. dk3624,-0.12074303405572756,0.6331873816566358,0.7488902967786315,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Vicinamibacterales bacterium,0.11867905056759546,0.6390493358496443,0.7543087351010831,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Petrimonas mucosa,0.11661506707946337,0.6449317151979073,0.7597295605031347,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Alistipes indistinctus,-0.11455108359133127,0.6508342238705324,0.7636282029078557,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Lachnospiraceae bacterium KM106-2,-0.11455108359133127,0.6508342238705324,0.7636282029078557,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Genus|Muribaculum,-0.11248710010319918,0.6567565630509017,0.767519078644805,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Candidatus Gastranaerophilales bacterium,0.11248710010319918,0.6567565630509027,0.767519078644805,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Family|Streptomycetaceae,0.11042311661506708,0.6626984309773882,0.7729294571201617,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Alistipes sp. i18-0019-D1,-0.1021671826625387,0.6866550541678014,0.796141391544951,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Bacillus mycoides,-0.1021671826625387,0.6866550541678014,0.796141391544951,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Bifidobacterium pseudolongum,0.1021671826625387,0.6866550541678016,0.796141391544951,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|uncultured Latescibacterota bacterium,-0.1001031991744066,0.6926899392518375,0.7999889690575143,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Clostridium butyricum,0.1001031991744066,0.6926899392518375,0.7999889690575143,FALSE,Dysbiosis-promoting,Butyrate guild,FALSE,Butyrate guild,NA
+Phylum|Candidatus Saccharimonadota,-0.09803921568627451,0.6987424830235269,0.8053998483382728,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Streptococcus sanguinis,0.09597523219814241,0.7048123642968973,0.807654635351892,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Class|Coriobacteriia,-0.09597523219814241,0.7048123642968973,0.807654635351892,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Family|Coriobacteriaceae,-0.09597523219814241,0.7048123642968973,0.807654635351892,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Prevotella sp. CAG:755,0.09391124871001032,0.7108992592881785,0.8114722165130577,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Genus|Paraprevotella,-0.09391124871001032,0.7108992592881795,0.8114722165130577,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Genus|Eggerthella,-0.09184726522187822,0.717002841661774,0.8168562354715375,FALSE,Dysbiosis-protecting,SecBileAcid,FALSE,SecBileAcid,NA
+Species|Lactobacillus acidophilus,0.08565531475748195,0.7354104124232371,0.8345987146768529,FALSE,Dysbiosis-promoting,Acetate guild,FALSE,Acetate guild,NA
+Species|Priestia megaterium,0.08565531475748195,0.7354104124232371,0.8345987146768529,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|uncultured Porphyromonadaceae bacterium,0.08359133126934984,0.7415774315720882,0.8367607417547126,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Helicobacter pullorum,-0.08359133126934984,0.741577431572088,0.8367607417547126,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|uncultured Atopobiaceae bacterium,-0.08359133126934984,0.741577431572088,0.8367607417547126,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Clostridium sp.,-0.08152734778121776,0.7477594697936525,0.8405158925733995,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|uncultured Helicobacter sp.,0.08152734778121776,0.7477594697936525,0.8405158925733995,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Flavobacteriales bacterium,0.07946336429308565,0.7539561864360347,0.8410609731265614,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Clostridium beijerinckii,0.07946336429308565,0.7539561864360347,0.8410609731265614,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Genus|Bifidobacterium,0.07946336429308565,0.7539561864360347,0.8410609731265614,FALSE,Dysbiosis-promoting,Acetate guild,FALSE,Acetate guild,NA
+Genus|Gordonibacter,0.07946336429308565,0.7539561864360347,0.8410609731265614,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Sodaliphilus pleomorphus,-0.07533539731682146,0.7663922813478398,0.8517076485167503,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Hoylesella enoeca,0.07533539731682146,0.7663922813478388,0.8517076485167503,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Ruminococcus callidus,-0.07327141382868937,0.7726309674360763,0.8554128568042274,FALSE,Dysbiosis-protecting,IBD-depleted,FALSE,IBD-depleted,NA
+Species|Clostridium sp. MD294,-0.07327141382868937,0.7726309674360763,0.8554128568042274,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Limosilactobacillus reuteri,0.07120743034055727,0.7788829476841137,0.8591049741309793,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Bifidobacterium animalis,0.07120743034055727,0.7788829476841137,0.8591049741309793,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Genus|Duncaniella,0.06914344685242518,0.7851478708666944,0.8643964410102486,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Genus|Parabacteroides,0.06707946336429309,0.7914253837974394,0.8664489796592785,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Prevotella sp. E13-17,-0.06707946336429309,0.7914253837974394,0.8664489796592785,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Sedimentibacter sp. zth1,-0.06707946336429309,0.7914253837974394,0.8664489796592785,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Prevotella intermedia,-0.0608875128998968,0.8103299008966282,0.8822260843403227,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Segatella copri,0.0608875128998968,0.8103299008966292,0.8822260843403227,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Porphyromonas sp. oral taxon 275,0.0608875128998968,0.8103299008966292,0.8822260843403227,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Vibrio parahaemolyticus,-0.058823529411764705,0.816654203568489,0.8874710809997048,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Parabacteroides distasonis,-0.05675954592363261,0.8229893024799766,0.8878034783163117,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Genus|Barnesiella,0.05675954592363261,0.8229893024799763,0.8878034783163117,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Vreelandella aquamarina,-0.05675954592363261,0.8229893024799766,0.8878034783163117,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Nitrospirales bacterium,0.05675954592363261,0.8229893024799763,0.8878034783163117,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Barnesiella sp. An22,0.054695562435500514,0.8293348337875044,0.893013193968629,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Class|Epsilonproteobacteria,-0.05263157894736842,0.8356904320597224,0.8965786238309226,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|uncultured Candidatus Binatia bacterium,0.05263157894736842,0.835690432059722,0.8965786238309226,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Class|Bacteroidia,-0.04850361197110423,0.8484303601629731,0.9069427987949022,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Xylanibacter ruminicola,-0.04850361197110423,0.8484303601629731,0.9069427987949022,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Phylum|Bacteroidota,-0.04643962848297214,0.8548139516870749,0.910461876209199,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|[Clostridium] colinum,-0.04643962848297214,0.8548139516870749,0.910461876209199,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Candidatus Lachnocurva vaginae,-0.04437564499484004,0.8612061336731368,0.9139647076278876,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Anaerotignum sp. MB30-C6,0.04437564499484004,0.8612061336731368,0.9139647076278876,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|uncultured Muribaculum sp.,-0.03611971104231166,0.8868532969155283,0.9394902731713061,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Helicobacter cinaedi,0.03199174406604747,0.899718678288882,0.9496926649903131,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Vallitaleaceae bacterium,0.03199174406604747,0.899718678288882,0.9496926649903131,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Prevotella communis,0.029927760577915376,0.9061604960497216,0.9496926649903131,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Bacteroidales bacterium,0.029927760577915376,0.9061604960497216,0.9496926649903131,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Nitrosopumilus sp.,0.029927760577915376,0.9061604960497216,0.9496926649903131,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Muribaculum gordoncarteri,0.02786377708978328,0.9126078919940869,0.9496926649903131,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Phocaeicola coprophilus,0.02786377708978328,0.9126078919940869,0.9496926649903131,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Candidatus Azotimanducaceae bacterium,0.02786377708978328,0.9126078919940869,0.9496926649903131,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Genus|Lactobacillus,0.02786377708978328,0.9126078919940869,0.9496926649903131,FALSE,Dysbiosis-promoting,Acetate guild,FALSE,Acetate guild,NA
+Species|Adlercreutzia hattorii,0.02786377708978328,0.9126078919940869,0.9496926649903131,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Pseudoprevotella muciniphila,-0.02579979360165119,0.9190604851409846,0.9513648958665025,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Helicobacter canadensis,0.02579979360165119,0.9190604851409846,0.9513648958665025,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Helicobacter himalayensis,0.02579979360165119,0.9190604851409846,0.9513648958665025,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Acholeplasmataceae bacterium,-0.021671826625386997,0.9319797351987381,0.9628979984241098,FALSE,Dysbiosis-protecting,ML top taxa,TRUE,ML top taxa,NA
+Species|Bacteroides humanifaecis,-0.0196078431372549,0.9384456264028498,0.9628979984241098,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|uncultured Bacteroidales bacterium,0.0196078431372549,0.9384456264028493,0.9628979984241098,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Order|Hyphomicrobiales,-0.0196078431372549,0.9384456264028498,0.9628979984241098,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Genus|Helicobacter,-0.0196078431372549,0.9384456264028498,0.9628979984241098,FALSE,Dysbiosis-protecting,ROS tolerant,FALSE,ROS tolerant,NA
+Species|Prevotella sp. Rep29,-0.017543859649122806,0.9449151835129636,0.9628979984241098,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Prevotella multiformis,-0.017543859649122806,0.9449151835129636,0.9628979984241098,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Bifidobacterium choerinum,0.017543859649122806,0.9449151835129636,0.9628979984241098,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Leptogranulimonas caecicola,0.017543859649122806,0.9449151835129636,0.9628979984241098,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Prevotella sp. CAG:1058,0.015479876160990712,0.9513880221541828,0.9644880293439134,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|uncultured Prevotellamassilia sp.,-0.015479876160990712,0.9513880221541828,0.9644880293439134,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Clostridium estertheticum,0.015479876160990712,0.9513880221541828,0.9644880293439134,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Candidatus Melainabacteria bacterium,0.009287925696594427,0.9708223763257615,0.9824989341166211,FALSE,Dysbiosis-promoting,ML top taxa,TRUE,ML top taxa,NA
+Species|Emergencia timonensis,0.007223942208462332,0.9773044881689206,0.9854610620690899,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Lactobacillus intestinalis,-0.007223942208462332,0.9773044881689206,0.9854610620690899,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Paraprevotella clara,0.005159958720330237,0.9837879533049654,0.9854610620690899,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Barnesiella intestinihominis,-0.005159958720330237,0.9837879533049657,0.9854610620690899,FALSE,Dysbiosis-protecting,ML top taxa,TRUE,ML top taxa,NA
+Species|Ignavibacteriaceae bacterium,0.005159958720330237,0.9837879533049654,0.9854610620690899,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Species|Paracoccaceae bacterium,0.005159958720330237,0.9837879533049654,0.9854610620690899,FALSE,Dysbiosis-promoting,NA,FALSE,Promoting (other),NA
+Genus|Segatella,-0.0010319917440660474,0.9967573972800614,0.9967573972800614,FALSE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA

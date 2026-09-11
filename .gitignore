@@ -1,0 +1,26 @@
+### Raw sequencing data
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.sra
+*.pod5
+
+data/raw/**
+!data/raw/README.md
+
+### Kraken2 databases
+*.k2d
+
+### R artifacts
+.Rhistory
+.RData
+.Rproj.user/
+renv/library/
+renv/staging/
+
+### HPC artifacts
+logs/
+tmp_r/
+*.out
+*.err

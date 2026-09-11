@@ -1,0 +1,379 @@
+sample_id,mouse_id,group_id,output_label,family_label,relative_abundance,percent
+OPA01,4549,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM (OPA1+),Atopobiaceae,6.67779632721202e-4,0.0667779632721202
+OPA01,4549,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM (OPA1+),Bacillaceae,0.005425709515859766,0.5425709515859767
+OPA01,4549,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM (OPA1+),Bacteroidaceae,0.01986644407345576,1.986644407345576
+OPA01,4549,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM (OPA1+),Burkholderiaceae,4.1736227045075126e-4,0.041736227045075125
+OPA01,4549,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM (OPA1+),Clostridiaceae,0.0019198664440734558,0.19198664440734559
+OPA01,4549,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM (OPA1+),Comamonadaceae,6.67779632721202e-4,0.0667779632721202
+OPA01,4549,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM (OPA1+),Coprobacillaceae,0.0015859766277128548,0.15859766277128548
+OPA01,4549,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM (OPA1+),Desulfovibrionaceae,0.004841402337228714,0.48414023372287146
+OPA01,4549,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM (OPA1+),Eggerthellaceae,0.021702838063439065,2.1702838063439067
+OPA01,4549,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM (OPA1+),Enterobacteriaceae,0.01310517529215359,1.310517529215359
+OPA01,4549,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM (OPA1+),Erysipelotrichaceae,5.843071786310517e-4,0.05843071786310517
+OPA01,4549,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM (OPA1+),Flavobacteriaceae,0.003589315525876461,0.3589315525876461
+OPA01,4549,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM (OPA1+),Lachnospiraceae,0.5283806343906511,52.83806343906511
+OPA01,4549,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM (OPA1+),Lactobacillaceae,0.00325542570951586,0.325542570951586
+OPA01,4549,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM (OPA1+),Muribaculaceae,0.17512520868113524,17.512520868113523
+OPA01,4549,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM (OPA1+),Oscillospiraceae,0.16202003338898163,16.202003338898162
+OPA01,4549,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM (OPA1+),Other,0.018864774624373956,1.8864774624373957
+OPA01,4549,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM (OPA1+),Pasteurellaceae,4.1736227045075126e-4,0.041736227045075125
+OPA01,4549,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM (OPA1+),Prevotellaceae,0.034557595993322206,3.4557595993322208
+OPA01,4549,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM (OPA1+),Pseudomonadaceae,0.0015859766277128548,0.15859766277128548
+OPA01,4549,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM (OPA1+),Streptomycetaceae,0.0014190317195325543,0.1419031719532554
+OPA03,4550,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Atopobiaceae,2.644278442519997e-4,0.02644278442519997
+OPA03,4550,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Bacillaceae,0.007734514444370992,0.7734514444370992
+OPA03,4550,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Bacteroidaceae,0.01064322073114299,1.064322073114299
+OPA03,4550,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Burkholderiaceae,6.610696106299994e-4,0.06610696106299994
+OPA03,4550,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Clostridiaceae,0.003966417663779996,0.39664176637799964
+OPA03,4550,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Comamonadaceae,9.91604415944999e-4,0.09916044159449991
+OPA03,4550,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Coprobacillaceae,3.966417663779996e-4,0.03966417663779996
+OPA03,4550,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Desulfovibrionaceae,0.004230845508031995,0.4230845508031995
+OPA03,4550,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Eggerthellaceae,0.03774707476697296,3.774707476697296
+OPA03,4550,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Enterobacteriaceae,0.00938718847094599,0.938718847094599
+OPA03,4550,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Erysipelotrichaceae,1.3221392212599986e-4,0.013221392212599985
+OPA03,4550,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Flavobacteriaceae,0.004363059430157996,0.4363059430157996
+OPA03,4550,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Lachnospiraceae,0.6411053083889734,64.11053083889733
+OPA03,4550,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Lactobacillaceae,0.0015865670655119985,0.15865670655119984
+OPA03,4550,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Muribaculaceae,0.11191908507965889,11.19190850796589
+OPA03,4550,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Oscillospiraceae,0.12672704435777088,12.672704435777089
+OPA03,4550,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Other,0.01844384213657698,1.844384213657698
+OPA03,4550,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Pasteurellaceae,1.983208831889998e-4,0.01983208831889998
+OPA03,4550,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Prevotellaceae,0.01698948899319098,1.6989488993190982
+OPA03,4550,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Pseudomonadaceae,9.91604415944999e-4,0.09916044159449991
+OPA03,4550,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Streptomycetaceae,0.0015204601044489984,0.15204601044489985
+OPA05,4558,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Atopobiaceae,6.594752461255829e-4,0.06594752461255829
+OPA05,4558,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Bacillaceae,0.011163973809411655,1.1163973809411654
+OPA05,4558,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Bacteroidaceae,0.014555560789486081,1.4555560789486082
+OPA05,4558,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Burkholderiaceae,9.421074944651185e-4,0.09421074944651185
+OPA05,4558,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Clostridiaceae,0.005793961090960479,0.5793961090960479
+OPA05,4558,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Comamonadaceae,6.594752461255829e-4,0.06594752461255829
+OPA05,4558,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Coprobacillaceae,0.0017900042394837252,0.1790004239483725
+OPA05,4558,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Desulfovibrionaceae,0.003627113853690706,0.3627113853690706
+OPA05,4558,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Eggerthellaceae,0.014272928541146545,1.4272928541146546
+OPA05,4558,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Enterobacteriaceae,0.007536859955720948,0.7536859955720948
+OPA05,4558,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Erysipelotrichaceae,6.12369871402327e-4,0.0612369871402327
+OPA05,4558,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Flavobacteriaceae,0.005134485844834896,0.5134485844834896
+OPA05,4558,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Lachnospiraceae,0.656554712892741,65.6554712892741
+OPA05,4558,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Lactobacillaceae,0.002920533232841867,0.2920533232841867
+OPA05,4558,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Muribaculaceae,0.1081539403645956,10.81539403645956
+OPA05,4558,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Oscillospiraceae,0.1236516086485468,12.36516086485468
+OPA05,4558,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Other,0.02623769372085355,2.6237693720853548
+OPA05,4558,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Pasteurellaceae,4.710537472325592e-4,0.047105374723255926
+OPA05,4558,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Prevotellaceae,0.01121107918413491,1.121107918413491
+OPA05,4558,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Pseudomonadaceae,0.0019313203636534928,0.19313203636534929
+OPA05,4558,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Streptomycetaceae,0.0021197418625465165,0.21197418625465164
+OPA07,4559,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Atopobiaceae,6.362795002313745e-4,0.06362795002313744
+OPA07,4559,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Bacillaceae,0.008271633503007868,0.8271633503007868
+OPA07,4559,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Bacteroidaceae,0.012262841277186489,1.226284127718649
+OPA07,4559,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Burkholderiaceae,5.205923183711246e-4,0.05205923183711245
+OPA07,4559,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Clostridiaceae,0.004049051365108747,0.4049051365108747
+OPA07,4559,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Comamonadaceae,0.001041184636742249,0.1041184636742249
+OPA07,4559,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Coprobacillaceae,0.002429430819065248,0.2429430819065248
+OPA07,4559,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Desulfovibrionaceae,0.0029500231374363726,0.2950023137436373
+OPA07,4559,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Eggerthellaceae,0.015675613142063862,1.5675613142063862
+OPA07,4559,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Enterobacteriaceae,0.008907913003239242,0.8907913003239242
+OPA07,4559,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Erysipelotrichaceae,3.470615455807497e-4,0.03470615455807497
+OPA07,4559,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Flavobacteriaceae,0.003933364183248497,0.3933364183248497
+OPA07,4559,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Lachnospiraceae,0.6946436834798705,69.46436834798705
+OPA07,4559,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Lactobacillaceae,0.0016196205460434986,0.16196205460434987
+OPA07,4559,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Muribaculaceae,0.08543498380379455,8.543498380379456
+OPA07,4559,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Oscillospiraceae,0.11695974086071265,11.695974086071265
+OPA07,4559,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Other,0.02198056455344748,2.198056455344748
+OPA07,4559,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Pasteurellaceae,5.205923183711246e-4,0.05205923183711245
+OPA07,4559,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Prevotellaceae,0.014750115687181861,1.4750115687181862
+OPA07,4559,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Pseudomonadaceae,0.0014460897732531239,0.1446089773253124
+OPA07,4559,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Streptomycetaceae,0.0016196205460434986,0.16196205460434987
+OPA09,4560,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Atopobiaceae,0.0015157558835261267,0.15157558835261267
+OPA09,4560,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Bacillaceae,0.006940566414040686,0.6940566414040685
+OPA09,4560,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Bacteroidaceae,0.031192660550458717,3.1192660550458715
+OPA09,4560,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Burkholderiaceae,0.0010370961308336657,0.10370961308336657
+OPA09,4560,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Clostridiaceae,0.0031910650179497405,0.3191065017949741
+OPA09,4560,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Comamonadaceae,0.0016753091344236138,0.16753091344236137
+OPA09,4560,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Coprobacillaceae,0.00295173514160351,0.29517351416035104
+OPA09,4560,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Desulfovibrionaceae,0.0035899481451934583,0.35899481451934584
+OPA09,4560,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Eggerthellaceae,0.02265656162744316,2.2656561627443157
+OPA09,4560,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Enterobacteriaceae,0.011567610690067811,1.156761069006781
+OPA09,4560,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Erysipelotrichaceae,7.977662544874351e-5,0.00797766254487435
+OPA09,4560,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Flavobacteriaceae,0.007897885919425609,0.7897885919425609
+OPA09,4560,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Lachnospiraceae,0.5351416035101715,53.514160351017146
+OPA09,4560,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Lactobacillaceae,0.0034303948942959713,0.3430394894295971
+OPA09,4560,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Muribaculaceae,0.22967690466693258,22.96769046669326
+OPA09,4560,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Oscillospiraceae,0.07802153968887116,7.802153968887115
+OPA09,4560,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Other,0.029597128041483844,2.9597128041483844
+OPA09,4560,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Pasteurellaceae,2.3932987634623057e-4,0.02393298763462306
+OPA09,4560,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Prevotellaceae,0.025368966892700438,2.5368966892700437
+OPA09,4560,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Pseudomonadaceae,0.001834862385321101,0.1834862385321101
+OPA09,4560,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Streptomycetaceae,0.0023932987634623054,0.23932987634623054
+OPA11,4548,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Atopobiaceae,8.455608057697091e-4,0.08455608057697091
+OPA11,4548,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Bacillaceae,0.007709524993782641,0.770952499378264
+OPA11,4548,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Bacteroidaceae,0.04347177319074857,4.347177319074857
+OPA11,4548,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Burkholderiaceae,0.0011439940313354886,0.11439940313354886
+OPA11,4548,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Clostridiaceae,0.0023874658045262374,0.23874658045262373
+OPA11,4548,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Comamonadaceae,0.0012932106441183786,0.12932106441183785
+OPA11,4548,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Coprobacillaceae,0.0011439940313354886,0.11439940313354886
+OPA11,4548,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Desulfovibrionaceae,0.0015916438696841582,0.15916438696841584
+OPA11,4548,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Eggerthellaceae,0.013131061924894305,1.3131061924894305
+OPA11,4548,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Enterobacteriaceae,0.010544640636657547,1.0544640636657547
+OPA11,4548,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Erysipelotrichaceae,7.460830639144492e-4,0.07460830639144492
+OPA11,4548,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Flavobacteriaceae,0.007709524993782641,0.770952499378264
+OPA11,4548,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Lachnospiraceae,0.4779408107435961,47.79408107435961
+OPA11,4548,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Lactobacillaceae,0.003531459835861726,0.3531459835861726
+OPA11,4548,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Muribaculaceae,0.28430738622233276,28.430738622233275
+OPA11,4548,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Oscillospiraceae,0.06605322059189256,6.605322059189255
+OPA11,4548,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Other,0.031484705297189754,3.1484705297189755
+OPA11,4548,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Pasteurellaceae,7.958219348420791e-4,0.07958219348420792
+OPA11,4548,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Prevotellaceae,0.039990052225814476,3.999005222581448
+OPA11,4548,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Pseudomonadaceae,0.002486943546381497,0.2486943546381497
+OPA11,4548,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+),Streptomycetaceae,0.0016911216115394181,0.16911216115394181
+OPA02,4549,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Atopobiaceae,4.5802225988183023e-4,0.045802225988183023
+OPA02,4549,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Bacillaceae,0.011175743141116658,1.1175743141116659
+OPA02,4549,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Bacteroidaceae,0.013053634406632162,1.3053634406632162
+OPA02,4549,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Burkholderiaceae,3.664178079054642e-4,0.03664178079054642
+OPA02,4549,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Clostridiaceae,0.0026107268813264323,0.2610726881326432
+OPA02,4549,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Comamonadaceae,1.832089039527321e-4,0.01832089039527321
+OPA02,4549,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Coprobacillaceae,6.870333898227454e-4,0.06870333898227454
+OPA02,4549,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Desulfovibrionaceae,0.0027939357852791646,0.27939357852791646
+OPA02,4549,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Eggerthellaceae,0.01195438098291577,1.195438098291577
+OPA02,4549,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Enterobacteriaceae,0.006320707186369258,0.6320707186369258
+OPA02,4549,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Erysipelotrichaceae,1.832089039527321e-4,0.01832089039527321
+OPA02,4549,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Flavobacteriaceae,0.003664178079054642,0.3664178079054642
+OPA02,4549,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Lachnospiraceae,0.7773553794714423,77.73553794714422
+OPA02,4549,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Lactobacillaceae,0.001740484587550955,0.1740484587550955
+OPA02,4549,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Muribaculaceae,0.0472220949938167,4.722209499381671
+OPA02,4549,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Oscillospiraceae,0.09073420968259058,9.073420968259057
+OPA02,4549,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Other,0.013603261118490358,1.3603261118490357
+OPA02,4549,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Pasteurellaceae,6.412311638345624e-4,0.06412311638345623
+OPA02,4549,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Prevotellaceae,0.013282645536573077,1.3282645536573077
+OPA02,4549,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Pseudomonadaceae,0.0010534511977282096,0.10534511977282096
+OPA02,4549,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Streptomycetaceae,9.160445197636605e-4,0.09160445197636605
+OPA04,4550,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Atopobiaceae,0.001105547245886714,0.11055472458867138
+OPA04,4550,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Bacillaceae,0.013461663523444104,1.3461663523444105
+OPA04,4550,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Bacteroidaceae,0.016875853547506016,1.6875853547506017
+OPA04,4550,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Burkholderiaceae,6.503219093451258e-4,0.06503219093451258
+OPA04,4550,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Clostridiaceae,0.005365155752097288,0.5365155752097288
+OPA04,4550,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Comamonadaceae,2.2761266827079404e-4,0.022761266827079404
+OPA04,4550,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Coprobacillaceae,0.0015932886778955583,0.15932886778955582
+OPA04,4550,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Desulfovibrionaceae,0.0025362554464459907,0.2536255446445991
+OPA04,4550,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Eggerthellaceae,0.01648566040189894,1.648566040189894
+OPA04,4550,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Enterobacteriaceae,0.005462704038499057,0.5462704038499057
+OPA04,4550,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Erysipelotrichaceae,0.0011705794368212265,0.11705794368212265
+OPA04,4550,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Flavobacteriaceae,0.005235091370228263,0.5235091370228263
+OPA04,4550,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Lachnospiraceae,0.7561943161865123,75.61943161865123
+OPA04,4550,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Lactobacillaceae,0.005560252324900826,0.5560252324900826
+OPA04,4550,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Muribaculaceae,0.026728230474084673,2.672823047408467
+OPA04,4550,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Oscillospiraceae,0.0925408076998114,9.25408076998114
+OPA04,4550,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Other,0.020745268908109515,2.0745268908109518
+OPA04,4550,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Pasteurellaceae,0.006340638616114977,0.6340638616114976
+OPA04,4550,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Prevotellaceae,0.019249528516615724,1.9249528516615724
+OPA04,4550,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Pseudomonadaceae,0.0015282564869610457,0.15282564869610457
+OPA04,4550,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Streptomycetaceae,9.429667685504324e-4,0.09429667685504324
+OPA06,4558,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Atopobiaceae,0.01813752030319437,1.813752030319437
+OPA06,4558,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Bacillaceae,0.016648619382782892,1.6648619382782892
+OPA06,4558,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Bacteroidaceae,0.039929615592853275,3.9929615592853276
+OPA06,4558,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Burkholderiaceae,0.0017596101786681105,0.17596101786681104
+OPA06,4558,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Clostridiaceae,0.006497022198159177,0.6497022198159177
+OPA06,4558,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Comamonadaceae,0.0012181916621548457,0.12181916621548457
+OPA06,4558,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Coprobacillaceae,0.04399025446670276,4.399025446670276
+OPA06,4558,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Desulfovibrionaceae,0.003383865728207905,0.3383865728207905
+OPA06,4558,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Eggerthellaceae,0.030454791553871142,3.045479155387114
+OPA06,4558,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Enterobacteriaceae,0.016513264753654576,1.6513264753654575
+OPA06,4558,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Erysipelotrichaceae,0.005143475906876015,0.5143475906876015
+OPA06,4558,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Flavobacteriaceae,0.007985923118570656,0.7985923118570656
+OPA06,4558,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Lachnospiraceae,0.4600703844071467,46.00703844071467
+OPA06,4558,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Lactobacillaceae,0.005955603681645912,0.5955603681645912
+OPA06,4558,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Muribaculaceae,0.13995668651867893,13.995668651867893
+OPA06,4558,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Oscillospiraceae,0.09001082837033027,9.001082837033026
+OPA06,4558,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Other,0.039929615592853275,3.9929615592853276
+OPA06,4558,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Pasteurellaceae,0.012046561992420142,1.2046561992420142
+OPA06,4558,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Prevotellaceae,0.05576610720086627,5.576610720086627
+OPA06,4558,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Pseudomonadaceae,0.0023010286951813752,0.23010286951813752
+OPA06,4558,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Streptomycetaceae,0.0023010286951813752,0.23010286951813752
+OPA08,4559,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Atopobiaceae,0.005579997853846979,0.5579997853846979
+OPA08,4559,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Bacillaceae,0.01733018564223629,1.733018564223629
+OPA08,4559,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Bacteroidaceae,0.010301534499409808,1.0301534499409808
+OPA08,4559,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Burkholderiaceae,0.0011267303358729478,0.11267303358729477
+OPA08,4559,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Clostridiaceae,0.008209035304217191,0.8209035304217192
+OPA08,4559,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Comamonadaceae,0.0010194226848374288,0.10194226848374288
+OPA08,4559,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Coprobacillaceae,0.005097113424187145,0.5097113424187145
+OPA08,4559,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Desulfovibrionaceae,0.006331151411095611,0.6331151411095611
+OPA08,4559,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Eggerthellaceae,0.018134993025002683,1.8134993025002681
+OPA08,4559,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Enterobacteriaceae,0.007135958793862003,0.7135958793862003
+OPA08,4559,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Erysipelotrichaceae,0.002950960403476768,0.2950960403476768
+OPA08,4559,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Flavobacteriaceae,0.00552634402832922,0.552634402832922
+OPA08,4559,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Lachnospiraceae,0.714990878849662,71.4990878849662
+OPA08,4559,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Lactobacillaceae,0.009389419465607897,0.9389419465607898
+OPA08,4559,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Muribaculaceae,0.04034767678935508,4.034767678935508
+OPA08,4559,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Oscillospiraceae,0.09614765532782488,9.614765532782489
+OPA08,4559,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Other,0.02827556604785921,2.8275566047859213
+OPA08,4559,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Pasteurellaceae,0.005204421075222663,0.5204421075222663
+OPA08,4559,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Prevotellaceae,0.012715956647708982,1.2715956647708981
+OPA08,4559,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Pseudomonadaceae,0.002575383624852452,0.2575383624852452
+OPA08,4559,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Streptomycetaceae,0.0016096147655327824,0.16096147655327825
+OPA10,4560,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Atopobiaceae,0.008845829823083403,0.8845829823083403
+OPA10,4560,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Bacillaceae,0.011914791190275605,1.1914791190275604
+OPA10,4560,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Bacteroidaceae,0.02786135515705861,2.786135515705861
+OPA10,4560,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Burkholderiaceae,0.0014442171139728006,0.14442171139728005
+OPA10,4560,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Clostridiaceae,0.004753881333493802,0.4753881333493802
+OPA10,4560,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Comamonadaceae,0.0018052713924660007,0.18052713924660008
+OPA10,4560,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Coprobacillaceae,0.0043326513419184014,0.43326513419184015
+OPA10,4560,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Desulfovibrionaceae,0.009628114093152004,0.9628114093152004
+OPA10,4560,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Eggerthellaceae,0.017511132506920206,1.7511132506920206
+OPA10,4560,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Enterobacteriaceae,0.012636899747262006,1.2636899747262005
+OPA10,4560,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Erysipelotrichaceae,0.005235287038151402,0.5235287038151402
+OPA10,4560,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Flavobacteriaceae,0.008966181249247803,0.8966181249247803
+OPA10,4560,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Lachnospiraceae,0.4821879889276688,48.21879889276688
+OPA10,4560,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Lactobacillaceae,0.005656517029726802,0.5656517029726802
+OPA10,4560,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Muribaculaceae,0.2316764953664701,23.16764953664701
+OPA10,4560,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Oscillospiraceae,0.07233120712480443,7.233120712480442
+OPA10,4560,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Other,0.040799133469731616,4.079913346973162
+OPA10,4560,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Pasteurellaceae,0.0022265013840414008,0.22265013840414008
+OPA10,4560,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Prevotellaceae,0.04537248766397882,4.537248766397882
+OPA10,4560,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Pseudomonadaceae,0.0021061499578770007,0.21061499578770007
+OPA10,4560,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Streptomycetaceae,0.002707907088699001,0.2707907088699001
+OPA12,4548,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Atopobiaceae,0.0068858152206454715,0.6885815220645471
+OPA12,4548,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Bacillaceae,0.011406502604634454,1.1406502604634454
+OPA12,4548,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Bacteroidaceae,0.020028740793964436,2.0028740793964435
+OPA12,4548,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Burkholderiaceae,7.185198491108318e-4,0.07185198491108317
+OPA12,4548,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Clostridiaceae,0.0028740793964433273,0.2874079396443327
+OPA12,4548,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Comamonadaceae,6.586431950182625e-4,0.06586431950182625
+OPA12,4548,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Coprobacillaceae,0.0023950661637027726,0.23950661637027726
+OPA12,4548,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Desulfovibrionaceae,0.0017663612957307948,0.17663612957307948
+OPA12,4548,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Eggerthellaceae,0.010957427698940186,1.0957427698940185
+OPA12,4548,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Enterobacteriaceae,0.011586132566912162,1.1586132566912162
+OPA12,4548,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Erysipelotrichaceae,9.879647925273938e-4,0.09879647925273938
+OPA12,4548,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Flavobacteriaceae,0.00437099574875756,0.437099574875756
+OPA12,4548,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Lachnospiraceae,0.7342075324830849,73.42075324830849
+OPA12,4548,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Lactobacillaceae,0.005508652176516377,0.5508652176516378
+OPA12,4548,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Muribaculaceae,0.07251062810610144,7.2510628106101445
+OPA12,4548,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Oscillospiraceae,0.0741572360936471,7.4157236093647105
+OPA12,4548,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Other,0.02056763068079756,2.056763068079756
+OPA12,4548,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Pasteurellaceae,7.783965032034011e-4,0.07783965032034011
+OPA12,4548,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Prevotellaceae,0.01440033530926292,1.440033530926292
+OPA12,4548,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Pseudomonadaceae,0.0014071013711753789,0.14071013711753788
+OPA12,4548,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Streptomycetaceae,0.0018262379498233641,0.1826237949823364
+OPA13,3730,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Atopobiaceae,0.012804137200535842,1.2804137200535841
+OPA13,3730,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Bacillaceae,0.008567245085516683,0.8567245085516684
+OPA13,3730,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Bacteroidaceae,0.026760958285304837,2.6760958285304834
+OPA13,3730,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Burkholderiaceae,9.96915791769214e-4,0.0996915791769214
+OPA13,3730,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Clostridiaceae,0.0037384342191345526,0.37384342191345526
+OPA13,3730,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Comamonadaceae,0.0012461447397115175,0.12461447397115176
+OPA13,3730,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Coprobacillaceae,0.002024985202031216,0.2024985202031216
+OPA13,3730,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Desulfovibrionaceae,0.0017757562540889125,0.17757562540889124
+OPA13,3730,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Eggerthellaceae,0.015358733916944454,1.5358733916944454
+OPA13,3730,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Enterobacteriaceae,0.010436462195083958,1.0436462195083958
+OPA13,3730,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Erysipelotrichaceae,5.919187513629708e-4,0.05919187513629708
+OPA13,3730,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Flavobacteriaceae,0.007258793108819589,0.7258793108819589
+OPA13,3730,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Lachnospiraceae,0.4961213744976479,49.612137449764795
+OPA13,3730,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Lactobacillaceae,0.004704196392410979,0.47041963924109786
+OPA13,3730,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Muribaculaceae,0.29767282469858874,29.767282469858873
+OPA13,3730,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Oscillospiraceae,0.05436306426991495,5.436306426991495
+OPA13,3730,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Other,0.030842082307860057,3.0842082307860057
+OPA13,3730,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Pasteurellaceae,5.296115143773949e-4,0.05296115143773949
+OPA13,3730,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Prevotellaceae,0.019097168136079007,1.9097168136079006
+OPA13,3730,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Pseudomonadaceae,0.0026480575718869745,0.2648057571886975
+OPA13,3730,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Streptomycetaceae,0.002461135860930247,0.2461135860930247
+OPA14,3731,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Atopobiaceae,0.014293241997101832,1.429324199710183
+OPA14,3731,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Bacillaceae,0.005993940192333026,0.5993940192333026
+OPA14,3731,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Bacteroidaceae,0.02068238703728099,2.068238703728099
+OPA14,3731,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Burkholderiaceae,0.0010538795942563561,0.10538795942563561
+OPA14,3731,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Clostridiaceae,0.0017125543406665787,0.17125543406665789
+OPA14,3731,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Comamonadaceae,5.928072717692003e-4,0.05928072717692003
+OPA14,3731,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Coprobacillaceae,0.0010538795942563561,0.10538795942563561
+OPA14,3731,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Desulfovibrionaceae,0.001514951916743512,0.15149519167435122
+OPA14,3731,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Eggerthellaceae,0.0180476880516401,1.80476880516401
+OPA14,3731,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Enterobacteriaceae,0.011263338163614807,1.1263338163614807
+OPA14,3731,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Erysipelotrichaceae,4.6107232248715583e-4,0.04610723224871558
+OPA14,3731,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Flavobacteriaceae,0.005269397971281781,0.5269397971281781
+OPA14,3731,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Lachnospiraceae,0.479185878013437,47.9185878013437
+OPA14,3731,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Lactobacillaceae,0.008233434330127782,0.8233434330127782
+OPA14,3731,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Muribaculaceae,0.2746015017784218,27.46015017784218
+OPA14,3731,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Oscillospiraceae,0.09293900671848242,9.293900671848242
+OPA14,3731,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Other,0.02654459228033197,2.6544592280331973
+OPA14,3731,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Pasteurellaceae,5.269397971281781e-4,0.05269397971281781
+OPA14,3731,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Prevotellaceae,0.03293373732051113,3.293373732051113
+OPA14,3731,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Pseudomonadaceae,0.001514951916743512,0.15149519167435122
+OPA14,3731,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Streptomycetaceae,0.0015808193913845344,0.15808193913845345
+OPA15,3727,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Atopobiaceae,0,0
+OPA15,3727,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Bacillaceae,0.007910349373764008,0.7910349373764008
+OPA15,3727,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Bacteroidaceae,0.13315754779169414,13.315754779169414
+OPA15,3727,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Burkholderiaceae,0,0
+OPA15,3727,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Clostridiaceae,0,0
+OPA15,3727,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Comamonadaceae,0.0013183915622940012,0.13183915622940012
+OPA15,3727,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Coprobacillaceae,0.04878048780487805,4.878048780487805
+OPA15,3727,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Desulfovibrionaceae,6.591957811470006e-4,0.06591957811470006
+OPA15,3727,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Eggerthellaceae,0.007910349373764008,0.7910349373764008
+OPA15,3727,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Enterobacteriaceae,0.08833223467369809,8.833223467369809
+OPA15,3727,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Erysipelotrichaceae,0,0
+OPA15,3727,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Flavobacteriaceae,0.0065919578114700065,0.6591957811470006
+OPA15,3727,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Lachnospiraceae,0.03098220171390903,3.0982201713909028
+OPA15,3727,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Lactobacillaceae,0.09294660514172709,9.294660514172708
+OPA15,3727,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Muribaculaceae,0.01845748187211602,1.845748187211602
+OPA15,3727,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Oscillospiraceae,0.001977587343441002,0.1977587343441002
+OPA15,3727,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Other,0.04021094264996704,4.021094264996703
+OPA15,3727,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Pasteurellaceae,0.5174686882003955,51.74686882003955
+OPA15,3727,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Prevotellaceae,0,0
+OPA15,3727,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Pseudomonadaceae,0.0013183915622940012,0.13183915622940012
+OPA15,3727,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Streptomycetaceae,0.001977587343441002,0.1977587343441002
+OPA16,3693,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Atopobiaceae,0.0031120331950207467,0.3112033195020747
+OPA16,3693,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Bacillaceae,0.005878284923928077,0.5878284923928078
+OPA16,3693,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Bacteroidaceae,0.031466113416320884,3.1466113416320884
+OPA16,3693,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Burkholderiaceae,0.004149377593360996,0.4149377593360996
+OPA16,3693,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Clostridiaceae,0.0013831258644536654,0.13831258644536654
+OPA16,3693,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Comamonadaceae,0.0038035961272475795,0.38035961272475793
+OPA16,3693,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Coprobacillaceae,0.021784232365145227,2.1784232365145226
+OPA16,3693,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Desulfovibrionaceae,0.006224066390041493,0.6224066390041494
+OPA16,3693,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Eggerthellaceae,0.08022130013831259,8.022130013831259
+OPA16,3693,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Enterobacteriaceae,0.03941908713692946,3.941908713692946
+OPA16,3693,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Erysipelotrichaceae,0.0038035961272475795,0.38035961272475793
+OPA16,3693,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Flavobacteriaceae,0.00933609958506224,0.9336099585062241
+OPA16,3693,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Lachnospiraceae,0.11065006915629322,11.065006915629322
+OPA16,3693,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Lactobacillaceae,0.04080221300138313,4.080221300138312
+OPA16,3693,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Muribaculaceae,0.5103734439834025,51.037344398340245
+OPA16,3693,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Oscillospiraceae,0.008298755186721992,0.8298755186721992
+OPA16,3693,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Other,0.028354080221300138,2.835408022130014
+OPA16,3693,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Pasteurellaceae,0.07330567081604426,7.330567081604427
+OPA16,3693,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Prevotellaceae,0.011410788381742738,1.1410788381742738
+OPA16,3693,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Pseudomonadaceae,0.0024204702627939143,0.24204702627939143
+OPA16,3693,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Streptomycetaceae,0.0038035961272475795,0.38035961272475793
+OPA17,3792,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Atopobiaceae,0.02234113712374582,2.234113712374582
+OPA17,3792,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Bacillaceae,0.0024080267558528427,0.2408026755852843
+OPA17,3792,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Bacteroidaceae,0.2480267558528428,24.80267558528428
+OPA17,3792,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Burkholderiaceae,0.003612040133779264,0.3612040133779264
+OPA17,3792,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Clostridiaceae,2.6755852842809364e-4,0.026755852842809364
+OPA17,3792,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Comamonadaceae,0.0017391304347826088,0.17391304347826086
+OPA17,3792,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Coprobacillaceae,0.013511705685618729,1.351170568561873
+OPA17,3792,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Desulfovibrionaceae,0.0012040133779264214,0.12040133779264214
+OPA17,3792,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Eggerthellaceae,0.014180602006688962,1.4180602006688963
+OPA17,3792,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Enterobacteriaceae,0.016989966555183946,1.6989966555183946
+OPA17,3792,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Erysipelotrichaceae,9.364548494983278e-4,0.09364548494983278
+OPA17,3792,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Flavobacteriaceae,0.006822742474916388,0.6822742474916388
+OPA17,3792,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Lachnospiraceae,0.008026755852842809,0.8026755852842808
+OPA17,3792,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Lactobacillaceae,0.02568561872909699,2.568561872909699
+OPA17,3792,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Muribaculaceae,0.3724414715719064,37.24414715719064
+OPA17,3792,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Oscillospiraceae,0.0018729096989966556,0.18729096989966557
+OPA17,3792,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Other,0.027290969899665552,2.729096989966555
+OPA17,3792,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Pasteurellaceae,0.21377926421404683,21.377926421404684
+OPA17,3792,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Prevotellaceae,0.01431438127090301,1.431438127090301
+OPA17,3792,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Pseudomonadaceae,0.002274247491638796,0.2274247491638796
+OPA17,3792,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Streptomycetaceae,0.002274247491638796,0.2274247491638796
+OPA18,3793,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Atopobiaceae,0,0
+OPA18,3793,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Bacillaceae,0.0010465724751439038,0.10465724751439037
+OPA18,3793,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Bacteroidaceae,0.14756671899529042,14.756671899529042
+OPA18,3793,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Burkholderiaceae,0,0
+OPA18,3793,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Clostridiaceae,0,0
+OPA18,3793,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Comamonadaceae,0,0
+OPA18,3793,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Coprobacillaceae,0,0
+OPA18,3793,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Desulfovibrionaceae,0,0
+OPA18,3793,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Eggerthellaceae,0,0
+OPA18,3793,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Enterobacteriaceae,0.03296703296703297,3.296703296703297
+OPA18,3793,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Erysipelotrichaceae,0,0
+OPA18,3793,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Flavobacteriaceae,0.0010465724751439038,0.10465724751439037
+OPA18,3793,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Lachnospiraceae,0.009942438513867086,0.9942438513867086
+OPA18,3793,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Lactobacillaceae,0.035583464154892726,3.5583464154892726
+OPA18,3793,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Muribaculaceae,0.004709576138147566,0.47095761381475665
+OPA18,3793,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Oscillospiraceae,0.0020931449502878076,0.20931449502878074
+OPA18,3793,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Other,0.008895866038723181,0.8895866038723181
+OPA18,3793,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Pasteurellaceae,0.7551020408163265,75.51020408163265
+OPA18,3793,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Prevotellaceae,0,0
+OPA18,3793,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Pseudomonadaceae,0.0010465724751439038,0.10465724751439037
+OPA18,3793,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)",Streptomycetaceae,0,0

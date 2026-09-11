@@ -1,0 +1,19 @@
+metric,group1,group2,n_group1,n_group2,omnibus_test,omnibus_p,test,p,p.adj,p.adj.signif,diagnostic
+observed,untreated_opa1floxed_vilcre_d0,opa1floxed_vilcre_tam_d8,6,6,Kruskal-Wallis,0.029241576119720173,Dunn,0.6653123239921239,0.6653123239921239,ns,NA
+observed,untreated_opa1floxed_vilcre_d0,opa1floxed_vilcre_tam_d21,6,6,Kruskal-Wallis,0.029241576119720173,Dunn,0.012868238859651883,0.03860471657895565,*,NA
+observed,opa1floxed_vilcre_tam_d8,opa1floxed_vilcre_tam_d21,6,6,Kruskal-Wallis,0.029241576119720173,Dunn,0.039897875201403275,0.05984681280210491,ns,NA
+chao1,untreated_opa1floxed_vilcre_d0,opa1floxed_vilcre_tam_d8,6,6,Kruskal-Wallis,0.04080990696178225,Dunn,0.9568763606582295,0.9568763606582295,ns,NA
+chao1,untreated_opa1floxed_vilcre_d0,opa1floxed_vilcre_tam_d21,6,6,Kruskal-Wallis,0.04080990696178225,Dunn,0.03054484997647527,0.045817274964712905,*,NA
+chao1,opa1floxed_vilcre_tam_d8,opa1floxed_vilcre_tam_d21,6,6,Kruskal-Wallis,0.04080990696178225,Dunn,0.02662130881005405,0.045817274964712905,*,NA
+ace,untreated_opa1floxed_vilcre_d0,opa1floxed_vilcre_tam_d8,6,6,Kruskal-Wallis,0.094729942489042665,Dunn not run: omnibus p >= 0.05,NA,NA,NA,Kruskal-Wallis
+ace,untreated_opa1floxed_vilcre_d0,opa1floxed_vilcre_tam_d21,6,6,Kruskal-Wallis,0.094729942489042665,Dunn not run: omnibus p >= 0.05,NA,NA,NA,Kruskal-Wallis
+ace,opa1floxed_vilcre_tam_d8,opa1floxed_vilcre_tam_d21,6,6,Kruskal-Wallis,0.094729942489042665,Dunn not run: omnibus p >= 0.05,NA,NA,NA,Kruskal-Wallis
+diversity_shannon,untreated_opa1floxed_vilcre_d0,opa1floxed_vilcre_tam_d8,6,6,Kruskal-Wallis,0.00624469240130601,Dunn,0.9138785990313086,0.9138785990313086,ns,NA
+diversity_shannon,untreated_opa1floxed_vilcre_d0,opa1floxed_vilcre_tam_d21,6,6,Kruskal-Wallis,0.00624469240130601,Dunn,0.004925931102169801,0.010286123780552252,*,NA
+diversity_shannon,opa1floxed_vilcre_tam_d8,opa1floxed_vilcre_tam_d21,6,6,Kruskal-Wallis,0.00624469240130601,Dunn,0.006857415853701501,0.010286123780552252,*,NA
+evenness_pielou,untreated_opa1floxed_vilcre_d0,opa1floxed_vilcre_tam_d8,6,6,Kruskal-Wallis,0.0059592716154640065,Dunn,0.7456027889274615,0.7456027889274615,ns,NA
+evenness_pielou,untreated_opa1floxed_vilcre_d0,opa1floxed_vilcre_tam_d21,6,6,Kruskal-Wallis,0.0059592716154640065,Dunn,0.003500475821755825,0.010501427465267475,*,NA
+evenness_pielou,opa1floxed_vilcre_tam_d8,opa1floxed_vilcre_tam_d21,6,6,Kruskal-Wallis,0.0059592716154640065,Dunn,0.009444165687832646,0.014166248531748969,*,NA
+dominance_relative,untreated_opa1floxed_vilcre_d0,opa1floxed_vilcre_tam_d8,6,6,Kruskal-Wallis,0.05037279186772939,Dunn not run: omnibus p >= 0.05,NA,NA,NA,Kruskal-Wallis
+dominance_relative,untreated_opa1floxed_vilcre_d0,opa1floxed_vilcre_tam_d21,6,6,Kruskal-Wallis,0.05037279186772939,Dunn not run: omnibus p >= 0.05,NA,NA,NA,Kruskal-Wallis
+dominance_relative,opa1floxed_vilcre_tam_d8,opa1floxed_vilcre_tam_d21,6,6,Kruskal-Wallis,0.05037279186772939,Dunn not run: omnibus p >= 0.05,NA,NA,NA,Kruskal-Wallis

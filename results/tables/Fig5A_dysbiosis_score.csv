@@ -1,0 +1,19 @@
+sample_id,dysbiosis_score,fastq_filename,mouse_id,Day,genotype,trt,phenotype,sex,deletion,wt_chg_pct,fat_pct,lean_pct,group_id,output_label
+OPA01,0.18400530918004365,OPA01.fastq,4549,0,opa1floxed_villincre,none,wt,m,opa1,0,2.34,90.35,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM (OPA1+)
+OPA03,0.19409963126584734,OPA03.fastq,4550,0,opa1floxed_villincre,none,wt,m,opa1,0,0.6,91.62,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+)
+OPA05,0.18209871819362333,OPA05.fastq,4558,0,opa1floxed_villincre,none,wt,f,opa1,0,13.44,76.82,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+)
+OPA07,0.19643517753101158,OPA07.fastq,4559,0,opa1floxed_villincre,none,wt,f,opa1,0,2.25,88.86,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+)
+OPA09,0.19969499773237012,OPA09.fastq,4560,0,opa1floxed_villincre,none,wt,f,opa1,0,7.63,83.59,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+)
+OPA11,0.2389745762699242,OPA11.fastq,4548,0,opa1floxed_villincre,none,wt,f,opa1,0,5.08,86.18,untreated_opa1floxed_vilcre_d0,D0 opa1flox/vilcre  noTAM(OPA1+)
+OPA02,0.3282127677265161,OPA02.fastq,4549,8,opa1floxed_villincre,tam,opa1_ko,m,opa1,-3.1,2.02,88.71,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)"
+OPA04,0.3626265490126357,OPA04.fastq,4550,8,opa1floxed_villincre,tam,opa1_ko,m,opa1,-12.37,0.62,100.05,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)"
+OPA06,0.4598344342912436,OPA06.fastq,4558,8,opa1floxed_villincre,tam,opa1_ko,f,opa1,-17.16,3.58,88.38,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)"
+OPA08,0.38583724539723374,OPA08.fastq,4559,8,opa1floxed_villincre,tam,opa1_ko,f,opa1,5.85,1.92,86.18,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)"
+OPA10,0.38478405854753384,OPA10.fastq,4560,8,opa1floxed_villincre,tam,opa1_ko,f,opa1,-4.49,5,81.6,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)"
+OPA12,0.33469035741788256,OPA12.fastq,4548,8,opa1floxed_villincre,tam,opa1_ko,f,opa1,7.07,4.57,84.24,opa1floxed_vilcre_tam_d8,"D8 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)"
+OPA13,0.26811214790500004,OPA13.fastq,3730,21,opa1floxed_villincre,tam,opa1_ko,m,opa1,4.6,3.41,88.54,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)"
+OPA14,0.3135155319614274,OPA14.fastq,3731,21,opa1floxed_villincre,tam,opa1_ko,m,opa1,7.3,7.4,84.57,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)"
+OPA15,0.8618784806162131,OPA15.fastq,3727,21,opa1floxed_villincre,tam,opa1_ko,f,opa1,-31.42,0,88.77,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)"
+OPA16,0.5869549258738719,OPA16.fastq,3693,21,opa1floxed_villincre,tam,opa1_ko,f,opa1,-21.62,3.14,88.5,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)"
+OPA17,0.6055799708290436,OPA17.fastq,3792,21,opa1floxed_villincre,tam,opa1_ko,m,opa1,-17.46,1.23,90.46,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)"
+OPA18,0.8733081152573081,OPA18.fastq,3793,21,opa1floxed_villincre,tam,opa1_ko,m,opa1,-29.71,0,91.28,opa1floxed_vilcre_tam_d21,"D21 opa1 flox/vilcre +TAM (OPA1-, Vilcre+)"

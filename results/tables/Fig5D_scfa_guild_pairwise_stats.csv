@@ -1,0 +1,13 @@
+feature,group1,group2,n_group1,n_group2,omnibus_test,omnibus_p,test,p,p.adj,p.adj.signif,diagnostic
+Butyrate Producers,untreated_opa1floxed_vilcre_d0,opa1floxed_vilcre_tam_d8,6,6,Kruskal-Wallis,0.011206872529357348,Dunn,1,1,ns,NA
+Butyrate Producers,untreated_opa1floxed_vilcre_d0,opa1floxed_vilcre_tam_d21,6,6,Kruskal-Wallis,0.011206872529357348,Dunn,0.009444165687832646,0.014166248531748969,*,NA
+Butyrate Producers,opa1floxed_vilcre_tam_d8,opa1floxed_vilcre_tam_d21,6,6,Kruskal-Wallis,0.011206872529357348,Dunn,0.009444165687832646,0.014166248531748969,*,NA
+Propionate Producers,untreated_opa1floxed_vilcre_d0,opa1floxed_vilcre_tam_d8,6,6,Kruskal-Wallis,0.03444397966139714,Dunn,0.19436591080310914,0.19436591080310914,ns,NA
+Propionate Producers,untreated_opa1floxed_vilcre_d0,opa1floxed_vilcre_tam_d21,6,6,Kruskal-Wallis,0.03444397966139714,Dunn,0.009444165687832646,0.028332497063497938,*,NA
+Propionate Producers,opa1floxed_vilcre_tam_d8,opa1floxed_vilcre_tam_d21,6,6,Kruskal-Wallis,0.03444397966139714,Dunn,0.19436591080310914,0.19436591080310914,ns,NA
+Acetate Producers,untreated_opa1floxed_vilcre_d0,opa1floxed_vilcre_tam_d8,6,6,Kruskal-Wallis,0.019305438773144144,Dunn,1,1,ns,NA
+Acetate Producers,untreated_opa1floxed_vilcre_d0,opa1floxed_vilcre_tam_d21,6,6,Kruskal-Wallis,0.019305438773144144,Dunn,0.014961017675175685,0.022441526512763526,*,NA
+Acetate Producers,opa1floxed_vilcre_tam_d8,opa1floxed_vilcre_tam_d21,6,6,Kruskal-Wallis,0.019305438773144144,Dunn,0.014961017675175685,0.022441526512763526,*,NA
+scfa_total,untreated_opa1floxed_vilcre_d0,opa1floxed_vilcre_tam_d8,6,6,Kruskal-Wallis,0.012021571336618473,Dunn,0.3303900488487943,0.3303900488487943,ns,NA
+scfa_total,untreated_opa1floxed_vilcre_d0,opa1floxed_vilcre_tam_d21,6,6,Kruskal-Wallis,0.012021571336618473,Dunn,0.003500475821755825,0.010501427465267475,*,NA
+scfa_total,opa1floxed_vilcre_tam_d8,opa1floxed_vilcre_tam_d21,6,6,Kruskal-Wallis,0.012021571336618473,Dunn,0.05157586362087702,0.07736379543131554,ns,NA

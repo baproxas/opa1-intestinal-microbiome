@@ -1,0 +1,36 @@
+Kraken2 Database and Sequencing Software Versions
+==================================================
+
+1. Pass 1 Host Database
+-----------------------
+Name: k2_host_db
+Contents: GRCm39 (mouse) + GRCh38 (human) reference genomes
+Purpose: Host read decontamination
+Location on HPC: /xdisk/vkv/baproxas/opa1_drp/data/db/k2_host_db
+
+2. Pass 2 Classification Database
+---------------------------------
+Name: k2_core_nt_20251015
+Release date: October 15, 2025
+Source URL: https://genome-idx.s3.amazonaws.com/kraken/k2_core_nt_20251015.tar.gz
+Contents: NCBI core_nt (GenBank, RefSeq, TPA, PDB nucleotide sequences)
+Index size: ~316 GB
+Confidence threshold: 0.01
+Location on HPC: /xdisk/vkv/baproxas/opa1_drp/data/db/k2_core_nt_20251015
+
+3. Two-Pass Classification Strategy
+------------------------------------
+Pass 1: Classify against the host database and extract unclassified (non-host) reads.
+Pass 2: Classify non-host reads against core_nt and generate .k2report files.
+Post-processing: Retain only Bacteria and Archaea; remove human, organelle, and
+eukaryotic taxa.
+
+4. Software and Sequencing Details
+----------------------------------
+Kraken2: Run via the conda metagenomics environment
+MinKNOW: v25.03.9 (basecalling and demuxing)
+Library preparation: ONT Native Barcoding Kit 24 V14
+Sequencer: MinION Mk1B
+Flow cells: R10.4.1 (FLO-MIN114)
+Run duration: 72-hour runs
+Basecalling: High-accuracy basecalling

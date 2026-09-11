@@ -1,0 +1,4 @@
+group1,group2,n_group1,n_group2,omnibus_test,omnibus_p,test,p,p.adj,p.adj.signif
+untreated_opa1floxed_vilcre_d0,opa1floxed_vilcre_tam_d8,6,6,Kruskal-Wallis,0.002753900958495866,Dunn,0.009444165687832646,0.014166248531748969,*
+untreated_opa1floxed_vilcre_d0,opa1floxed_vilcre_tam_d21,6,6,Kruskal-Wallis,0.002753900958495866,Dunn,0.001176865910624739,0.0035305977318742174,**
+opa1floxed_vilcre_tam_d8,opa1floxed_vilcre_tam_d21,6,6,Kruskal-Wallis,0.002753900958495866,Dunn,0.5164122683960384,0.5164122683960384,ns

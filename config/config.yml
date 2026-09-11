@@ -1,0 +1,68 @@
+project:
+	name: "opa1-intestinal-microbiome"
+	paper: "Roxas et al. 2026 — Intestine-specific OPA1 Loss"
+	bioproject: "PRJNA1523974"
+	github_url: "https://github.com/baproxas/opa1-intestinal-microbiome"
+
+paths:
+	metadata: "config/sample_metadata/opa1_drp_meta_s2.csv"
+	kraken_reports: "data/kraken_reports_core_nt"
+	guild_definitions: "data/reference/guild_definitions.csv"
+	figure_output: "results/figures"
+	table_output: "results/tables"
+
+analysis:
+	seed: 2026
+	subset: "S2"
+	n_samples: 18
+	prevalence_filter:
+		min_prev: 0.10
+		min_abund: 0.0001
+	clr_pseudocount: 0.5
+	rarefaction: true
+	alpha_metrics: ["observed", "chao1", "ace", "diversity_shannon", "evenness_pielou", "dominance_relative"]
+	dysbiosis_reference_group: "untreated_opa1floxed_vilcre_d0"
+	splsda_keepX: 10
+	splsda_cv: "LOMO"
+	partial_spearman:
+		correction_methods: ["BH", "BY", "maxT"]
+		permutations_range: [1500, 4000]
+		fdr_threshold: 0.2
+	guilds:
+		n_total: 14
+		n_radar_axes: 9
+		normalization: "0-100%"
+
+groups:
+	order:
+		- "untreated_opa1floxed_vilcre_d0"
+		- "opa1floxed_vilcre_tam_d8"
+		- "opa1floxed_vilcre_tam_d21"
+	labels:
+		untreated_opa1floxed_vilcre_d0: "OPA1+ (D0)"
+		opa1floxed_vilcre_tam_d8: "OPA1 KO (D8)"
+		opa1floxed_vilcre_tam_d21: "OPA1 KO (D21)"
+	palette:
+		untreated_opa1floxed_vilcre_d0: "#0015ff"
+		opa1floxed_vilcre_tam_d8: "#ffa500"
+		opa1floxed_vilcre_tam_d21: "#d62728"
+
+figure_output:
+	formats: ["pdf", "png"]
+	dpi: 300
+	files:
+		Fig4A: "Fig4A_S2_alpha_boxplots"
+		Fig4B: "Fig4B_S2_family_bar"
+		Fig4C: "Fig4C_splsda_membership_heatmap"
+		Fig5A: "Fig5A_S2_dysbiosis_score"
+		Fig5B: "Fig5B_S2_dysbiosis_bodycomp"
+		Fig5C: "Fig5C_kegg_radar_all_groups"
+		Fig5D: "Fig5D_scfa_guild_stacked_bar"
+		Fig5E: "Fig5E_partial_spearman_dysbiosis_volcano"
+
+kraken2:
+	database: "core_nt"
+	release_date: "2025-10-15"
+	host_db: "GRCm39 + GRCh38"
+	confidence: 0.01
+	report_suffix: ".k2report"

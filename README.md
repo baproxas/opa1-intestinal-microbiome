@@ -1,9 +1,9 @@
-# Epithelial OPA1 Loss Drives IBD-Concordant Gut Microbiome Remodeling
+﻿# Epithelial OPA1 Loss Drives IBD-Concordant Gut Microbiome Remodeling
 
 [![License: MIT](https://img.shields.io/badge/Code-MIT-blue.svg)](LICENSE)
 [![License: CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-lightgrey.svg)](LICENSE-CC-BY-4.0)
 [![R](https://img.shields.io/badge/R-%E2%89%A54.3-blue.svg)](https://www.r-project.org/)
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.XXXXXXX-blue.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.XXXXXXX-blue.svg)](https://doi.org/10.5281/zenodo.22835154)
 
 ## Summary
 
@@ -13,7 +13,7 @@ OPA1-dependent mitochondrial fusion is indispensable for intestinal epithelial i
 
 > Roxas JL, Roxas BAP, Rutins I, Rubinstein S, Kedia S, Holyoak-Aguirre AA, Lucarevskiy L, Cocchi K, Lindsey J, Anwar F, Sullivan A, Ghosh B, Obergh V, Scranton CE, Cooper KK, Wilson J, Vedantam G, and Viswanathan VK. **Intestine-specific OPA1 Loss Drives Progressive Intestinal Epithelial Damage, Metabolic Decline and IBD-Concordant Gut Microbiome Remodeling and Susceptibility to Colitogenic Insults.** *Journal TBD*, 2026.
 
-See [CITATION.cff](CITATION.cff) for machine-readable citation. Zenodo DOI: `10.5281/zenodo.XXXXXXX` (will be minted upon publication).
+See [CITATION.cff](CITATION.cff) for machine-readable citation. Zenodo DOI: `10.5281/zenodo.22835154` .
 
 ## Data Availability
 
@@ -32,3 +32,4 @@ Reproduce all 8 manuscript figure panels (Figures 4A-4C, 5A-5E) from the process
 ```bash
 git clone https://github.com/baproxas/opa1-intestinal-microbiome.git
 cd opa1-intestinal-microbiome
+

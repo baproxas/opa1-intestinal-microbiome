@@ -1,51 +1,51 @@
 cff-version: 1.2.0
-title: "Intestine-specific OPA1 Loss Drives Progressive Intestinal Epithelial Damage, Metabolic Decline and IBD-Concordant Gut Microbiome Remodeling and Susceptibility to Colitogenic Insults"
 message: "If you use this code or data, please cite the associated publication."
+title: "Intestine-specific OPA1 Loss Drives Progressive Intestinal Epithelial Damage, Metabolic Decline and IBD-Concordant Gut Microbiome Remodeling and Susceptibility to Colitogenic Insults"
 type: software
 authors:
-	- given-names: Jennifer Lising
-		family-names: Roxas
-		affiliation: University of Arizona
-	- given-names: Bryan Angelo P.
-		family-names: Roxas
-		affiliation: University of Arizona
-	- given-names: Gayatri
-		family-names: Vedantam
-		affiliation: University of Arizona
-	- given-names: V.K.
-		family-names: Viswanathan
-		affiliation: University of Arizona
-		email: vkv@arizona.edu
-repository-code: https://github.com/baproxas/opa1-intestinal-microbiome
+  - given-names: "Jennifer Lising"
+    family-names: "Roxas"
+    affiliation: "University of Arizona"
+  - given-names: "Bryan Angelo P."
+    family-names: "Roxas"
+    affiliation: "University of Arizona"
+  - given-names: "Gayatri"
+    family-names: "Vedantam"
+    affiliation: "University of Arizona"
+  - given-names: "V.K."
+    family-names: "Viswanathan"
+    affiliation: "University of Arizona"
+    email: "vkv@arizona.edu"
+repository-code: "https://github.com/baproxas/opa1-intestinal-microbiome"
 license: MIT
-date-released: 2026-09-08
+version: 1.0.0
+date-released: "2026-09-18"
 keywords:
-	- microbiome
-	- OPA1
-	- mitochondria
-	- IBD
-	- dysbiosis
-	- gut
-	- metagenomics
-	- nanopore
-	- Kraken2
+  - microbiome
+  - OPA1
+  - mitochondria
+  - IBD
+  - dysbiosis
+  - gut
+  - metagenomics
+  - nanopore
+  - Kraken2
 preferred-citation:
-	type: article
-	title: "Intestine-specific OPA1 Loss Drives Progressive Intestinal Epithelial Damage, Metabolic Decline and IBD-Concordant Gut Microbiome Remodeling and Susceptibility to Colitogenic Insults"
-	authors:
-		- given-names: Jennifer Lising
-			family-names: Roxas
-			affiliation: University of Arizona
-		- given-names: Bryan Angelo P.
-			family-names: Roxas
-			affiliation: University of Arizona
-		- given-names: Gayatri
-			family-names: Vedantam
-			affiliation: University of Arizona
-		- given-names: V.K.
-			family-names: Viswanathan
-			affiliation: University of Arizona
-			email: vkv@arizona.edu
-	journal: TBD
-	year: 2026
-	status: preprint
+  type: article
+  title: "Intestine-specific OPA1 Loss Drives Progressive Intestinal Epithelial Damage, Metabolic Decline and IBD-Concordant Gut Microbiome Remodeling and Susceptibility to Colitogenic Insults"
+  authors:
+    - given-names: "Jennifer Lising"
+      family-names: "Roxas"
+      affiliation: "University of Arizona"
+    - given-names: "Bryan Angelo P."
+      family-names: "Roxas"
+      affiliation: "University of Arizona"
+    - given-names: "Gayatri"
+      family-names: "Vedantam"
+      affiliation: "University of Arizona"
+    - given-names: "V.K."
+      family-names: "Viswanathan"
+      affiliation: "University of Arizona"
+      email: "vkv@arizona.edu"
+  year: 2026
+  status: submitted

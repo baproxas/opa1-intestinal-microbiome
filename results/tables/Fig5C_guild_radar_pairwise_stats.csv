@@ -14,9 +14,9 @@ H2S producers,H2S Producers,opa1floxed_vilcre_tam_d8,opa1floxed_vilcre_tam_d21,6
 ROS-sensitive,ROS_sensitive,untreated_opa1floxed_vilcre_d0,opa1floxed_vilcre_tam_d8,6,6,Kruskal-Wallis,0.01667962688240684,Dunn,0.5886881339518897,0.5886881339518897,ns,NA
 ROS-sensitive,ROS_sensitive,untreated_opa1floxed_vilcre_d0,opa1floxed_vilcre_tam_d21,6,6,Kruskal-Wallis,0.01667962688240684,Dunn,0.006857415853701494,0.020572247561104484,*,NA
 ROS-sensitive,ROS_sensitive,opa1floxed_vilcre_tam_d8,opa1floxed_vilcre_tam_d21,6,6,Kruskal-Wallis,0.01667962688240684,Dunn,0.03054484997647527,0.045817274964712905,*,NA
-IBD-depleted,Depleted in IBD,untreated_opa1floxed_vilcre_d0,opa1floxed_vilcre_tam_d8,6,6,Kruskal-Wallis,0.01831563888873418,Dunn,0.7456027889274615,0.7456027889274615,ns,NA
-IBD-depleted,Depleted in IBD,untreated_opa1floxed_vilcre_d0,opa1floxed_vilcre_tam_d21,6,6,Kruskal-Wallis,0.01831563888873418,Dunn,0.02314093130874372,0.03471139696311558,*,NA
-IBD-depleted,Depleted in IBD,opa1floxed_vilcre_tam_d8,opa1floxed_vilcre_tam_d21,6,6,Kruskal-Wallis,0.01831563888873418,Dunn,0.009444165687832646,0.028332497063497938,*,NA
+IBD-depleted,IBD_depleted_allrank,untreated_opa1floxed_vilcre_d0,opa1floxed_vilcre_tam_d8,6,6,Kruskal-Wallis,0.01667962688240684,Dunn,0.5886881339518897,0.5886881339518897,ns,NA
+IBD-depleted,IBD_depleted_allrank,untreated_opa1floxed_vilcre_d0,opa1floxed_vilcre_tam_d21,6,6,Kruskal-Wallis,0.01667962688240684,Dunn,0.006857415853701494,0.020572247561104484,*,NA
+IBD-depleted,IBD_depleted_allrank,opa1floxed_vilcre_tam_d8,opa1floxed_vilcre_tam_d21,6,6,Kruskal-Wallis,0.01667962688240684,Dunn,0.03054484997647527,0.045817274964712905,*,NA
 TMAO producers,TMAO Precursor Producers,untreated_opa1floxed_vilcre_d0,opa1floxed_vilcre_tam_d8,6,6,Kruskal-Wallis,0.17200462411704215,Dunn not run: omnibus p >= 0.05,NA,NA,NA,Kruskal-Wallis
 TMAO producers,TMAO Precursor Producers,untreated_opa1floxed_vilcre_d0,opa1floxed_vilcre_tam_d21,6,6,Kruskal-Wallis,0.17200462411704215,Dunn not run: omnibus p >= 0.05,NA,NA,NA,Kruskal-Wallis
 TMAO producers,TMAO Precursor Producers,opa1floxed_vilcre_tam_d8,opa1floxed_vilcre_tam_d21,6,6,Kruskal-Wallis,0.17200462411704215,Dunn not run: omnibus p >= 0.05,NA,NA,NA,Kruskal-Wallis

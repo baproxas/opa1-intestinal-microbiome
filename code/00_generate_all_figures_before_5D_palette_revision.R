@@ -1200,11 +1200,9 @@ cat("\n=== SECTION 8: Figure 5D — SCFA guild stacked bar ===\n")
 
 tryCatch({
 	scfa_guilds <- c("Butyrate Producers", "Propionate Producers", "Acetate Producers")
-		scfa_colors <- c(
-			"Butyrate Producers"   = "#D55E00",
-			"Propionate Producers" = "#009E73",
-			"Acetate Producers"    = "#F0E442"
-		)
+	scfa_colors <- c("Butyrate Producers" = "#2ca02c",
+										"Propionate Producers" = "#ff7f0e",
+										"Acetate Producers" = "#1f77b4")
   
 	scfa_avail <- intersect(scfa_guilds, names(guild_df))
   

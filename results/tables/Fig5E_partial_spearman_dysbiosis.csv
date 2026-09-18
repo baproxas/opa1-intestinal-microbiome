@@ -3,8 +3,8 @@ Species|Enterocloster bolteae,-0.8988648090815273,3.990236717256869e-7,1.6314136
 Class|Clostridia,-0.8885448916408669,8.394663545248568e-7,1.6314136711418912e-4,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),top5
 Genus|Mediterraneibacter,-0.8885448916408669,8.394663545248568e-7,1.6314136711418912e-4,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),top5
 Species|Pasteurellaceae bacterium Orientalotternb1,0.8844169246646028,1.107920999077685e-6,1.6314136711418912e-4,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),top5
-Species|Enterocloster clostridioformis,-0.8802889576883386,1.4473368008429252e-6,1.704962751392966e-4,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),top5
-Species|Vescimonas coprocola,-0.8740970072239421,2.1231300937836557e-6,1.9961945519961926e-4,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),top5
+Species|Enterocloster clostridioformis,-0.8802889576883386,1.4473368008429252e-6,1.704962751392966e-4,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
+Species|Vescimonas coprocola,-0.8740970072239421,2.1231300937836557e-6,1.9961945519961926e-4,TRUE,Dysbiosis-protecting,NA,FALSE,Protecting (other),NA
 Species|Prevotella nigrescens,0.869969040247678,2.7112999008437056e-6,1.9961945519961926e-4,TRUE,Dysbiosis-promoting,NA,FALSE,Promoting (other),top5
 Family|Lachnospiraceae,-0.869969040247678,2.711299900843725e-6,1.9961945519961926e-4,TRUE,Dysbiosis-protecting,Lachnospiraceae / Butyrate,FALSE,Lachnospiraceae / Butyrate,guild
 Genus|Blautia,-0.8679050567595459,3.054546058934943e-6,1.999030698569646e-4,TRUE,Dysbiosis-protecting,Lachnospiraceae / Butyrate,FALSE,Lachnospiraceae / Butyrate,guild

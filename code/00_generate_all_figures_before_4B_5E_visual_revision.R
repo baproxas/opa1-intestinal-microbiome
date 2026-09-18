@@ -625,12 +625,12 @@ tryCatch({
 			 y = "Relative Abundance") +
 		guides(fill = guide_legend(ncol = 1)) +
 		theme_bw(base_size = 11) +
-		theme(axis.title.x = element_text(size = 33),
-			  axis.title.y = element_text(size = 33),
-			  axis.text.x = element_text(size = 21, angle = 90, hjust = 1, vjust = 0.5),
-			  axis.text.y = element_text(size = 22),
-			  legend.key.size = unit(0.65, "cm"), legend.text = element_text(size = 13),
-			  legend.title = element_text(size = 14, face = "bold"),
+		theme(axis.title.x = element_text(size = 22),
+			  axis.title.y = element_text(size = 22),
+			  axis.text.x = element_text(size = 14, angle = 90, hjust = 1, vjust = 0.5),
+			  axis.text.y = element_text(size = 15),
+			  legend.key.size = unit(0.45, "cm"), legend.text = element_text(size = 8.5),
+			  legend.title = element_text(size = 9.5, face = "bold"),
 			  plot.title = element_text(size = 12, face = "bold"),
 			  strip.text = element_text(size = 8.5, face = "bold"),
 			  panel.spacing.x = unit(0.4, "lines"),
@@ -956,24 +956,6 @@ tryCatch({
 	guild_df <- guild_df %>% dplyr::left_join(ros_smry, by = "sample_id")
 	guild_df$ROS_sensitive[is.na(guild_df$ROS_sensitive)] <- 0
 
-	# IBD-depleted axis uses genus/family-level IBD_DEPLETED_VEC from all-rank
-	# psmelt (matching template 09_opa1_drp_core_nt_functional_analysis.R FC03),
-	# NOT the species-level "Depleted in IBD" guild from guild_definitions.csv.
-	# The species-level definition has only 7 members whose stochastic variation
-	# can produce D8 > D0; the genus/family-level definition captures the broader
-	# Lachnospiraceae/Ruminococcaceae depletion signal and correctly shows D0 > D8 > D21.
-	IBD_DEPLETED_VEC <- c("Lachnospiraceae", "Ruminococcaceae", "Faecalibacterium",
-												"Akkermansia", "Blautia", "Roseburia", "Coprococcus", "Oscillospiraceae")
-
-	ibd_depleted_smry <- melt_idx %>%
-		dplyr::filter(taxon_plain %in% IBD_DEPLETED_VEC) %>%
-		dplyr::group_by(Sample) %>%
-		dplyr::summarise(IBD_depleted_allrank = sum(Abundance, na.rm = TRUE), .groups = "drop") %>%
-		dplyr::rename(sample_id = Sample)
-
-	guild_df <- guild_df %>% dplyr::left_join(ibd_depleted_smry, by = "sample_id")
-	guild_df$IBD_depleted_allrank[is.na(guild_df$IBD_depleted_allrank)] <- 0
-
 	# "Depleted in IBD" is a guild_name in guild_definitions.csv, so it already
 	# exists as a species-level column in guild_df via the GUILDS split above;
 	# only compute it here if that assumption ever changes.
@@ -994,7 +976,7 @@ tryCatch({
 		"Propionate"     = "Propionate Producers",
 		"H2S producers"  = "H2S Producers",
 		"ROS-sensitive"  = "ROS_sensitive",
-		"IBD-depleted"   = "IBD_depleted_allrank",
+		"IBD-depleted"   = "Depleted in IBD",
 		"TMAO producers" = "TMAO Precursor Producers",
 		"LPS producing"  = "LPS-High (Endotoxemia) Producers",
 		"SecBile Acid"   = "Secondary Bile Acid Producers"
@@ -1012,8 +994,10 @@ tryCatch({
 	group_d8  <- GROUP_ORDER[2]
 	group_d21 <- GROUP_ORDER[3]
 
-	# Max-observed normalization: each axis scaled so 100% = the highest
-	# raw group mean observed on that axis across D0, D8, and D21.
+	# D0-referenced normalization: each axis is expressed as a percentage of
+	# its own D0 (pre-tamoxifen, OPA1+) group mean, so D0 = 100% on every axis
+	# and D8/D21 show the true change relative to that same-axis baseline
+	# (unlike max-observed normalization, which rescales axes independently).
 	raw_means <- guild_df %>%
 		dplyr::group_by(group_id) %>%
 		dplyr::summarise(dplyr::across(dplyr::all_of(unname(radar_axis_map)), mean), .groups = "drop") %>%
@@ -1030,16 +1014,14 @@ tryCatch({
 		raw_d8  <- get_raw_mean(group_d8,  src_col)
 		raw_d21 <- get_raw_mean(group_d21, src_col)
 
-		# Max-observed normalization: the highest raw group mean on this axis
-		# becomes 100%; D0_is_raw_maximum below is informational only and does
-		# NOT control the normalization denominator.
-		axis_max <- suppressWarnings(max(c(raw_d0, raw_d8, raw_d21), na.rm = TRUE))
-		denom_ok     <- !is.na(axis_max) && is.finite(axis_max) && axis_max != 0
-		denom_status <- if (denom_ok) "ok" else "all zero or missing"
+		# D0 validation: never force D0 to be the maximum; only report it.
+		denom_ok     <- !is.na(raw_d0) && raw_d0 != 0
+		denom_status <- if (is.na(raw_d0)) "D0 mean missing" else
+			if (raw_d0 == 0) "D0 mean is zero" else "ok"
 
-		norm_d0  <- if (!is.na(axis_max) && axis_max != 0) 100 * raw_d0  / axis_max else NA_real_
-		norm_d8  <- if (!is.na(axis_max) && axis_max != 0) 100 * raw_d8  / axis_max else NA_real_
-		norm_d21 <- if (!is.na(axis_max) && axis_max != 0) 100 * raw_d21 / axis_max else NA_real_
+		norm_d0  <- if (denom_ok) 100 else NA_real_
+		norm_d8  <- if (denom_ok && !is.na(raw_d8))  100 * raw_d8  / raw_d0 else NA_real_
+		norm_d21 <- if (denom_ok && !is.na(raw_d21)) 100 * raw_d21 / raw_d0 else NA_real_
 
 		raw_vals  <- c(raw_d0, raw_d8, raw_d21)
 		d0_is_max <- if (all(!is.na(raw_vals))) isTRUE(raw_d0 >= max(raw_vals)) else NA
@@ -1055,7 +1037,7 @@ tryCatch({
 
 	write_csv(radar_validation, file.path(TBL_DIR, "Fig5C_guild_radar_scores.csv"))
 
-	cat("  [Fig 5C] Max-observed normalization validation:\n")
+	cat("  [Fig 5C] D0-referenced normalization validation:\n")
 	d0_max_axes <- radar_validation$axis[which(radar_validation$D0_is_raw_maximum)]
 	cat("    Axes where D0 is the raw maximum:", 
 			if (length(d0_max_axes) > 0) paste(d0_max_axes, collapse = ", ") else "none", "\n")
@@ -1063,7 +1045,7 @@ tryCatch({
 	cat("    Axes where D8 or D21 exceeds D0 (raw scale):",
 			if (length(exceed_axes) > 0) paste(exceed_axes, collapse = ", ") else "none", "\n")
 	invalid_axes <- radar_validation$axis[radar_validation$denominator_status != "ok"]
-	cat("    Axes excluded (axis maximum zero/missing):",
+	cat("    Axes excluded (D0 denominator zero/missing):",
 			if (length(invalid_axes) > 0) paste(invalid_axes, collapse = ", ") else "none", "\n")
 
 	# Shared Kruskal-Wallis + Dunn(BH) helper, reused for Fig 5C and Fig 5D
@@ -1149,16 +1131,27 @@ tryCatch({
 		present_radar_groups <- GROUP_ORDER[GROUP_ORDER %in% present_radar_groups]
 		norm_mat <- norm_mat[present_radar_groups, , drop = FALSE]
 
-		# Max-observed normalization: no group can exceed 100%, so the radar
-		# axis maximum is always exactly 100 (never expanded).
-		radar_axis_max <- 100
+		# Do not clip values above 100%: expand the outer ring instead.
+		max_observed   <- suppressWarnings(max(norm_mat, na.rm = TRUE))
+		radar_axis_max <- if (is.finite(max_observed) && max_observed > 100) {
+			ceiling(max_observed / 25) * 25
+		} else 100
 		radar_axis_min <- 0
+		if (radar_axis_max > 100)
+			cat("  [Fig 5C] Radar axis maximum expanded to", radar_axis_max,
+					"% because a normalized D8/D21 value exceeds 100% (not clipped).\n")
 
 		radar_df_plot <- as.data.frame(rbind(radar_axis_max, radar_axis_min, norm_mat))
 		rownames(radar_df_plot)[1:2] <- c("max", "min")
 
-		# GROUP_PALETTE_4A_5A (defined in SECTION 0), matching Figures 4A/4B/4C/5A/5D.
-		radar_cols <- unname(GROUP_PALETTE_4A_5A[present_radar_groups])
+		# Template FC03 group colors (blue/orange/red), independent of the
+		# revised 4A/5A palette, per the requested match to the FC03 image.
+		fc03_palette <- c(
+			untreated_opa1floxed_vilcre_d0 = "#0015ff",
+			opa1floxed_vilcre_tam_d8       = "#ffa500",
+			opa1floxed_vilcre_tam_d21      = "#d62728"
+		)
+		radar_cols <- unname(fc03_palette[present_radar_groups])
 
 		legend_map <- guild_df %>%
 			dplyr::filter(as.character(group_id) %in% present_radar_groups) %>%
@@ -1167,7 +1160,7 @@ tryCatch({
 		legend_labels <- stringr::str_wrap(
 			legend_map$output_label[match(present_radar_groups, legend_map$group_id)], width = 28)
 
-		caxis_labels <- c("0 (%)", "25 (%)", "50 (%)", "75 (%)", "100 (%)")
+		caxis_labels <- paste0(round(seq(radar_axis_min, radar_axis_max, length.out = 5)), " (%)")
 
 		fig5c_expr <- quote({
 			graphics::par(font.main = 2)
@@ -1200,11 +1193,9 @@ cat("\n=== SECTION 8: Figure 5D — SCFA guild stacked bar ===\n")
 
 tryCatch({
 	scfa_guilds <- c("Butyrate Producers", "Propionate Producers", "Acetate Producers")
-		scfa_colors <- c(
-			"Butyrate Producers"   = "#D55E00",
-			"Propionate Producers" = "#009E73",
-			"Acetate Producers"    = "#F0E442"
-		)
+	scfa_colors <- c("Butyrate Producers" = "#2ca02c",
+										"Propionate Producers" = "#ff7f0e",
+										"Acetate Producers" = "#1f77b4")
   
 	scfa_avail <- intersect(scfa_guilds, names(guild_df))
   
@@ -1485,7 +1476,6 @@ tryCatch({
 			fh_guild_order[-1]
 		)
 	)
-	fh_guild_pal["IBD-depleted"] <- "#E67300"
 
 	# ML top taxa: prefer the in-memory SECTION 4 sPLS-DA selection; fall back
 	# to the persisted Fig4C loadings table if SECTION 4 did not run/complete.
@@ -1541,11 +1531,6 @@ tryCatch({
 	label_top5 <- dplyr::bind_rows(label_top5_promoting, label_top5_protecting) %>%
 		dplyr::mutate(lbl = taxon)
 
-	taxa_to_exclude <- c("Species|Enterocloster clostridioformis", "Species|Vescimonas coprocola")
-	label_guild <- label_guild %>% dplyr::filter(!taxon %in% taxa_to_exclude)
-	label_ml <- label_ml %>% dplyr::filter(!taxon %in% taxa_to_exclude)
-	label_top5 <- label_top5 %>% dplyr::filter(!taxon %in% taxa_to_exclude)
-
 	pcor_df <- pcor_df %>%
 		dplyr::mutate(label_set = dplyr::case_when(
 			taxon %in% label_guild$taxon ~ "guild",
@@ -1587,35 +1572,32 @@ tryCatch({
 							 alpha = 0.92, shape = 16) +
 		ggrepel::geom_text_repel(
 			data = label_guild_L, aes(label = lbl),
-			nudge_x = 0.10, hjust = 0, direction = "both", xlim = c(-0.45, -0.10),
-			force = 4, box.padding = unit(0.8, "lines"),
+			nudge_x = 0.25, hjust = 0, direction = "y", xlim = c(-0.55, -0.05),
 			force_pull = 0, min.segment.length = 0, max.overlaps = Inf, seed = 2026,
 			size = 2.4, show.legend = FALSE) +
 		ggrepel::geom_text_repel(
 			data = label_guild_R, aes(label = lbl),
-			nudge_x = -0.10, hjust = 1, direction = "y", xlim = c(0.10, 0.45),
+			nudge_x = -0.25, hjust = 1, direction = "y", xlim = c(0.05, 0.55),
 			force_pull = 0, min.segment.length = 0, max.overlaps = Inf, seed = 2026,
 			size = 2.4, show.legend = FALSE) +
 		ggrepel::geom_text_repel(
 			data = label_ml_L, aes(label = lbl), colour = "#3f3f3f",
-			nudge_x = 0.10, hjust = 0, direction = "both", xlim = c(-0.45, -0.10),
-			force = 4, box.padding = unit(0.8, "lines"),
+			nudge_x = 0.25, hjust = 0, direction = "y", xlim = c(-0.55, -0.05),
 			force_pull = 0, min.segment.length = 0, max.overlaps = Inf, seed = 2026,
 			size = 2.4, show.legend = FALSE) +
 		ggrepel::geom_text_repel(
 			data = label_ml_R, aes(label = lbl), colour = "#3f3f3f",
-			nudge_x = -0.10, hjust = 1, direction = "y", xlim = c(0.10, 0.45),
+			nudge_x = -0.25, hjust = 1, direction = "y", xlim = c(0.05, 0.55),
 			force_pull = 0, min.segment.length = 0, max.overlaps = Inf, seed = 2026,
 			size = 2.4, show.legend = FALSE) +
 		ggrepel::geom_text_repel(
 			data = label_top5_L, aes(label = lbl), colour = "black",
-			nudge_x = 0.10, hjust = 0, direction = "both", xlim = c(-0.45, -0.10),
-			force = 4, box.padding = unit(0.8, "lines"),
+			nudge_x = 0.25, hjust = 0, direction = "y", xlim = c(-0.55, -0.05),
 			force_pull = 0, min.segment.length = 0, max.overlaps = Inf, seed = 2026,
 			size = 2.4, show.legend = FALSE) +
 		ggrepel::geom_text_repel(
 			data = label_top5_R, aes(label = lbl), colour = "black",
-			nudge_x = -0.10, hjust = 1, direction = "y", xlim = c(0.10, 0.45),
+			nudge_x = -0.25, hjust = 1, direction = "y", xlim = c(0.05, 0.55),
 			force_pull = 0, min.segment.length = 0, max.overlaps = Inf, seed = 2026,
 			size = 2.4, show.legend = FALSE) +
 		scale_colour_manual(
@@ -1634,13 +1616,9 @@ tryCatch({
 				 y = expression(-log[10](BH~adj.~p))) +
 		theme_bw(base_size = 11) +
 		theme(legend.position = "right",
-					legend.key.size = unit(0.65, "cm"),
-					legend.text = element_text(size = 12),
-					legend.title = element_text(size = 14, face = "bold"),
-					axis.title.x = element_text(size = 22),
-					axis.title.y = element_text(size = 22),
-					axis.text.x = element_text(size = 16),
-					axis.text.y = element_text(size = 16),
+					legend.key.size = unit(0.45, "cm"),
+					legend.text = element_text(size = 8),
+					legend.title = element_text(size = 9, face = "bold"),
 					plot.title = element_text(face = "bold"),
 					plot.subtitle = element_text(size = 8.5, colour = "grey30"))
   

@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/Code-MIT-blue.svg)](LICENSE)
 [![License: CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-lightgrey.svg)](LICENSE-CC-BY-4.0)
 [![R](https://img.shields.io/badge/R-%E2%89%A54.3-blue.svg)](https://www.r-project.org/)
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.XXXXXXX-blue.svg)](https://doi.org/10.5281/zenodo.22835154)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22835154.svg)](https://doi.org/10.5281/zenodo.22835154)
 
 ## Summary
 
@@ -32,4 +32,6 @@ Reproduce all 8 manuscript figure panels (Figures 4A-4C, 5A-5E) from the process
 ```bash
 git clone https://github.com/baproxas/opa1-intestinal-microbiome.git
 cd opa1-intestinal-microbiome
+
+
 

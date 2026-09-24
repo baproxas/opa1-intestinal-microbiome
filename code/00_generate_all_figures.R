@@ -736,15 +736,20 @@ tryCatch({
 			clustering_method = "ward.D2",
 			color             = colorRampPalette(c("#4575B4", "white", "#D73027"))(100),
 			breaks            = seq(-3, 3, length.out = 101),
-			border_color      = "grey70",
+			border_color      = "grey50",
+			cellwidth         = 22,
+			cellheight        = 22,
+			annotation_legend = FALSE,
 			fontsize_row      = 12,
 			fontsize_col      = 10,
+			legend_breaks     = c(-3, -2, -1, 0, 1, 2, 3),
+			legend_labels     = c("-3", "-2", "-1", "0\nCLR", "1", "2", "3"),
 			main              = "Figure 4C — sPLS-DA top taxa (S2; keepX=10, LOMO-CV)"
 		)
 	})
 	save_base_pdf_png(fig4c_expr,
 										file.path(FIG_DIR, "Fig4C_splsda_membership_heatmap"),
-										w = 11, h = 7)
+										w = 11, h = 9)
 }, error = function(e) message("  [ERROR] Fig 4C: ", e$message))
 
 # ──────────────────────────────────────────────────────────────────────────────
@@ -1170,7 +1175,7 @@ tryCatch({
 		caxis_labels <- c("0 (%)", "25 (%)", "50 (%)", "75 (%)", "100 (%)")
 
 		fig5c_expr <- quote({
-			graphics::par(font.main = 2)
+			graphics::par(font.main = 2, mar = c(1, 1, 3, 1))
 			fmsb::radarchart(
 				radar_df_plot,
 				axistype    = 1,
@@ -1184,10 +1189,9 @@ tryCatch({
 				axislabcol  = "blue",
 				caxislabels = caxis_labels,
 				vlabels     = vlabel_order,
-				title       = "FC03 - KEGG functional radar\nOPA1+ (D0) vs OPA1 KO (D8) vs OPA1 KO (D21)"
+				vlcex       = 0.80,
+				title       = "Figure 5C — Functional guild radar (S2)"
 			)
-			legend("topright", legend = legend_labels,
-						 col = radar_cols, lwd = 2, bty = "n", cex = 0.7)
 		})
 		save_base_pdf_png(fig5c_expr, file.path(FIG_DIR, "Fig5C_kegg_radar_all_groups"), w = 7, h = 6)
 	}
@@ -1375,15 +1379,15 @@ tryCatch({
 											"Coprococcus", "Anaerostipes", "Subdoligranulum"),
 					"Butyrate guild"),
 
-		# Lachnospiraceae / Butyrate
+		# Blautia/Dorea/Lachnoclostridium/Lachnospiraceae now fold into Butyrate guild
 		fh_mk("Species", c(
 			"Blautia obeum", "Blautia producta", "Blautia hansenii", "Blautia wexlerae",
 			"Lachnoclostridium phytofermentans",
 			"Dorea longicatena", "Dorea formicigenerans"
-		), "Lachnospiraceae / Butyrate"),
+		), "Butyrate guild"),
 		fh_mk("Genus", c("Blautia", "Dorea", "Lachnoclostridium"),
-					"Lachnospiraceae / Butyrate"),
-		fh_mk("Family", "Lachnospiraceae", "Lachnospiraceae / Butyrate"),
+					"Butyrate guild"),
+		fh_mk("Family", "Lachnospiraceae", "Butyrate guild"),
 
 		# SecBileAcid (7-alpha-dehydroxylation; secondary bile acid producers)
 		fh_mk("Species", c(
@@ -1470,16 +1474,16 @@ tryCatch({
 	) %>%
 		dplyr::distinct(taxon, .keep_all = TRUE)
 
-	# Legend order/colour: "ML top taxa" first, then the 11 FH4 guilds
+	# Legend order/colour: "Discriminatory Taxa" first, then the 10 FH4 guilds
 	fh_guild_order <- c(
-		"ML top taxa",
+		"Discriminatory Taxa",
 		"Acetate guild", "Propionate guild", "Butyrate guild",
-		"Lachnospiraceae / Butyrate", "SecBileAcid", "H2S_producers",
+		"SecBileAcid", "H2S_producers",
 		"IBD-depleted", "IBD-enriched",
 		"ROS sensitive", "ROS tolerant", "DysbiosisBloom"
 	)
 	fh_guild_pal <- c(
-		"ML top taxa" = "#3f3f3f",
+		"Discriminatory Taxa" = "#3f3f3f",
 		setNames(
 			colorRampPalette(RColorBrewer::brewer.pal(9, "Set1"))(length(fh_guild_order) - 1),
 			fh_guild_order[-1]
@@ -1487,8 +1491,8 @@ tryCatch({
 	)
 	fh_guild_pal["IBD-depleted"] <- "#E67300"
 
-	# ML top taxa: prefer the in-memory SECTION 4 sPLS-DA selection; fall back
-	# to the persisted Fig4C loadings table if SECTION 4 did not run/complete.
+	# Discriminatory Taxa: prefer the in-memory SECTION 4 sPLS-DA selection;
+	# fall back to the persisted Fig4C loadings table if SECTION 4 did not run/complete.
 	if (exists("top_taxa_ff", inherits = TRUE) && length(top_taxa_ff) > 0) {
 		ml_top_taxa <- top_taxa_ff
 		ml_taxa_source <- "in-memory top_taxa_ff (SECTION 4)"
@@ -1503,15 +1507,15 @@ tryCatch({
 			ml_taxa_source <- "unavailable: no in-memory top_taxa_ff and no Fig4C_splsda_loadings.csv"
 		}
 	}
-	cat("  [Fig 5E] ML top taxa source:", ml_taxa_source,
+	cat("  [Fig 5E] Discriminatory Taxa source:", ml_taxa_source,
 			"(", length(ml_top_taxa), "taxa)\n")
 
-	# Join guilds; "ML top taxa" is assigned only where no guild already matched.
+	# Join guilds; "Discriminatory Taxa" is assigned only where no guild already matched.
 	pcor_df <- pcor_df %>%
 		dplyr::left_join(fh_guild_lookup, by = "taxon") %>%
 		dplyr::mutate(
 			func_guild = dplyr::if_else(is.na(func_guild) & taxon %in% ml_top_taxa,
-																	 "ML top taxa", func_guild),
+																	 "Discriminatory Taxa", func_guild),
 			in_ml_top_taxa = taxon %in% ml_top_taxa,
 			colour_cat = dplyr::coalesce(
 				func_guild,
@@ -1523,14 +1527,14 @@ tryCatch({
 	# for the `sig` column above, not for which points get a text label here.
 	SIG_THRESH_LABEL <- 0.05
 
-	# func_guild is only "ML top taxa" for points with no prior guild match
+	# func_guild is only "Discriminatory Taxa" for points with no prior guild match
 	# (see the mutate above), so label_ml uses that value directly rather than
 	# is.na(func_guild), which would now always be FALSE for those points.
 	label_guild <- pcor_df %>%
-		dplyr::filter(padj < SIG_THRESH_LABEL, !is.na(func_guild), func_guild != "ML top taxa") %>%
+		dplyr::filter(padj < SIG_THRESH_LABEL, !is.na(func_guild), func_guild != "Discriminatory Taxa") %>%
 		dplyr::mutate(lbl = taxon)
 	label_ml <- pcor_df %>%
-		dplyr::filter(padj < SIG_THRESH_LABEL, func_guild == "ML top taxa") %>%
+		dplyr::filter(padj < SIG_THRESH_LABEL, func_guild == "Discriminatory Taxa") %>%
 		dplyr::mutate(lbl = taxon)
 	label_top5_promoting <- pcor_df %>%
 		dplyr::filter(padj < SIG_THRESH_LABEL, is.na(func_guild), !in_ml_top_taxa, rho > 0) %>%
@@ -1549,7 +1553,7 @@ tryCatch({
 	pcor_df <- pcor_df %>%
 		dplyr::mutate(label_set = dplyr::case_when(
 			taxon %in% label_guild$taxon ~ "guild",
-			taxon %in% label_ml$taxon    ~ "ML top taxa",
+			taxon %in% label_ml$taxon    ~ "Discriminatory Taxa",
 			taxon %in% label_top5$taxon  ~ "top5",
 			TRUE ~ NA_character_
 		))
@@ -1558,18 +1562,28 @@ tryCatch({
 											 in_ml_top_taxa, colour_cat, label_set),
 						file.path(TBL_DIR, "Fig5E_partial_spearman_dysbiosis.csv"))
   
-	# Palette: fh_guild_pal (11 guilds + "ML top taxa") plus subdued background colours
+	# Palette: fh_guild_pal (10 guilds + "Discriminatory Taxa") plus subdued background colours
 	full_pal <- c(fh_guild_pal,
 								"Promoting (other)" = "#f7c6d8", "Protecting (other)" = "#c8e6c9")
 
-	# Two-arm interior labels: split each label set by sign of rho so labels
-	# repel outward from the plot centre instead of overlapping near x = 0.
-	label_guild_L <- dplyr::filter(label_guild, rho < 0)
-	label_guild_R <- dplyr::filter(label_guild, rho > 0)
-	label_ml_L    <- dplyr::filter(label_ml, rho < 0)
-	label_ml_R    <- dplyr::filter(label_ml, rho > 0)
-	label_top5_L  <- dplyr::filter(label_top5, rho < 0)
-	label_top5_R  <- dplyr::filter(label_top5, rho > 0)
+	# One combined label frame per arm so a SINGLE ggrepel simulation can
+	# resolve collisions between guild, ML, and top-5 labels. Three separate
+	# geom_text_repel() layers cannot repel away from one another.
+	label_all <- dplyr::bind_rows(
+		dplyr::mutate(label_guild, lbl_colour = unname(full_pal[colour_cat])),
+		dplyr::mutate(label_ml,    lbl_colour = "#3f3f3f"),
+		dplyr::mutate(label_top5,  lbl_colour = "black")
+	) %>%
+		dplyr::distinct(taxon, .keep_all = TRUE)
+
+	# Strip only the "Species|" prefix to shorten the longest label strings
+	# and reduce collision area at the larger font size. Genus/Family/Class
+	# prefixes are retained because they are short and rank-informative.
+	label_all <- label_all %>%
+		dplyr::mutate(lbl = sub("^Species\\|", "", taxon))
+
+	label_all_L <- dplyr::filter(label_all, rho < 0)
+	label_all_R <- dplyr::filter(label_all, rho > 0)
 
 	p5E <- ggplot(pcor_df, aes(x = rho, y = -log10(padj + 1e-6),
 															colour = colour_cat, size = abs(rho))) +
@@ -1579,45 +1593,59 @@ tryCatch({
 							 alpha = 0.15) +
 		geom_point(data = dplyr::filter(pcor_df, is.na(func_guild), padj < SIG_THRESH_LABEL),
 							 alpha = 0.45) +
-		geom_point(data = dplyr::filter(pcor_df, func_guild == "ML top taxa",
+		geom_point(data = dplyr::filter(pcor_df, func_guild == "Discriminatory Taxa",
 																		 padj < SIG_THRESH_LABEL),
 							 alpha = 0.92, shape = 16) +
-		geom_point(data = dplyr::filter(pcor_df, !is.na(func_guild), func_guild != "ML top taxa",
+		geom_point(data = dplyr::filter(pcor_df, !is.na(func_guild), func_guild != "Discriminatory Taxa",
 																		 padj < SIG_THRESH_LABEL),
 							 alpha = 0.92, shape = 16) +
+		# LEFT arm (dysbiosis-protecting): one layer, one simulation
 		ggrepel::geom_text_repel(
-			data = label_guild_L, aes(label = lbl),
-			nudge_x = 0.10, hjust = 0, direction = "both", xlim = c(-0.45, -0.10),
-			force = 4, box.padding = unit(0.8, "lines"),
-			force_pull = 0, min.segment.length = 0, max.overlaps = Inf, seed = 2026,
-			size = 2.4, show.legend = FALSE) +
+			data               = label_all_L,
+			aes(label = lbl),
+			colour             = label_all_L$lbl_colour,
+			size               = 5.0,
+			nudge_x            = 0.10,
+			hjust              = 0,
+			direction          = "both",
+			xlim               = c(-0.48, -0.05),
+			force              = 8,
+			force_pull         = 0,
+			box.padding        = unit(0.40, "lines"),
+			point.padding      = 0,
+			min.segment.length = 0,
+			segment.size       = 0.25,
+			segment.colour     = "grey45",
+			segment.curvature  = -0.15,
+			segment.inflect    = TRUE,
+			max.overlaps       = Inf,
+			max.time           = 5,
+			max.iter           = 1e6,
+			seed               = 2026,
+			verbose            = TRUE,
+			show.legend        = FALSE
+		) +
+		# RIGHT arm (dysbiosis-promoting): one layer
 		ggrepel::geom_text_repel(
-			data = label_guild_R, aes(label = lbl),
-			nudge_x = -0.10, hjust = 1, direction = "y", xlim = c(0.10, 0.45),
-			force_pull = 0, min.segment.length = 0, max.overlaps = Inf, seed = 2026,
-			size = 2.4, show.legend = FALSE) +
-		ggrepel::geom_text_repel(
-			data = label_ml_L, aes(label = lbl), colour = "#3f3f3f",
-			nudge_x = 0.10, hjust = 0, direction = "both", xlim = c(-0.45, -0.10),
-			force = 4, box.padding = unit(0.8, "lines"),
-			force_pull = 0, min.segment.length = 0, max.overlaps = Inf, seed = 2026,
-			size = 2.4, show.legend = FALSE) +
-		ggrepel::geom_text_repel(
-			data = label_ml_R, aes(label = lbl), colour = "#3f3f3f",
-			nudge_x = -0.10, hjust = 1, direction = "y", xlim = c(0.10, 0.45),
-			force_pull = 0, min.segment.length = 0, max.overlaps = Inf, seed = 2026,
-			size = 2.4, show.legend = FALSE) +
-		ggrepel::geom_text_repel(
-			data = label_top5_L, aes(label = lbl), colour = "black",
-			nudge_x = 0.10, hjust = 0, direction = "both", xlim = c(-0.45, -0.10),
-			force = 4, box.padding = unit(0.8, "lines"),
-			force_pull = 0, min.segment.length = 0, max.overlaps = Inf, seed = 2026,
-			size = 2.4, show.legend = FALSE) +
-		ggrepel::geom_text_repel(
-			data = label_top5_R, aes(label = lbl), colour = "black",
-			nudge_x = -0.10, hjust = 1, direction = "y", xlim = c(0.10, 0.45),
-			force_pull = 0, min.segment.length = 0, max.overlaps = Inf, seed = 2026,
-			size = 2.4, show.legend = FALSE) +
+			data               = label_all_R,
+			aes(label = lbl),
+			colour             = label_all_R$lbl_colour,
+			size               = 5.0,
+			nudge_x            = -0.10,
+			hjust              = 1,
+			direction          = "y",
+			xlim               = c(0.05, 0.48),
+			force              = 4,
+			force_pull         = 0,
+			min.segment.length = 0,
+			segment.size       = 0.25,
+			segment.colour     = "grey45",
+			max.overlaps       = Inf,
+			max.time           = 5,
+			max.iter           = 1e6,
+			seed               = 2026,
+			show.legend        = FALSE
+		) +
 		scale_colour_manual(
 			values = full_pal,
 			breaks = fh_guild_order,
@@ -1627,9 +1655,9 @@ tryCatch({
 		labs(title = "Figure 5E — Partial Spearman: CLR vs Dysbiosis Score | group_id",
 				 subtitle = paste0(
 					 "CLR-taxon and dysbiosis-score residuals after regressing out group_id (partial Spearman). ",
-					 "y = -log10(BH-adj. p); labels = guild members + ML top-20 taxa + top 5 promoting/protecting ",
+					 "y = -log10(BH-adj. p); labels = guild members + discriminatory taxa + top 5 promoting/protecting ",
 					 "(visual threshold padj < 0.05; CSV `sig` column uses padj < 0.2). n = ", length(common_fh),
-					 " samples."),
+						 " samples."),
 				 x = expression(paste("Spearman ", rho, " (partial)")),
 				 y = expression(-log[10](BH~adj.~p))) +
 		theme_bw(base_size = 11) +
@@ -1639,12 +1667,17 @@ tryCatch({
 					legend.title = element_text(size = 14, face = "bold"),
 					axis.title.x = element_text(size = 22),
 					axis.title.y = element_text(size = 22),
-					axis.text.x = element_text(size = 16),
-					axis.text.y = element_text(size = 16),
+					axis.text.x = element_text(size = 22),
+					axis.text.y = element_text(size = 22),
 					plot.title = element_text(face = "bold"),
 					plot.subtitle = element_text(size = 8.5, colour = "grey30"))
   
-	save_fig(p5E, file.path(FIG_DIR, "Fig5E_partial_spearman_dysbiosis_volcano"), w = 18, h = 9)
+	# h increased 12 -> 16 to accommodate the merged single-layer labels at
+	# size = 4.2 (~45% larger than the previous 2.9). The V interior is
+	# structurally empty because n is constant (18) for every taxon, so the
+	# Spearman p-value is a monotone function of |rho| and BH adjustment is
+	# rank-preserving; interior labels can never collide with data points.
+	save_fig(p5E, file.path(FIG_DIR, "Fig5E_partial_spearman_dysbiosis_volcano"), w = 18, h = 16)
 }, error = function(e) message("  [ERROR] Fig 5E: ", e$message))
 
 # ──────────────────────────────────────────────────────────────────────────────

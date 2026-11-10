@@ -19,7 +19,7 @@ See [CITATION.cff](CITATION.cff) for machine-readable citation. Zenodo DOI: `10.
 
 | Resource | Location | Status |
 |----------|----------|--------|
-| Raw FASTQ (all 35 samples) | NCBI BioProject [PRJNA1523974](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1523974) | Will be public upon publication |
+| Raw FASTQ (18 S2 samples; SRR40526552–SRR40526569) | NCBI BioProject [PRJNA1523974](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1523974) ([SRA Run Selector](https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA1523974)) | Public (released 2026-11-10); see [`data/raw/README.md`](data/raw/README.md) |
 | Kraken2 reports (18 S2 samples) | This repo: `data/kraken_reports_core_nt/` | Available now |
 | Analysis code | This repo: `code/00_generate_all_figures.R` | Available now |
 | Sample metadata | This repo: `config/sample_metadata/opa1_drp_meta_s2.csv` | Available now |

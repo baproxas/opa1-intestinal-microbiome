@@ -1,23 +1,25 @@
 #!/bin/bash
-# Download FASTQ files for BioProject PRJNA1523974 once it is public in NCBI SRA.
+# Download FASTQ files for BioProject PRJNA1523974 from NCBI SRA and name them
+# by SRA SampleName (OPA01.fastq ... OPA18.fastq) to match
+# config/sample_metadata and 02_kraken2_array_core_nt.slurm.
 #
 # Prerequisites:
 #   - SRA Toolkit with prefetch and fasterq-dump on PATH
 #   - NCBI Entrez Direct with esearch and efetch on PATH
 #
-# This script will fail until PRJNA1523974 is released by NCBI. It is safe to
-# rerun: prefetch resumes downloads and fasterq-dump skips complete outputs.
+# Safe to rerun: prefetch resumes downloads and finished samples are skipped.
+# Set BIOPROJECT=PRJNAxxxx in the environment to test with another project.
 #
 # Usage:
 #   ./03_download_sra_fastq.sh [OUTPUT_DIR]
-#   ./03_download_sra_fastq.sh --output-dir OUTPUT_DIR [--cleanup]
+#   ./03_download_sra_fastq.sh --output-dir OUTPUT_DIR [--threads N] [--cleanup]
 #
 # Interactive example:
-#   ./03_download_sra_fastq.sh data/raw
+#   ./03_download_sra_fastq.sh data/fastq
 #
-# SLURM example:
-#   sbatch --cpus-per-task=8 --mem=64G --time=72:00:00 \
-#       --wrap='bash code/hpc/03_download_sra_fastq.sh data/raw'
+# SLURM example (create logs/ first):
+#   sbatch --cpus-per-task=8 --mem=16G --time=12:00:00 \
+#       --wrap='bash code/hpc/03_download_sra_fastq.sh data/fastq'
 #
 # Optional SLURM header for users who want to save this file as a job script:
 #SBATCH --job-name=sra_fastq_download
@@ -26,21 +28,21 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
-#SBATCH --mem=64G
-#SBATCH --time=72:00:00
+#SBATCH --mem=16G
+#SBATCH --time=12:00:00
 #SBATCH --output=logs/%x_%j.out
 #SBATCH --error=logs/%x_%j.err
 
 set -euo pipefail
 
-BIOPROJECT="PRJNA1523974"
+BIOPROJECT="${BIOPROJECT:-PRJNA1523974}"
 OUTPUT_DIR="$(pwd)"
+OUTPUT_DIR_SET=false
 THREADS=8
 CLEANUP=false
-PREFETCH_DIR=""
 
 usage() {
-	sed -n '1,28p' "$0"
+	sed -n '1,35p' "$0"
 }
 
 while [[ $# -gt 0 ]]; do
@@ -52,6 +54,7 @@ while [[ $# -gt 0 ]]; do
 		--output-dir)
 			[[ $# -ge 2 ]] || { echo "ERROR: --output-dir requires a path." >&2; exit 2; }
 			OUTPUT_DIR="$2"
+			OUTPUT_DIR_SET=true
 			shift 2
 			;;
 		--threads)
@@ -69,11 +72,12 @@ while [[ $# -gt 0 ]]; do
 			exit 2
 			;;
 		*)
-			if [[ "$OUTPUT_DIR" != "$(pwd)" ]]; then
+			if [[ "$OUTPUT_DIR_SET" == true ]]; then
 				echo "ERROR: Output directory supplied more than once." >&2
 				exit 2
 			fi
 			OUTPUT_DIR="$1"
+			OUTPUT_DIR_SET=true
 			shift
 			;;
 	esac
@@ -91,9 +95,12 @@ fi
 OUTPUT_DIR="$(cd "$OUTPUT_DIR" && pwd)"
 
 PREFETCH_DIR="$OUTPUT_DIR/sra_cache"
-SAMPLE_LIST="$OUTPUT_DIR/sample_list.txt"
+TEMP_DIR="$OUTPUT_DIR/fasterq_tmp"
+RUNINFO="$OUTPUT_DIR/sra_runinfo.csv"
+RUN_MAP="$OUTPUT_DIR/srr_to_sample.tsv"
 ACCESSION_LIST="$OUTPUT_DIR/srr_accessions.txt"
-mkdir -p "$PREFETCH_DIR"
+SAMPLE_LIST="$OUTPUT_DIR/sample_list.txt"
+mkdir -p "$PREFETCH_DIR" "$TEMP_DIR"
 
 echo "============================================="
 echo "  NCBI SRA FASTQ Download"
@@ -114,63 +121,91 @@ fi
 echo "  prefetch: $(command -v prefetch)"
 echo "  fasterq-dump: $(command -v fasterq-dump)"
 
-echo "[Step 2] Checking whether $BIOPROJECT is public..."
-BIOPROJECT_QUERY="$(mktemp)"
-trap 'rm -f "$BIOPROJECT_QUERY"' EXIT
-if ! esearch -db bioproject -query "${BIOPROJECT}[Accession]" >"$BIOPROJECT_QUERY" 2>/dev/null; then
-	echo "WARNING: NCBI could not query $BIOPROJECT. It may not yet be public." >&2
+# Gate on the SRA runs, not the BioProject record: the record in the
+# bioproject database can lag days behind run release. esearch prints an
+# ENTREZ_DIRECT summary with <Count>; it never contains <Id> elements.
+echo "[Step 2] Checking whether $BIOPROJECT runs are public in SRA..."
+SRA_QUERY="${BIOPROJECT}[BioProject]"
+if ! sra_count="$(esearch -db sra -query "$SRA_QUERY" \
+	| awk -F'[<>]' '/<Count>/ && !seen { print $3; seen = 1 }')"; then
+	echo "ERROR: NCBI esearch failed for $SRA_QUERY (network or NCBI outage?)." >&2
 	exit 1
 fi
-if ! grep -q '<Id>' "$BIOPROJECT_QUERY"; then
-	echo "WARNING: $BIOPROJECT is not yet public in NCBI." >&2
-	echo "The download will fail until NCBI releases the BioProject." >&2
+if ! [[ "$sra_count" =~ ^[0-9]+$ ]] || [[ "$sra_count" -eq 0 ]]; then
+	echo "WARNING: No public SRA records for $BIOPROJECT yet (count='${sra_count}')." >&2
 	exit 1
 fi
-echo "  BioProject is visible in NCBI."
+echo "  $sra_count public SRA records found."
 
-echo "[Step 3] Retrieving SRR accessions from $BIOPROJECT..."
-if ! esearch -db sra -query "$BIOPROJECT" \
-	| efetch -format runinfo \
-	| awk -F',' 'NR > 1 && $1 ~ /^SRR[0-9]+$/ { print $1 }' \
-	| sort -u >"$ACCESSION_LIST"; then
+echo "[Step 3] Retrieving run info and SRR -> SampleName map..."
+if ! esearch -db sra -query "$SRA_QUERY" | efetch -format runinfo >"$RUNINFO"; then
 	echo "ERROR: Failed to retrieve SRA run information." >&2
 	exit 1
 fi
-if [[ ! -s "$ACCESSION_LIST" ]]; then
-	echo "WARNING: No SRR accessions were found for $BIOPROJECT." >&2
-	echo "The BioProject may be public but its run records may not be released yet." >&2
+# Locate columns by header name; efetch may repeat the header per batch.
+awk -F',' -v OFS='\t' '
+	$1 == "Run" {
+		r = s = 0
+		for (i = 1; i <= NF; i++) { if ($i == "Run") r = i; if ($i == "SampleName") s = i }
+		next
+	}
+	r && s && $r ~ /^[SED]RR[0-9]+$/ { print $r, $s }
+' "$RUNINFO" | sort -u >"$RUN_MAP"
+if [[ ! -s "$RUN_MAP" ]]; then
+	echo "ERROR: No runs with Run/SampleName parsed from $RUNINFO." >&2
 	exit 1
 fi
-echo "  Found $(wc -l <"$ACCESSION_LIST") SRR accessions."
+while IFS=$'\t' read -r accession sample; do
+	if ! [[ "$sample" =~ ^[A-Za-z0-9._-]+$ ]]; then
+		echo "ERROR: Unsafe or empty SampleName '$sample' for $accession." >&2
+		exit 1
+	fi
+done <"$RUN_MAP"
+dup_samples="$(cut -f2 "$RUN_MAP" | sort | uniq -d)"
+if [[ -n "$dup_samples" ]]; then
+	echo "ERROR: Multiple runs share a SampleName; outputs would collide:" >&2
+	echo "$dup_samples" >&2
+	exit 1
+fi
+cut -f1 "$RUN_MAP" >"$ACCESSION_LIST"
+echo "  Found $(wc -l <"$RUN_MAP") runs. Map written to $RUN_MAP"
 
 echo "[Step 4] Prefetching SRA accessions (resumable, max 50 GB each)..."
-while IFS= read -r accession; do
-	echo "  Prefetching $accession..."
-	prefetch --max-size 50g --output-directory "$PREFETCH_DIR" "$accession"
-done <"$ACCESSION_LIST"
+while IFS=$'\t' read -r accession sample; do
+	echo "  Prefetching $accession ($sample)..."
+	prefetch --max-size 50g --output-directory "$PREFETCH_DIR" "$accession" </dev/null
+done <"$RUN_MAP"
 
-echo "[Step 5] Converting prefetched accessions to FASTQ..."
-while IFS= read -r accession; do
-	output_pattern="$OUTPUT_DIR/${accession}_1.fastq"
-	single_output="$OUTPUT_DIR/${accession}.fastq"
-	if [[ -s "$output_pattern" || -s "$single_output" ]]; then
-		echo "  FASTQ output already exists for $accession; skipping."
+echo "[Step 5] Converting to FASTQ and renaming SRR -> SampleName..."
+while IFS=$'\t' read -r accession sample; do
+	if [[ -s "$OUTPUT_DIR/${sample}.fastq" || -s "$OUTPUT_DIR/${sample}_1.fastq" ]]; then
+		echo "  FASTQ output already exists for $sample; skipping."
 		continue
 	fi
-	echo "  Converting $accession..."
+	echo "  Converting $accession -> $sample..."
+	# --force overwrites partial SRR-named output from an interrupted run.
 	fasterq-dump "$PREFETCH_DIR/$accession" \
 		--outdir "$OUTPUT_DIR" \
+		--temp "$TEMP_DIR" \
 		--threads "$THREADS" \
-		--split-files
-done <"$ACCESSION_LIST"
+		--split-files \
+		--force </dev/null
+	for suffix in "" _1 _2; do
+		src="$OUTPUT_DIR/${accession}${suffix}.fastq"
+		if [[ -e "$src" ]]; then
+			mv -f "$src" "$OUTPUT_DIR/${sample}${suffix}.fastq"
+		fi
+	done
+done <"$RUN_MAP"
+rmdir "$TEMP_DIR" 2>/dev/null || true
 
 echo "[Step 6] Validating FASTQ outputs..."
 missing=0
-while IFS= read -r accession; do
+while IFS=$'\t' read -r accession sample; do
 	found=false
-	for fastq in "$OUTPUT_DIR/${accession}.fastq" \
-				"$OUTPUT_DIR/${accession}_1.fastq" \
-				"$OUTPUT_DIR/${accession}_2.fastq"; do
+	for fastq in "$OUTPUT_DIR/${sample}.fastq" \
+				"$OUTPUT_DIR/${sample}_1.fastq" \
+				"$OUTPUT_DIR/${sample}_2.fastq"; do
 		if [[ -e "$fastq" ]]; then
 			if [[ ! -s "$fastq" ]]; then
 				echo "ERROR: FASTQ file is empty: $fastq" >&2
@@ -181,10 +216,10 @@ while IFS= read -r accession; do
 		fi
 	done
 	if [[ "$found" != true ]]; then
-		echo "ERROR: No non-empty FASTQ output found for $accession." >&2
+		echo "ERROR: No non-empty FASTQ output found for $sample ($accession)." >&2
 		missing=1
 	fi
-done <"$ACCESSION_LIST"
+done <"$RUN_MAP"
 if [[ "$missing" -ne 0 ]]; then
 	exit 1
 fi
@@ -192,7 +227,7 @@ fi
 if [[ "$CLEANUP" == true ]]; then
 	echo "[Step 7] Cleaning up SRA cache files..."
 	while IFS= read -r accession; do
-		rm -rf "$PREFETCH_DIR/$accession"
+		rm -rf "${PREFETCH_DIR:?}/$accession"
 	done <"$ACCESSION_LIST"
 	rmdir "$PREFETCH_DIR" 2>/dev/null || true
 else
@@ -200,17 +235,14 @@ else
 fi
 
 echo "[Step 8] Generating sample_list.txt..."
-find "$OUTPUT_DIR" -maxdepth 1 -type f \
-	\( -name '*.fastq' -o -name '*.fastq.gz' \) \
-	-printf '%f\n' \
-	| sed -E 's/(_1|_2)?\.fastq(\.gz)?$//' \
-	| sort -u >"$SAMPLE_LIST"
+cut -f2 "$RUN_MAP" | sort -u >"$SAMPLE_LIST"
 
 echo ""
 echo "Download summary"
 echo "================"
-echo "SRR accessions: $(wc -l <"$ACCESSION_LIST")"
-echo "FASTQ files:    $(find "$OUTPUT_DIR" -maxdepth 1 -type f \( -name '*.fastq' -o -name '*.fastq.gz' \) | wc -l)"
-echo "Sample list:    $SAMPLE_LIST"
+echo "SRA runs:        $(wc -l <"$RUN_MAP")"
+echo "FASTQ files:     $(find "$OUTPUT_DIR" -maxdepth 1 -type f -name '*.fastq' | wc -l)"
+echo "Sample list:     $SAMPLE_LIST"
+echo "SRR map:         $RUN_MAP"
 echo "FASTQ directory: $OUTPUT_DIR"
 echo "Done."

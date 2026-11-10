@@ -5,7 +5,7 @@
 #
 # IMPORTANT: core_nt index is ~316 GB. Standard Puma nodes have only 239 GB RAM.
 # You MUST use high-memory nodes (3008 GB RAM) via --constraint=hi_mem.
-# There are only 5 hi_mem nodes on Puma — jobs may queue.
+# There are only 5 hi_mem nodes on Puma - jobs may queue.
 #
 # Two-pass strategy:
 #   Pass 1: k2_host_db  (~20 GB RAM, ~2-5 min)  -> extract non-host reads
